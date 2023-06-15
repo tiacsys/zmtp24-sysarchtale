@@ -1,0 +1,16 @@
+
+Tobias Kästner designs system and software architectures for medical devices for more than 
+ten years. In this time he has seen and suffered through a lot of woes and problems, 
+stemming from decades-old development procedures and ineffective communications within 
+product development teams. Worse yet, many persistent beliefs about how projects ought to 
+be run have become completely inappropriate for today's connected and ever faster moving 
+world. Having followed Zephyr ever since its 1.10 release, the speaker has been using it 
+in numerous projects collecting a considerable amount of experience to share. In his talk 
+he will explain what profound impact technologies such as Kconfig or the Device tree have 
+on the collaboration of hardware and software developers alike. Being also an advocate of 
+model based systems engineering Tobias will use examples from his real-world projects to 
+show how system models can inform downstream engineering activities. Thanks to Zephyr's 
+many clever design decisions, collaboration can be made more effective and the risks of 
+costly misunderstandings can be significantly reduced. The talk concludes with some ideas 
+what the future might hold and what still needs to be done for the Zephyr project to 
+succeed in the medical device and similar industries.

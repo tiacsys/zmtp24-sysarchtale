@@ -2,9 +2,6 @@
    *.rsti
 
 .. include:: /revealjs/materials/part-1.rsti
-.. include:: /revealjs/materials/part-2.rsti
-.. include:: /revealjs/materials/part-3.rsti
-.. include:: /revealjs/materials/part-4.rsti
 
 .. Local variables:
    coding: utf-8

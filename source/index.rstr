@@ -20,10 +20,6 @@
 
 .. ...........................................................................
 
-.. only:: not without_rtd
-
-   .. include:: /rtd/revealjs.rsti
-
 .. only:: not without_thanks
 
    .. include:: /thanks/revealjs.rsti

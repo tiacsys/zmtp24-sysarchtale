@@ -3,3 +3,4 @@ _glossary/
 _static/
 _templates/
 gentoctree.rsti
+.vscode

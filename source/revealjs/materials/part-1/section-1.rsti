@@ -1,45 +1,33 @@
 .. Never add or change more than content, instead edit structure in files:
    ../part-X.rsti or ../../materials.rsti
 
-Section Title 1.1
-=================
+Status Quo of embedded device development
+=========================================
 
 .. revealjs-section::
-   :data-auto-animate:
 
-t.b.d.
 
-Sub-Section Title 1.1.1
------------------------
+My-Sub Section 
+--------------
 
 .. revealjs-section::
-   :data-auto-animate:
 
-t.b.d
+sub
 
-Sub-Section Title 1.1.2
------------------------
+.. revealjs-break::
+   :notitle:
 
-.. revealjs-section::
-   :data-auto-animate:
+sub2
 
-t.b.d
+Another of main
+---------------
 
-Sub-Section Title 1.1.3
------------------------
+main 1
 
-.. revealjs-section::
-   :data-auto-animate:
+.. revealjs-break::
 
-t.b.d
+main 2
 
-Sub-Section Title 1.1.4
------------------------
-
-.. revealjs-section::
-   :data-auto-animate:
-
-t.b.d
 
 .. Local variables:
    coding: utf-8

@@ -2,12 +2,6 @@
    instead edit structure and formattings in files:
    index.rstr
 
-|version|
-
-.. TOO MUCH: :raw-html:`<small>`
-.. TOO MUCH: |dm_status|
-.. TOO MUCH: :raw-html:`</small>`
-
 -----
 
 .. TOO MUCH: :Abstract: .. include:: /docshow.rsti
@@ -33,9 +27,9 @@ June 26-30, 2023 | Prague, Czech Republic + Virtual
 -----
 
 :raw-html:`<small>`
-*build with Sphinx, presented with Reveal.js*
+*built with Sphinx, presented with Reveal.js*
 :raw-html:`<br />`
-|dm_copyright|
+Version |version| |---| |dm_copyright|
 |nbsp| |---| |nbsp| `CC-BY-NC-ND-4.0`_
 :raw-html:`</small>`
 

@@ -9,14 +9,16 @@ About us:
 .. list-table::
    :class: longtable profile
    :align: center
-   :widths: 50 50 50
+   :widths: 40 40 70
    :header-rows: 0
    :stub-columns: 0
 
    * - |tskr_photo|
      - | |tskr|
        | |tskr_email|
-     - |tskr_role|
+     - | Staff Engineer, UL Method Park GmbH
+       | System & Software Architect Medical Devices
+       | Agile Coach
    * - |snlz_photo|
      - | |snlz|
        | |snlz_email|

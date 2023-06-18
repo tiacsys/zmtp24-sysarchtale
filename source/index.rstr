@@ -13,8 +13,6 @@
 
 .. include:: /revealjs/greeting.rsti
 .. include:: /revealjs/presenters.rsti
-.. TOO MUCH: .. include:: /revealjs/what-for-who.rsti
-.. TOO MUCH: .. include:: /revealjs/prerequisites.rsti
 
 .. ...........................................................................
 

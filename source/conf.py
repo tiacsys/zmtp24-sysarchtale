@@ -38,7 +38,7 @@ if tags.has('mpulnx'):    # pylint: disable=undefined-variable
     branding = 'mpulnx'
     publisher = 'UL Method Park GmbH and Navimatix GmbH'
     author = 'TiaC Systems Team'
-    docnumb = 'MPNX-TST-2306001'
+    docnumb = 'MPNX-TST-2306002'
     contactaddr = 'Erlangen / Jena, Germany'
     contactemail = 'info@tiac-systems.net'
     contactweb = 'https://tiac-systems.net'
@@ -46,7 +46,7 @@ elif tags.has('mpul'):    # pylint: disable=undefined-variable
     branding = 'mpul'
     publisher = 'UL Method Park GmbH'
     author = 'IoT Labs Team'
-    docnumb = 'MP-QMS-2306001'
+    docnumb = 'MP-QMS-2306002'
     contactaddr = 'Erlangen, Germany'
     contactemail = 'info@methodpark.de'
     contactweb = 'https://methodpark.de'
@@ -67,11 +67,11 @@ else:
     contactemail = 'info@tiac-systems.net'
     contactweb = 'https://tiac-systems.net'
 
-project = 'The Title Of The Presentation'
-headline = 'The Optional Headline'
+project = 'How I fell in love with Zephyr'
+headline = 'A system architect\'s tale'
 category = 'Presentation'
 doctype = 'Handbook'
-docstat = 'preliminary (:emphasis:`some mature, much in progress`)'
+docstat = 'preliminary'
 copyright = '2022‒2023 ' + publisher + ' and individual contributors'
 about = project + ' – ' + doctype + '.'
 keywords = docnumb + ',' + doctype + ',' + project + ',Zephyr,Bridle'
@@ -271,17 +271,15 @@ else:
 exclude_patterns = [
     '**/.gitkeepdir',
     'fonts*',
-    'exercises/toyproject*'
-
 ]
 
-# Exclude pattern when read-the-docs not envolved
+# Exclude pattern when read-the-docs not involved
 if tags.has('without_rtd'):  # pylint: disable=undefined-variable
     exclude_patterns.append('rtd.rst')
     exclude_patterns.append('rtd/**')
     exclude_patterns.append('rtd')
 
-# Exclude pattern when thanks not envolved
+# Exclude pattern when thanks not involved
 if tags.has('without_thanks'):  # pylint: disable=undefined-variable
     exclude_patterns.append('thanks.rst')
     exclude_patterns.append('thanks/**')
@@ -302,8 +300,8 @@ if tags.has('revealjs'):    # pylint: disable=undefined-variable
     suppress_warnings = [
         # Reveal.js does not support document tructuring by toctree, only
         # include directives can handle multiple artifact files. So it is
-        # an common problem, that exactly the same header string will occure
-        # multiple time on the level of the master_doc file.
+        # a common problem, that exactly the same header string will occur
+        # multiple times on the level of the master_doc file.
         "autosectionlabel.**/revealjs",
         "autosectionlabel.index",
     ]

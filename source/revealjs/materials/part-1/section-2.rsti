@@ -4,10 +4,15 @@
 Agile HW & Model Based Systems Engineering
 ==========================================
 
-.. revealjs-section::
+.. container:: flex-container 
+
+   .. container:: pct95
+
+      .. image:: _images/sysarch-overview.svg
 
 Agile HW in < 2min
 ==================
+
 
 One Schematic many forms
 ========================

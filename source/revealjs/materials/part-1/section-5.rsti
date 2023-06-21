@@ -4,6 +4,13 @@
 Conclusion
 ==========
 
+* Zephyr's choice of Kconfig and Device Tree allow powerful abstractions for features and hardware
+* Consistent handling 
+* Some abstractions still implicit, some technical restrictions apply
+
+* Checkout `Bridle`_ to dig deeper 
+
+.. _Bridle: https://bridle.tiac-systems.net/doc/latest/bridle/index.html
 
 .. Local variables:
    coding: utf-8

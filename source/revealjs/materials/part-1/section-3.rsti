@@ -93,8 +93,8 @@ Device tree - Round 2
 
 .. revealjs-code-block:: bash
 
-   west build -b core ... -- DSHIELDS="peripherals_v1"
-   west build -b core ... -- DSHIELDS="peripherals_v2"
+   west build -b core ... -- -DSHIELDS="peripherals_v1"
+   west build -b core ... -- -DSHIELDS="peripherals_v2"
 
 
 Reality Check
@@ -130,8 +130,8 @@ Device tree - Round 3
 
 .. revealjs-code-block:: bash
 
-   west build -b core ... -- DSHIELDS="peripherals_v1"
-   west build -b core ... -- DSHIELDS="peripherals_v2"
+   west build -b core ... -- -DSHIELDS="peripherals_v1"
+   west build -b core ... -- -DSHIELDS="peripherals_v2"
 
 
 Device tree - Round 4
@@ -160,11 +160,11 @@ Device tree - Round 4
 
 .. revealjs-code-block:: bash
 
-   west build -b core          ... -- DSHIELDS="peripherals_v1"
-   west build -b core          ... -- DSHIELDS="peripherals_v2"
+   west build -b core          ... -- -DSHIELDS="peripherals_v1"
+   west build -b core          ... -- -DSHIELDS="peripherals_v2"
    
-   west build -b nucleo_f767zi ... -- DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v1"
-   west build -b nucleo_f767zi ... -- DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v2"
+   west build -b nucleo_f767zi ... -- -DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v1"
+   west build -b nucleo_f767zi ... -- -DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v2"
 
 
 Reality Check
@@ -199,11 +199,105 @@ What did we achieve?
 
 .. revealjs-code-block:: bash
 
-   west build -b core          ... -- DSHIELDS="peripherals_v1"
+   west build -b core          ... -- -DSHIELDS="peripherals_v1"
   
-   west build -b nucleo_f767zi ... -- DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v1"
+   west build -b nucleo_f767zi ... -- -DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v1"
 
-   west build -b nucleo_h743zi ... -- DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v1"
+   west build -b nucleo_h743zi ... -- -DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v1"
+
+
+The moment of true love
+=======================
+
+.. revealjs-fragments:: 
+
+   .. container:: flex-container
+   
+      .. container:: 50pct 
+   
+         .. image:: _images/full-rig.svg
+            :width: 1000
+   
+      .. container:: 50pct
+   
+         * reality knocked at our door once more ...
+         * connection between application controller and realtime controller based on private ethernet link 
+         * original application control impossible to make, too 
+           
+           * featured two distinct ethernet interfaces
+     
+         * RPi4 as substitute
+         
+           * features only one ethernet link 
+   
+   .. container:: flex-container
+   
+      .. container:: 50pct 
+   
+         .. revealjs-code-block:: kconfig
+         
+            # overlay netusb.conf
+            # Enable USB device stack
+            CONFIG_USB_DEVICE_STACK=y
+            
+            # Select USB network device class (CDC-ECM)
+            CONFIG_USB_DEVICE_NETWORK_ECM=y
+            CONFIG_NET_CONFIG_NEED_IPV4=n
+   
+         .. revealjs-code-block:: bash
+   
+            west build -b nucleo_f767zi ... -- -DSHIELDS="..." -DOVERLAY_CONF="netusb.conf"
+   
+      .. container:: 50pct
+   
+         * Zephyr (and Yocto Linux) had all on board to switch to ethernet over USB with a few lines of additional configuration code
+         * All upper layers (TCP - MQTT - MQTT-RPC - Application) worked right away
+   
+   Most embedded developers we have worked with wouldn't believe this is possible
+
+
+Sharing design patterns with the community
+==========================================
+
+.. container:: flex-container
+
+   .. container:: 40pct
+
+      .. image:: _images/bridle-grove-kits.svg
+         :width: 600
+
+   .. container:: 60pct
+
+      * Design patterns re-implemented using publicly available boards as part of the `Bridle project <https://bridle.tiac-systems.net/doc/latest/bridle/index.html>`_
+      * `Grove system <https://wiki.seeedstudio.com/Grove_System/>`_ has tons of modules, relatively low-cost 
+      * Further development in the open, contributions welcome
+      * Engage with Zephyr community to upstream relevant pieces 
+
+Examples 
+--------
+
+.. container:: flex-container
+
+   .. container:: 50pct
+
+      .. image:: https://bridle.tiac-systems.net/doc/latest/bridle/_images/x_grove_testbed_stmb1137_bb.svg
+
+
+   .. container:: 50pct
+
+      .. image:: https://bridle.tiac-systems.net/doc/latest/bridle/_images/x_grove_testbed_rpi_pico_bb.svg
+
+
+.. revealjs-code-block:: bash
+
+   # for left configuration
+   west build -b nucleo_f767zi ...blinky -- -DSHIELD="seeed_grove_base_v2 grove_btn_d4 grove_led_d6 grove_pwm_led_d6 x_grove_testbed"
+   
+   # for right configuration
+   west build -b rpi_pico ...blinky      -- -DSHIELD="seeed_grove_rpipico_v1 grove_btn_d16 grove_led_d18 grove_pwm_led_d18 x_grove_testbed"
+
+See `Bridle documentation <https://bridle.tiac-systems.net/doc/latest/bridle/boards/shields/x_grove_testbed/doc/index.html#build-and-programming>`_ for more details
+
 
 .. Local variables:
    coding: utf-8

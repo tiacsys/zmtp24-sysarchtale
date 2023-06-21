@@ -7,26 +7,78 @@ Status Quo of embedded device development
 .. revealjs-section::
 
 
-My-Sub Section 
---------------
+Embedded Product Development - the usual way
+============================================
 
-.. revealjs-section::
+.. container:: flex-container
 
-sub
+   .. container:: pct50
 
-.. revealjs-break::
-   :notitle:
+      .. image:: _images/legacy_front.png
+         :width: 800
 
-sub2
+   .. container:: pct50
 
-Another of main
----------------
+      #. capture requirements (all of them)
+      #. select processor and get eval kit for SW guys
+      #. design hardware and make some (<5) hardware prototypes
+      #. port current FW to prototype hardware
+      #. complete FW design on prototype hardware
+      #. ship it
 
-main 1
+Embedded Product Development - anti-patterns
+============================================
 
-.. revealjs-break::
+.. container:: flex-container
 
-main 2
+   .. container:: pct50
+
+      .. image:: _images/legacy_back.png
+         :width: 500
+
+   .. container:: pct50
+
+      .. container::
+
+         * assume requirements won't change
+         * assume all you ever need are 2 HW revisions
+         * assume FW developers can work with ECAD files
+         * you can save time, space and money when omitting debug LEDs
+         * port-forward-only policy for your firmware 
+         * use long-lived feature branches
+         * ... 
+      
+      .. container::
+
+         Many deadlock conditions between HW & SW development
+         
+
+Why product development is hard 
+===============================
+
+.. container:: flex-container
+
+   .. container:: pct50
+
+      * System architecture
+
+        * comprises SW & HW interfaces
+        * structure, behaviour, interfaces
+      
+      * Knowledge architecture
+        
+        * big picture entire team knows about 
+        * propagation of new information 
+
+      * Collaboration architecture
+        
+        * how work gets done 
+        * one's outputs are the other's input
+        
+
+   .. container:: pct50
+
+      .. imagesvg:: _images/architectures-deps.svg
 
 
 .. Local variables:

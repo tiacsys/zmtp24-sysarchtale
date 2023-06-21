@@ -7,14 +7,69 @@ Agile HW & Model Based Systems Engineering
 .. revealjs-section::
 
 Agile HW in < 2min
-------------------
+==================
 
-infographics about schemlets etc.
+One Schematic many forms
+========================
 
-.. revealjs-break::
+.. container:: flex-container
 
-pictures of rigs and final formfactor board
 
+   .. container:: pct33
+   
+      .. revealjs-fragments:: 
+
+         .. container::
+         
+            * Align hardware and software development velocities
+            * Increase re-use and retain flexibility of HW design
+         
+         .. container:: 
+         
+            *Key observations*
+   
+            * relevant interface between HW & SW is the **schematic**
+            * one schematic can be realized in many different ways
+            * less complex designs are faster to make
+
+   .. container:: pct33
+   
+      .. image:: _images/schemlets.svg
+         :width: 400
+   
+   .. container:: pct33
+   
+      .. image:: _images/devrig-1.svg
+         :width: 400
+
+A medical device in the making
+==============================
+
+.. container:: flex-container
+
+
+   .. container:: pct50
+   
+      .. image:: _images/devrig-real.jpg
+         :width: 600
+   
+   .. container:: pct50
+   
+      .. image:: _images/formfactor-real.jpg
+         :width: 600
+
+Intermediate HW integration
+===========================
+
+.. container::
+
+   .. image:: _images/devrig-3.svg
+      :width: 1000
+   
+.. container:: 
+
+   * left and right at system level equivalent
+   * right simpler to setup and operate by system users
 
 
 .. Local variables:

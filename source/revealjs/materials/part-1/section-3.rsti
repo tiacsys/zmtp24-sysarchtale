@@ -4,11 +4,206 @@
 Variant Management with Zephyr
 ==============================
 
+Software Architecture
+=====================
+
+.. container:: flex-container
+
+   .. container:: pct40
+      
+      .. image:: _images/sw-architecture.svg
+         :width: 600
+
+   .. container:: pct60
+
+      * (mostly) straightforward mapping of already existing architecture to zephyr elements
+      
+        * services and module core logic become subsystems
+        * re-use existing design patterns like :bash:`iterable sections` to implement custom extension points
+        * **KConfig** for feature toogles
+      
+      * hardware abstraction via **device tree** took a couple of iterations, see next slides
+  
 
 
-Sub-Section Title 1.3.1
------------------------
+Notes
+-----
 
+* map hw-module to subsystem
+* use kconfig for feature toggles
+* module bindings extend core services (shell, script engine, data scope, mqtt-rpc)
+
+Device tree - Round 1
+=====================
+
+
+.. container:: flex-container
+
+   .. container:: pct60
+
+      .. image:: _images/hw-sw-domains.svg
+         :width: 900
+      
+      
+      .. image:: _images/devicetree-1.svg
+         :width: 900
+
+   .. container:: pct40
+
+      * trivial (and wrong) mapping
+      * still good enough to make a start 
+      * bind subsystems only via :bash:`"aliases"`, :bash:`"zephyr,user"`, :bash:`"dt,chosen"`
+
+
+.. revealjs-code-block:: bash
+
+   west build -b devrig ...
+
+Reality Check
+=============
+
+System testing showed that motor was not strong enough, needed bigger motor (and driver). Also, a couple of 
+other findings ...
+
+The peripherals board revision 2 was coming ...
+
+Device tree - Round 2
+=====================
+
+.. container:: flex-container
+
+   .. container:: pct60
+
+      .. image:: _images/hw-sw-domains.svg
+         :width: 900
+      
+      
+      .. image:: _images/devicetree-2.svg
+         :width: 900
+
+   .. container:: pct40
+
+      * trivial approach leads to duplicates once hardware revisions enter the stage
+      * **shields** provide a decent abstraction to map 1:1 actual hw entities (boards) to sw entities (board, shields)
+      * in addition shields can have board specific overlays
+      
+        * this is how we actually refactored :bash:`devrig` into :bash:`core` and :bash:`peripherals`
+        * introducing new hw revision for peripherals board now boils down to adding new overlays
+
+
+.. revealjs-code-block:: bash
+
+   west build -b core ... -- DSHIELDS="peripherals_v1"
+   west build -b core ... -- DSHIELDS="peripherals_v2"
+
+
+Reality Check
+=============
+
+We needed to build 200 additional rigs for lab testing but couldn't even build another 5 core boards due to
+supply shortage. 
+
+Well, we couldn't buy STM32F7 chips, but we could still buy *Nucleo-F767* boards :-)
+
+Now the question becomes: How can we model rigs with *Nucleo* rather than core boards?
+
+Device tree - Round 3
+=====================
+
+.. container:: flex-container
+
+   .. container:: pct60
+
+      .. image:: _images/hw-sw-domains.svg
+         :width: 900
+      
+      
+      .. image:: _images/devicetree-3.svg
+         :width: 900
+
+   .. container:: pct40
+
+      * shields of previous step still tightly coupled to underlying core board
+      * still missing another abstraction from the hw model -- **peripherals connector**
+      * followed what exists for arduino connector in many boards
+      * shields now depend on an abstraction, not underlying board details
+
+.. revealjs-code-block:: bash
+
+   west build -b core ... -- DSHIELDS="peripherals_v1"
+   west build -b core ... -- DSHIELDS="peripherals_v2"
+
+
+Device tree - Round 4
+=====================
+
+.. container:: flex-container
+
+   .. container:: pct60
+
+      .. image:: _images/hw-sw-domains.svg
+         :width: 900
+      
+      
+      .. image:: _images/devicetree-4.svg
+         :width: 900
+
+   .. container:: pct40
+
+      * needed another 'routing' board to map nucleo connectors (st-morpho) to peripherals board connector
+      * motivates new shield :bash:`x_nucleo_nexus`
+      
+        * needs to realize peripherals connector interface :bash:`prph_IF` similar to core board
+        * implement bindings in terms of another abstraction for the st-morpho connector :bash:`morpho_IF`  
+        * create a virtual shield :bash:`x_nucleo_144` to "inject" :bash:`morpho_IF` into board device tree
+
+
+.. revealjs-code-block:: bash
+
+   west build -b core          ... -- DSHIELDS="peripherals_v1"
+   west build -b core          ... -- DSHIELDS="peripherals_v2"
+   
+   west build -b nucleo_f767zi ... -- DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v1"
+   west build -b nucleo_f767zi ... -- DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v2"
+
+
+Reality Check
+=============
+
+Turns out we can't get enough Nucleo-F767 either. 
+
+But didn't you say, one Nucleo-144 is a good as any other? 
+
+So, what about Nucleo-H743 and Nucleo-H745?
+
+
+What did we achieve?
+====================
+
+.. container:: flex-container
+
+   .. container:: pct40
+
+      * 1:1 mapping between hardware and software (device tree)
+      * no schematic details exposed to source code
+      * can build SW for 8 different HW configuration not touching a single line of code
+      * system-level configurations map transparently to SW build system
+      * open/closed principle fully realised
+
+
+   .. container:: pct60
+
+      .. imagesvg:: _images/devrig-variants.svg
+         :tagtype: object
+         :width: 800
+
+.. revealjs-code-block:: bash
+
+   west build -b core          ... -- DSHIELDS="peripherals_v1"
+  
+   west build -b nucleo_f767zi ... -- DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v1"
+
+   west build -b nucleo_h743zi ... -- DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v1"
 
 .. Local variables:
    coding: utf-8

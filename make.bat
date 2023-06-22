@@ -4,8 +4,11 @@ pushd %~dp0
 
 REM Command file for Sphinx documentation
 
+if "%SPHINXADDOPTS%" == "" (
+	set SPHINXADDOPTS=
+)
 if "%SPHINXTAGS%" == "" (
-	set SPHINXTAGS=-t tiac
+	set SPHINXTAGS=-t mpul %SPHINXADDOPTS%
 )
 if "%SPHINXOPTS%" == "" (
 	set SPHINXOPTS=-v -W --keep-going

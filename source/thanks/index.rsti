@@ -7,6 +7,11 @@ Thank you for your attention!
 
 .. revealjs-section::
    :data-state: title
+   :data-background-image: _static/static-qr-code-fcb45ac02c0ccb8acac7ff712f1a1183.svg
+   :data-background-position: right 1% bottom 13%
+   :data-background-size: 10%
+   :data-background-repeat: no-repeat
+   :data-background-opacity: 1.0
 
 .. tabularcolumns:: C{50mm}C{50mm}
 .. list-table::

@@ -1,0 +1,7 @@
+# Include selected modules 
+add_subdirectory_ifdef(CONFIG_ACME_SUBSYS_SCOPE s_datascope)
+add_subdirectory_ifdef(CONFIG_ACME_SUBSYS_MQTT_RPC s_mqtt_rpc)
+
+add_subdirectory_ifdef(CONFIG_ACME_SUBSYS_AFE m_afe)
+add_subdirectory_ifdef(CONFIG_ACME_SUBSYS_HEATER m_heater)
+add_subdirectory_ifdef(CONFIG_ACME_SUBSYS_MOTOR m_motor)

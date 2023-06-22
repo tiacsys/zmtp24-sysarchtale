@@ -1,0 +1,9 @@
+menuconfig ACME_SUBSYS_HEATER # option to toggle the entire subsystem on/off
+    bool "Heater subsystem"
+    help
+        The Heater subsystem is responsible for measuring and controlling
+        the temperature.
+
+subsys = HEATER
+subsys-str = heater
+rsource "../Kconfig.tmpl.m_subsystem"

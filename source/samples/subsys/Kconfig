@@ -1,0 +1,14 @@
+
+menu "ACME Subsystems"
+
+ menu "Modules"
+  rsource "m_heater/Kconfig"
+  rsource "m_motor/Kconfig"
+  rsource "m_afe/Kconfig"
+ endmenu #Modules
+
+ menu "Core Services"
+  rsource "s_mqtt_rpc"
+  rsource "s_datascope"
+ endmenu #Core Services
+endmenu #ACME Subsystems

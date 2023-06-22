@@ -23,8 +23,38 @@ Software Architecture
         * **KConfig** for feature toogles
       
       * hardware abstraction via **device tree** took a couple of iterations, see next slides
-  
 
+Mapping the architecture to source code
+---------------------------------------
+      
+.. container:: flex-container
+
+   .. container:: pc50
+
+      .. revealjs-code-block:: text
+
+         subsys/
+         ├── m_afe
+         ├── m_heater
+         │   ├── CMakeLists.txt
+         │   ├── heater.c
+         │   ├── heater_mqttrpc.c
+         │   ├── heater_scope.c
+         │   ├── heater_shell.c
+         │   └── Kconfig
+         ├── m_motor
+         ├── s_datascope
+         ├── s_mqtt_rpc
+         ├── CMakeLists.txt
+         ├── Kconfig
+         └── Kconfig.template.subsystem
+   
+      .. literalinclude:: /samples/subsys/CMakeLists.txt
+
+   .. container:: pct50
+
+      .. literalinclude:: /samples/subsys/m_heater/Kconfig
+      .. literalinclude:: /samples/subsys/Kconfig.template.subsystem 
 
 Notes
 -----
@@ -61,6 +91,8 @@ Device tree - Round 1
 
 Reality Check
 =============
+
+|nbsp|
 
 System testing showed that motor was not strong enough, needed bigger motor (and driver). Also, a couple of 
 other findings ...
@@ -99,6 +131,8 @@ Device tree - Round 2
 
 Reality Check
 =============
+
+|nbsp|
 
 We needed to build 200 additional rigs for lab testing but couldn't even build another 5 core boards due to
 supply shortage. 
@@ -170,6 +204,8 @@ Device tree - Round 4
 Reality Check
 =============
 
+|nbsp|
+
 Turns out we can't get enough Nucleo-F767 either. 
 
 But didn't you say, one Nucleo-144 is a good as any other? 
@@ -195,7 +231,7 @@ What did we achieve?
 
       .. imagesvg:: _images/devrig-variants.svg
          :tagtype: object
-         :width: 800
+         :width: 650
 
 .. revealjs-code-block:: bash
 
@@ -246,7 +282,7 @@ The moment of true love
    
          .. revealjs-code-block:: bash
    
-            west build -b nucleo_f767zi ... -- -DSHIELDS="..." -DOVERLAY_CONF="netusb.conf"
+            west build -b nucleo_f767zi -- -DSHIELDS="..." -DOVERLAY_CONF="netusb.conf"
    
       .. container:: 50pct
    
@@ -256,47 +292,6 @@ The moment of true love
    Most embedded developers we have worked with wouldn't believe this is possible
 
 
-Sharing design patterns with the community
-==========================================
-
-.. container:: flex-container
-
-   .. container:: 40pct
-
-      .. image:: _images/bridle-grove-kits.svg
-         :width: 600
-
-   .. container:: 60pct
-
-      * Design patterns re-implemented using publicly available boards as part of the `Bridle project <https://bridle.tiac-systems.net/doc/latest/bridle/index.html>`_
-      * `Grove system <https://wiki.seeedstudio.com/Grove_System/>`_ has tons of modules, relatively low-cost 
-      * Further development in the open, contributions welcome
-      * Engage with Zephyr community to upstream relevant pieces 
-
-Examples 
---------
-
-.. container:: flex-container
-
-   .. container:: 50pct
-
-      .. image:: https://bridle.tiac-systems.net/doc/latest/bridle/_images/x_grove_testbed_stmb1137_bb.svg
-
-
-   .. container:: 50pct
-
-      .. image:: https://bridle.tiac-systems.net/doc/latest/bridle/_images/x_grove_testbed_rpi_pico_bb.svg
-
-
-.. revealjs-code-block:: bash
-
-   # for left configuration
-   west build -b nucleo_f767zi ...blinky -- -DSHIELD="seeed_grove_base_v2 grove_btn_d4 grove_led_d6 grove_pwm_led_d6 x_grove_testbed"
-   
-   # for right configuration
-   west build -b rpi_pico ...blinky      -- -DSHIELD="seeed_grove_rpipico_v1 grove_btn_d16 grove_led_d18 grove_pwm_led_d18 x_grove_testbed"
-
-See `Bridle documentation <https://bridle.tiac-systems.net/doc/latest/bridle/boards/shields/x_grove_testbed/doc/index.html#build-and-programming>`_ for more details
 
 
 .. Local variables:

@@ -835,6 +835,7 @@ html_css_files = [
 #   'css/fix-float.css',
     'css/strikethrough.css',
     'css/underline.css',
+    'css/strong.css',
     'css/colors.css',
     'css/tweaks-sphinx_rtd_theme.css',
 ]
@@ -885,6 +886,7 @@ revealjs_use_index = False
 # revealjs_script_files = []
 revealjs_css_files = [
     'css/colors.css',
+    'css/strong.css',
     'css/underline.css',
     'css/strikethrough.css',
     'css/tweaks-revealjs.css',

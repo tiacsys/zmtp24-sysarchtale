@@ -270,6 +270,8 @@ else:
 
 exclude_patterns = [
     '**/.gitkeepdir',
+    '**/*.drawio',
+    '**/*.url',
     'fonts*',
 ]
 

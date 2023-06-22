@@ -88,7 +88,7 @@ Current constraints
             3. Multiple instances of same connector
       
                * technically possible, but Bridle's current solution introduces too much redundancies
-               * templating mechanism to bind one module to a specific connector instance? 
+               * template mechanism to bind one module to a specific connector instance? 
 
             #. SPI buses break the abstraction
 

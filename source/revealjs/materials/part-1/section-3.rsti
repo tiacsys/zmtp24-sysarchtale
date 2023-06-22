@@ -20,7 +20,7 @@ Software Architecture
       
         * services and module core logic become subsystems
         * re-use existing design patterns like :bash:`iterable sections` to implement custom extension points
-        * **KConfig** for feature toogles
+        * **KConfig** for feature toggles
       
       * hardware abstraction via **device tree** took a couple of iterations, see next slides
 
@@ -59,8 +59,8 @@ Mapping the architecture to source code
 Notes
 -----
 
-* map hw-module to subsystem
-* use kconfig for feature toggles
+* map hardware modules to subsystems
+* use Kconfig for feature toggles
 * module bindings extend core services (shell, script engine, data scope, mqtt-rpc)
 
 Device tree - Round 1
@@ -116,11 +116,11 @@ Device tree - Round 2
    .. container:: pct40
 
       * trivial approach leads to duplicates once hardware revisions enter the stage
-      * **shields** provide a decent abstraction to map 1:1 actual hw entities (boards) to sw entities (board, shields)
+      * **shields** provide a decent abstraction to map 1:1 actual hardware entities (boards) to software entities (board, shields)
       * in addition shields can have board specific overlays
       
         * this is how we actually refactored :bash:`devrig` into :bash:`core` and :bash:`peripherals`
-        * introducing new hw revision for peripherals board now boils down to adding new overlays
+        * introducing new hardware revisions for peripherals board now boils down to adding new overlays
 
 
 .. revealjs-code-block:: bash
@@ -158,8 +158,8 @@ Device tree - Round 3
    .. container:: pct40
 
       * shields of previous step still tightly coupled to underlying core board
-      * still missing another abstraction from the hw model -- **peripherals connector**
-      * followed what exists for arduino connector in many boards
+      * still missing another abstraction from the hardware model -- **peripherals connector**
+      * followed what exists for *Arduino* connector in many boards
       * shields now depend on an abstraction, not underlying board details
 
 .. revealjs-code-block:: bash
@@ -184,7 +184,7 @@ Device tree - Round 4
 
    .. container:: pct40
 
-      * needed another 'routing' board to map nucleo connectors (st-morpho) to peripherals board connector
+      * needed another 'routing' board to map *Nucleo* connectors (st-morpho) to peripherals board connector
       * motivates new shield :bash:`x_nucleo_nexus`
       
         * needs to realize peripherals connector interface :bash:`prph_IF` similar to core board
@@ -224,7 +224,7 @@ What did we achieve?
       * no schematic details exposed to source code
       * can build SW for 8 different HW configuration not touching a single line of code
       * system-level configurations map transparently to SW build system
-      * open/closed principle fully realised
+      * open/closed principle fully realized
 
 
    .. container:: pct60
@@ -257,14 +257,14 @@ The moment of true love
       .. container:: 50pct
    
          * reality knocked at our door once more ...
-         * connection between application controller and realtime controller based on private ethernet link 
+         * connection between application controller and realtime controller based on private Ethernet link 
          * original application control impossible to make, too 
            
-           * featured two distinct ethernet interfaces
+           * featured two distinct Ethernet interfaces
      
-         * RPi4 as substitute
+         * Raspberry Pi 4 as substitute
          
-           * features only one ethernet link 
+           * features only one Ethernet link 
    
    .. container:: flex-container
    
@@ -286,7 +286,7 @@ The moment of true love
    
       .. container:: 50pct
    
-         * Zephyr (and Yocto Linux) had all on board to switch to ethernet over USB with a few lines of additional configuration code
+         * Zephyr (and Yocto Linux) had all on board to switch to Ethernet over USB with a few lines of additional configuration code
          * All upper layers (TCP - MQTT - MQTT-RPC - Application) worked right away
    
    Most embedded developers we have worked with wouldn't believe this is possible

@@ -1,0 +1,38 @@
+.. Never add or change more than meta informations (ex. LaTeX formatting),
+   instead edit structure and formattings in files:
+   index.rstr
+
+Questions
+=========
+
+.. revealjs-section::
+   :data-auto-animate:
+
+.. container:: flex-container
+
+   .. container:: pct20
+
+      .. image:: /_images/qm-noframe.*
+         :alt: Question Mark
+         :width: 190
+         :height: 300
+
+   .. container:: pct80
+
+      * Development
+
+        * Git: t.b.d.
+        * Doc: t.b.d.
+        * Web: t.b.d.
+
+      * Social media:
+
+        * Discord: t.b.d.
+        * E-Mail: t.b.d.
+
+.. Local variables:
+   coding: utf-8
+   mode: text
+   mode: rst
+   End:
+   vim: fileencoding=utf-8 filetype=rst number :

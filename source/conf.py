@@ -431,6 +431,7 @@ rst_epilog = '''
 .. include:: /{docsrc}/docterms.rsti
 .. include:: /{docsrc}/docextlnk.rsti
 .. include:: /{docsrc}/docunicode.rsti
+.. include:: /{docsrc}/docreplaces.rsti
 '''.format(
     docsrc = DOCSRC,
 )

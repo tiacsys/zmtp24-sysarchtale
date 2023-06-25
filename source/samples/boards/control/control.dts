@@ -1,0 +1,96 @@
+/dts-v1/;
+#include <st/f7/stm32f767Xi.dtsi>
+#include <st/f7/stm32f777nihx-pinctrl.dtsi>
+#include "prph_if.dtsi"
+
+/ {
+    model = "ACME Realtime Control Board";
+    compatible = "acme,realtime-control", "st,stm32f767";
+
+    chosen {
+        zephyr,console = &uart7;
+        zephyr,shell-uart = &uart7;
+        zephyr,usb-device = &usbotg_fs;
+        zephyr,sram = &sram0;
+        zephyr,flash = &flash0;
+        zephyr,dtcm = &dtcm;
+    };
+
+    leds {
+        compatible = "gpio-leds";
+        led_1: led_1 {
+            gpios = <&gpiog 11 GPIO_ACTIVE_HIGH>;
+            label = "User LED1";
+        };
+        led_2: led_2 {
+            gpios = <&gpiog 12 GPIO_ACTIVE_HIGH>;
+            label = "User LED2";
+        };
+    };
+
+    aliases {
+        led0 = &led_1; // alias is used by blinky and other demos
+        led1 = &led_2;
+    };
+
+};
+
+&clk_hse {
+    hse-bypass;
+    clock-frequency = <DT_FREQ_M(25)>;
+    status = "okay";
+};
+
+&pll {
+    div-m = <25>;
+    mul-n = <432>;
+    div-p = <2>;
+    div-q = <9>;
+    clocks = <&clk_hse>;
+    status = "okay";
+};
+
+&rcc {
+    clocks = <&pll>;
+    clock-frequency = <DT_FREQ_M(216)>;
+    ahb-prescaler = <1>;
+    apb1-prescaler = <4>;
+    apb2-prescaler = <2>;
+};
+
+&rng {
+    status = "okay";
+};
+
+&uart7 {
+    current-speed = <115200>;
+    status = "okay";
+    pinctrl-0 = <&uart7_tx_pe8 &uart7_rx_pe7 /*&uart7_cts_pe10 &uart7_rts_pe9*/>;
+};
+
+&usbotg_fs {
+    status = "okay";
+    pinctrl-0 = <&usb_otg_fs_dm_pa11 &usb_otg_fs_dp_pa12>;
+};
+
+&mac {
+    status = "okay";
+    pinctrl-0 = <
+    &eth_crs_pa0
+    &eth_rx_clk_pa1
+    &eth_col_pa3
+    &eth_rx_dv_pa7
+    &eth_rxd2_pb0
+    &eth_rxd3_pb1
+    &eth_txd3_pb8
+    &eth_tx_en_pb11
+    &eth_txd0_pg13
+    &eth_txd1_pg14
+    &eth_txd2_pc2
+    &eth_tx_clk_pc3
+    &eth_rxd0_pc4
+    &eth_rxd1_pc5
+    &eth_mdc_pc1
+    &eth_mdio_pa2
+    &eth_rx_er_pi10>;
+};

@@ -1,0 +1,71 @@
+/ {
+	x_prph_if_gpios: peripheral_connector {
+		compatible = "acme,prph_if";
+		#gpio-cells = <2>;
+		gpio-map-mask = <0xffffffff 0xffffffc0>;
+		gpio-map-pass-thru = <0 0x3f>;
+		gpio-map = <0 0 &gpiof 6 0>, /* K2 */
+		           <1 0 &gpioe 4 0>, /* A1 (MOTOR_SPI_nCS) */
+		           <2 0 &gpioe 2 0>, /* A3 */
+		           <3 0 &gpioe 6 0>, /* B2 */
+		           <4 0 &gpioe 5 0>, /* B1 */
+		           <5 0 &gpioa 4 0>, /* N4 (MOTOR_POS1) */
+		           <6 0 &gpioa 5 0>, /* P4 (MOTOR_POS2) */
+		           <7 0 &gpioc 9 0>, /* F14 (MOTOR_STEP) */
+		           <8 0 &gpiof 10 0>, /* L1 (MOTOR_DIR) */
+		           <9 0 &gpiod 12 0>, /* M10 (I2C_P_SCL) */
+		           <10 0 &gpiod 13 0>, /* M11 (I2C_P_SDA) */
+		           <11 0 &gpioa 6 0>, /* P3 (HEATER_THERM_ADCIN) */
+		           <12 0 &gpiof 8 0>, /* L3 (AFE_SPI_MISO) */
+		           <13 0 &gpiof 9 0>, /* L2 (AFE_SPI_MOSI) */
+		           <14 0 &gpiof 7 0>, /* K1 (AFE_SPI_CLK) */
+		           <15 0 &gpioa 8 0>, /* F15 (HEATER_COOLING_PWM) */
+		           <16 0 &gpioj 8 0>, /* H12 (AFE_SPI_nCS1) */
+		           <17 0 &gpioj 9 0>, /* J13 (AFE_SPI_nCS2) */
+		           <18 0 &gpioj 10 0>, /* H13 (AFE_SPI_nCS3) */
+		           <19 0 &gpioj 11 0>, /* G12 (AFE_SPI_nCS4) */
+		           <20 0 &gpioj 0 0>, /* R6 (AFE_INT1) */
+		           <21 0 &gpioj 1 0>, /* R7 (AFE_INT2) */
+		           <22 0 &gpioj 2 0>, /* P7 (AFE_INT3) */
+		           <23 0 &gpioj 3 0>, /* N8 (AFE_INT4) */
+		           <24 0 &gpioj 15 0>;    /* D10 (AFE_nREST) */
+	};
+};
+
+x_prph_if_pp_i2c: &i2c4 {};
+&x_prph_if_pp_i2c {
+	pinctrl-0 = <&i2c4_sda_pd13 &i2c4_scl_pd12>;
+};
+
+x_prph_if_pp_spi: &spi5 {};
+&x_prph_if_afe_spi {
+	pinctrl-0 = <&spi5_sck_pf7    /* K1 (AFE_SPI_CLK) */
+	&spi5_miso_pf8    /* L3 (AFE_SPI_MISO) */
+	&spi5_mosi_pf9    /* L2 (AFE_SPI_MOSI) */
+	>;
+};
+
+x_prph_if_motor_timers: &timers8 {};
+&x_prph_if_motor_timers {
+	x_prph_if_motor_pwm: pwm {};
+};
+
+&x_prph_if_motor_pwm {
+	pinctrl-0 = <&tim8_ch4_pc9>; /* F14 (MOTOR_STEP) */
+	st,prescaler = <215>; /* Frequency of 1 Mhz */
+};
+
+x_prph_if_heater_adc: &adc1 {};
+&x_prph_if_heater_adc {
+	pinctrl-0 = <&adc1_in6_pa6>; /* P3 (HEATER_THERM_ADCIN) */
+};
+
+x_prph_if_heater_timers: &timers1 {};
+&x_prph_if_heater_timers {
+	x_prph_if_heater_pwm: pwm {};
+};
+
+&x_prph_if_heater_pwm {
+	pinctrl-0 = <&tim1_ch1_pa8>;
+	st,prescaler = <9>; /* Frequency of 21.6 MHz */
+};

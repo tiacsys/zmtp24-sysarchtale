@@ -1,0 +1,124 @@
+#include <dt-bindings/gpio/gpio_ad594x.h>
+
+/ {
+    zephyr,user {
+        io-channels =   <0>,     //AFE channel 1 not connected to any ADC.
+                        <0>,             //AFE channel 2 not connected to any ADC.
+                        <0>,             //AFE channel 3 not connected to any ADC.
+                        <&ad594x_1 2>,   //AFE channel 4.
+                        <&ad594x_1 1>,   //AFE channel 5.
+                        <&ad594x_1 0>,   //AFE channel 6.
+                        <&ad594x_2 2>,   //AFE channel 7.
+                        <&ad594x_2 1>,   //AFE channel 8.
+                        <&ad594x_2 0>,   //AFE channel 9.
+                        ;
+
+        afe-detect-adc-channel = <11>;
+        afe-mode-muxer-gpios = <&pb_iox_25 8 GPIO_ACTIVE_HIGH>,
+                               <&pb_iox_25 9 GPIO_ACTIVE_HIGH>;
+
+		motor-power-gpios = <&pb_iox_25 2 GPIO_ACTIVE_HIGH>;
+		motor-pos-gpios = <&x_prph_if_gpios 5 GPIO_ACTIVE_HIGH>,
+		                  <&x_prph_if_gpios 6 GPIO_ACTIVE_HIGH>;
+		motor-ctl = &ti8846_1;
+
+		heater-thermistor-channel = <6>;
+		heater-warm-gpios = <&pb_iox_25 6 GPIO_ACTIVE_HIGH>;
+		heater-power-gpios = <&pb_iox_25 7 GPIO_ACTIVE_HIGH>;
+		heater-thermistor-adc = &heater_adc;
+		heater-pwm = &heater_pwm;
+    };
+};
+
+afe_spi: &x_prph_if_pp_spi {};
+
+pp_i2c: &x_prph_if_pp_i2c {};
+
+heater_adc: &x_prph_if_heater_adc {};
+heater_timers: &x_prph_if_heater_timers {};
+heater_pwm: &x_prph_if_heater_pwm {};
+
+motor_timers: &x_prph_if_motor_timers {};
+motor_pwm: &x_prph_if_motor_pwm {};
+
+
+	&pp_i2c {
+		status = "okay";
+		clock-frequency = <I2C_BITRATE_FAST>;
+
+		pb_iox_25: pca9535@25 {
+			compatible = "nxp,pca95xx";
+			reg = <0x25>;
+			#gpio-cells = <2>;
+			gpio-controller;
+
+			status = "okay";
+		};
+	};
+
+	&afe_spi {
+		status = "okay";
+		cs-gpios = <&x_gpios_prph_if 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,    /* AFE_SPI_nCS1 */
+		<&x_gpios_prph_if 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,    /* AFE_SPI_nCS2 */
+
+		ad594x_1: ad594x_1@1 {
+			compatible = "adi,ad594x";
+			status = "okay";
+			reg = <0x1>;
+			spi-max-frequency = <8000000>; // 8 MHz
+			#io-channel-cells = <1>;
+			reset-gpios = <&afe_iox 10 GPIO_ACTIVE_LOW>;
+
+			ad594x_1_gpio: gpio {
+				compatible = "adi,ad594x-gpio";
+				status = "okay";
+				gpio-controller;
+				#gpio-cells = <2>;
+			};
+		};
+
+		ad594x_2: ad594x_2@2 {
+		compatible = "adi,ad594x";
+		status = "okay";
+		reg = <0x2>;
+		spi-max-frequency = <8000000>; // 8 MHz
+		#io-channel-cells = <1>;
+		reset-gpios = <&afe_iox 10 GPIO_ACTIVE_LOW>;
+
+		ad594x_2_gpio: gpio {
+			compatible = "adi,ad594x-gpio";
+			status = "okay";
+			gpio-controller;
+			#gpio-cells = <2>;
+		};
+	};
+};
+
+ti8846_1: ti8846-1{
+	compatible = "ti,drv8846";
+	status = "okay";
+	enbl-gpios = <&pb_iox_25 1 GPIO_ACTIVE_LOW>;
+	sleep-gpios = <&pb_iox_25 0 GPIO_ACTIVE_LOW>;
+	dir-gpios = <&prph_if 8 GPIO_ACTIVE_HIGH>;  // also pb_iox_252 3
+	pwms = <&motor_pwm 4 0 PWM_POLARITY_NORMAL>; // PC9 TIM3_CH4 TIM8_CH4
+};
+
+&motor_timers {
+	status = "okay";
+};
+
+&motor_pwm {
+	status = "okay";
+};
+
+&heater_adc {
+	status = "okay";
+};
+
+&heater_timers {
+	status = "okay";
+};
+
+&heater_pwm {
+	status = "okay";
+};

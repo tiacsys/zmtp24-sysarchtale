@@ -1,0 +1,49 @@
+/ {
+	x_prph_if_gpios: peripheral_connector {
+		compatible = "acme,prph_if";
+		#gpio-cells = <2>;
+		gpio-map-mask = <0xffffffff 0xffffffc0>;
+		gpio-map-pass-thru = <0 0x3f>;
+		gpio-map = <0 0 &zio 8 0>, /* D2  */
+		           <1 0 &zio 63 0>, /* D57 (MOTOR_SPI_nCS) */
+		           <2 0 &zio 62 0>, /* D56 */
+		           <3 0 &zio 65 0>, /* D59 */
+		           <4 0 &zio 64 0>, /* D58 */
+		           <5 0 &zio 56 0>, /* D50 (MOTOR_POS1) */
+		           <6 0 &zio 55 0>, /* D49 (MOTOR_POS2) */
+		           <7 0 &zio 50 0>, /* D44 (MOTOR_STEP) */
+		           <8 0 &zio 14 0>, /* D8  (MOTOR_DIR) */
+		           <9 0 &zio 75 0>, /* D69 (PP_I2C_SCL) */
+		           <10 0 &zio 74 0>, /* D68 (PP_I2C_SDA) */
+		           <11 0 &zio 1 0>, /* A1  (HEATER_THERM_ADCIN) */
+		           <12 0 &zio 67 0>, /* D61 (PP_SPI_MISO) */
+		           <13 0 &zio 69 0>, /* D63 (PP_SPI_MOSI) */
+		           <14 0 &zio 68 0>, /* D62 (PP_SPI_CLK) */
+		           <15 0 &zio 11 0>, /* D5  (HEATING_COOLING_PWM) */
+		           <16 0 &zio 45 0>, /* D39 (AFE_SPI_nCS1) */
+		           <17 0 &zio 9 0>, /* D3  (AFE_SPI_nCS2) */
+		           <18 0 &zio 10 0>, /* D4  (AFE_SPI_nCS3) */
+		           <19 0 &zio 43 0>, /* D37 (AFE_SPI_nCS4) */
+		           <20 0 &zio 36 0>, /* D30 (AFE_INT1) */
+		           <21 0 &zio 35 0>, /* D29 (AFE_INT2) */
+		           <22 0 &zio 34 0>, /* D28 (AFE_INT3) */
+		           <23 0 &zio 16 0>, /* D10 (AFE_INT4) */
+		           <24 0 &zio 46 0>;    /* D40 (AFE_nREST) */
+	};
+};
+
+x_prph_if_pp_i2c: &zio_i2c_b {};
+&x_prph_if_pp_i2c {};
+
+x_prph_if_pp_spi: &zio_spi_c {};
+&x_prph_if_pp_spi {};
+
+x_prph_if_motor_timers: &zio_timers_f {};
+x_prph_if_motor_timers {};
+x_prph_if_motor_pwm: &zio_pwm_f;
+
+x_prph_if_heater_adc: &zio_adc_a {};
+&x_prph_if_heater_adc {};
+
+x_prph_if_heater_timers: &zio_timers_a {};
+x_prph_if_heater_pwm: &zio_pwm_a;

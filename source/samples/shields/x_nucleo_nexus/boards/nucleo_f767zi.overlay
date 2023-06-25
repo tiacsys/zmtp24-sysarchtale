@@ -1,0 +1,27 @@
+&pll {
+	clocks = <&clk_hse>;
+	div-m = <4>;
+	mul-n = <216>;
+	div-p = <2>;
+	div-q = <9>;
+};
+
+&rcc {
+	clocks = <&pll>;
+	clock-frequency = <DT_FREQ_M(216)>;
+	ahb-prescaler = <1>;
+	apb1-prescaler = <4>;
+	apb2-prescaler = <2>;
+};
+
+&x_prph_if_pp_spi {
+	/delete-property/ cs-gpios;        /* let downstream shield to set this */
+};
+
+&x_prph_if_motor_pwm {
+	st,prescaler = <215>; /* Freuency of 1 MHz */
+};
+
+&x_prph_if_heater_pwm {
+	st,prescaler = <9>; /* Frequency of 21.6 MHz */
+};

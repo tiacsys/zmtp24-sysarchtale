@@ -1,0 +1,172 @@
+#include <dt-bindings/gpio/gpio_ad594x.h>
+
+/ {
+    zephyr,user {
+        io-channels =   <0>,     //AFE channel 1 not connected to any ADC.
+                        <0>,             //AFE channel 2 not connected to any ADC.
+                        <0>,             //AFE channel 3 not connected to any ADC.
+                        <&ad594x_1 2>,   //AFE channel 4.
+                        <&ad594x_1 1>,   //AFE channel 5.
+                        <&ad594x_1 0>,   //AFE channel 6.
+                        <&ad594x_2 2>,   //AFE channel 7.
+                        <&ad594x_2 1>,   //AFE channel 8.
+                        <&ad594x_2 0>,   //AFE channel 9.
+                        <&ad594x_3 2>,   //AFE channel 10.
+                        <&ad594x_3 1>,   //AFE channel 11.
+                        <&ad594x_3 0>,   //AFE channel 12.
+                        <&ad594x_4 2>,   //AFE channel 13.
+                        <&ad594x_4 1>,   //AFE channel 14.
+                        <&ad594x_4 0>    //AFE channel 15.
+                        ;
+
+        afe-detect-adc-channel = <11>;
+        afe-detect-2v-ref-enable-gpios = <&ad594x_1_gpio 2 (GPIO_ACTIVE_HIGH|AD594X_MODE_EXT_SYNC)>,
+		<&ad594x_2_gpio 2 (GPIO_ACTIVE_HIGH|AD594X_MODE_EXT_SYNC)>,
+		<&ad594x_3_gpio 2 (GPIO_ACTIVE_HIGH|AD594X_MODE_EXT_SYNC)>,
+		<&ad594x_4_gpio 2 (GPIO_ACTIVE_HIGH|AD594X_MODE_EXT_SYNC)>;
+        afe-mode-muxer-gpios = <&pb_iox_25 8 GPIO_ACTIVE_HIGH>,
+                               <&pb_iox_25 9 GPIO_ACTIVE_HIGH>;
+
+		motor-power-gpios = <&pb_iox_25 2 GPIO_ACTIVE_HIGH>;
+		motor-pos-gpios = <&x_prph_if_gpios 5 GPIO_ACTIVE_HIGH>,
+		                  <&x_prph_if_gpios 6 GPIO_ACTIVE_HIGH>;
+		motor-ctl = &drv8435_5;
+
+		heater-thermistor-channel = <6>;
+		heater-cooling-gpios = <&pb_iox_25 5 GPIO_ACTIVE_HIGH>;
+		heater-warm-gpios = <&pb_iox_25 6 GPIO_ACTIVE_HIGH>;
+		heater-power-gpios = <&pb_iox_25 7 GPIO_ACTIVE_HIGH>;
+		heater-thermistor-adc = &heater_adc;
+		heater-pwm = &heater_pwm;
+  	};
+};
+
+afe_spi: &x_prph_if_pp_spi {};
+motor_spi: &x_prph_if_pp_spi {};
+
+pp_i2c: &x_prph_if_pp_i2c {};
+
+heater_adc: &x_prph_if_heater_adc {};
+heater_timers: &x_prph_if_heater_timers {};
+heater_pwm: &x_prph_if_heater_pwm {};
+
+&pp_i2c {
+		status = "okay";
+	clock-frequency = <I2C_BITRATE_FAST>;
+
+	pb_iox_25_25: pca9535@25 {
+		compatible = "nxp,pca95xx";
+		reg = <0x25>;
+		#gpio-cells = <2>;
+		gpio-controller;
+
+		status = "okay";
+	};
+};
+
+&afe_spi {
+
+	ad594x_1: ad594x_1@1 {
+		compatible = "adi,ad594x";
+		status = "okay";
+		reg = <0x1>;
+		spi-max-frequency = <8000000>; // 8 MHz
+		#io-channel-cells = <1>;
+		reset-gpios = <&afe_iox 10 GPIO_ACTIVE_LOW>;
+
+		ad594x_1_gpio: gpio {
+			compatible = "adi,ad594x-gpio";
+			status = "okay";
+			gpio-controller;
+			#gpio-cells = <2>;
+		};
+	};
+
+	ad594x_2: ad594x_2@2 {
+		compatible = "adi,ad594x";
+		status = "okay";
+		reg = <0x2>;
+		spi-max-frequency = <8000000>; // 8 MHz
+		#io-channel-cells = <1>;
+		reset-gpios = <&afe_iox 10 GPIO_ACTIVE_LOW>;
+
+		ad594x_2_gpio: gpio {
+			compatible = "adi,ad594x-gpio";
+			status = "okay";
+			gpio-controller;
+			#gpio-cells = <2>;
+		};
+	};
+
+	ad594x_3: ad594x@3 {
+		compatible = "adi,ad594x";
+		status = "okay";
+		reg = <0x3>;
+		spi-max-frequency = <8000000>; // 8 MHz
+		#io-channel-cells = <1>;
+		reset-gpios = <&afe_iox 10 GPIO_ACTIVE_LOW>;
+
+		ad594x_2_gpio: gpio {
+			compatible = "adi,ad594x-gpio";
+			status = "okay";
+			gpio-controller;
+			#gpio-cells = <2>;
+		};
+	};
+
+	ad594x_4: ad594x@4 {
+		compatible = "adi,ad594x";
+		status = "okay";
+		reg = <0x4>;
+		spi-max-frequency = <8000000>; // 8 MHz
+		#io-channel-cells = <1>;
+		reset-gpios = <&afe_iox 10 GPIO_ACTIVE_LOW>;
+
+		ad594x_2_gpio: gpio {
+			compatible = "adi,ad594x-gpio";
+			status = "okay";
+			gpio-controller;
+			#gpio-cells = <2>;
+		};
+	};
+};
+
+&motor_spi{
+
+	drv8434_5: ti8434@5 {
+		status = "okay";
+		compatible = "ti,drv8434s";
+		reg = <5>;
+
+		spi-max-frequency = <10000000>;
+
+		enable-gpios = <&pb_iox_25 13 GPIO_ACTIVE_HIGH>;	/* PB_MOT_nEN1 */
+		sleep-gpios = <&pb_iox_25 14 GPIO_ACTIVE_LOW>;	/* PB_MOT_nSLEEP1 */
+		fault-gpios = <&pb_iox_25 14 GPIO_ACTIVE_LOW>;	/* PB_MOT_nFAULT1 */
+
+		dir-gpios = <&x_prph_if_gpios 8 GPIO_ACTIVE_HIGH>; /* MOT_DIR */
+		pwms = <&motor_pwm 4 0 PWM_POLARITY_NORMAL>;	   /* MOT_STEP */
+	};
+};
+
+&x_prph_if_pp_spi{
+	status = "okay";
+	cs-gpios = <&x_gpios_prph_if 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,    /* AFE_SPI_nCS1 */
+		   <&x_gpios_prph_if 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+		   <&x_gpios_prph_if 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,
+		   <&x_gpios_prph_if 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+		   <&x_gpios_prph_if 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+		   ;
+};
+
+&heater_adc {
+	status = "okay";
+};
+
+&heater_timers {
+	status = "okay";
+};
+
+&heater_pwm {
+	status = "okay";
+};

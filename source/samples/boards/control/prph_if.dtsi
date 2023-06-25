@@ -13,12 +13,12 @@
 		           <6 0 &gpioa 5 0>, /* P4 (MOTOR_POS2) */
 		           <7 0 &gpioc 9 0>, /* F14 (MOTOR_STEP) */
 		           <8 0 &gpiof 10 0>, /* L1 (MOTOR_DIR) */
-		           <9 0 &gpiod 12 0>, /* M10 (I2C_P_SCL) */
-		           <10 0 &gpiod 13 0>, /* M11 (I2C_P_SDA) */
+		           <9 0 &gpiod 12 0>, /* M10 (PP_I2C_SCL) */
+		           <10 0 &gpiod 13 0>, /* M11 (PP_I2C_SDA) */
 		           <11 0 &gpioa 6 0>, /* P3 (HEATER_THERM_ADCIN) */
-		           <12 0 &gpiof 8 0>, /* L3 (AFE_SPI_MISO) */
-		           <13 0 &gpiof 9 0>, /* L2 (AFE_SPI_MOSI) */
-		           <14 0 &gpiof 7 0>, /* K1 (AFE_SPI_CLK) */
+		           <12 0 &gpiof 8 0>, /* L3 (PP_SPI_MISO) */
+		           <13 0 &gpiof 9 0>, /* L2 (PP_SPI_MOSI) */
+		           <14 0 &gpiof 7 0>, /* K1 (PP_SPI_CLK) */
 		           <15 0 &gpioa 8 0>, /* F15 (HEATER_COOLING_PWM) */
 		           <16 0 &gpioj 8 0>, /* H12 (AFE_SPI_nCS1) */
 		           <17 0 &gpioj 9 0>, /* J13 (AFE_SPI_nCS2) */

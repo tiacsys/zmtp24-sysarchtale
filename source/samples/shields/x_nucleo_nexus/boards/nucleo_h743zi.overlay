@@ -1,0 +1,38 @@
+&pll {
+	clocks = <&clk_hse>;
+	div-m = <1>;
+	mul-n = <54>;
+	div-p = <2>;
+	div-q = <7>;
+};
+
+&rcc {
+	clocks = <&pll>;
+	clock-frequency = <DT_FREQ_M(216)>;
+	d1cpre = <1>;
+	hpre = <2>;
+	d2ppre1 = <2>;
+	d2ppre2 = <1>;
+	d1ppre = <1>;
+	d3ppre = <1>;
+};
+
+&x_prph_if_pp_spi {
+	/delete-property/ cs-gpios;        /* let downstream shield to set this */
+	pinctrl-0 = <&spi4_sck_pe2        /* D56 (MOTOR_SPI_CLK) */
+	&spi4_miso_pe5        /* D58 (MOTOR_SPI_MISO) */
+	&spi4_mosi_pe6>;        /* D59 (MOTOR_SPI_MOSI) */
+};
+
+&x_prph_if_motor_pwm {
+	st,prescaler = <107>; /* Freuency of 1 MHz */
+};
+
+&x_prph_if_heater_adc {
+	pinctrl-0 = <&adc1_inp10_pc0>;        /* A1 (HEATER_THERM_ADCIN) */
+};
+
+&x_prph_if_heater_pwm {
+	pinctrl-0 = <&tim1_ch2_pe11>;
+	st,prescaler = <5>; /* Frequency of 21.6 MHz */
+};

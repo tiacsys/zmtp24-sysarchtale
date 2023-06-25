@@ -1,0 +1,43 @@
+description: |
+    GPIO pins exposed as ACME Peripheral Board connector.
+
+    This binding provides a nexus mapping for 24 pins where parent pin 11
+    correspond to analog input line, all other parent pins 0 through 10 and
+    pins 12 through 24 correspond to digital in-/out lines, as depicted below:
+
+               0 GPIO
+               1 MOTOR_SPI_nCS
+               - GND
+               2 GPIO
+               3 GPIO
+               4 GPIO
+               - GND
+               5 MOTOR_POS1
+               6 MOTOR_POS2
+               7 MOTOR_STEP
+               8 MOTOR_DIR
+               - GND
+               9 PP_I2C_SCL
+              10 PP_I2C_SDA
+               - GND
+              11 HEATER_THERM_ADCIN
+               - GND
+              12 PP_SPI_MISO
+              13 PP_SPI_MOSI
+              14 PP_SPI_CLK
+               - GND
+              15 HEATER_PWM
+               - GND
+              16 AFE_SPI_nCS1
+              17 AFE_SPI_nCS2
+              18 AFE_SPI_nCS3
+              19 AFE_SPI_nCS4
+              20 AFE_INT1
+              21 AFE_INT2
+              22 AFE_INT3
+              23 AFE_INT4
+              24 AFE_nRESET
+
+compatible: "acme,prph_if"
+
+include: [gpio-nexus.yaml, base.yaml]

@@ -1,0 +1,268 @@
+/ {
+	zio: zio_connector {
+		compatible = "st,zio-header";
+		#gpio-cells = <2>;
+		gpio-map-mask = <0xffffffff 0xffffffc0>;
+		gpio-map-pass-thru = <0 0x3f>;
+		gpio-map = <0 0 &gpioa 3 0>,	/* A0  (ADC_A_IN) */
+			   <1 0 &gpioc 0 0>,	/* A1  (ADC_B_IN) */
+			   <2 0 &gpioc 3 0>,	/* A2  (ADC_C_IN) */
+			   <3 0 &gpiof 3 0>,	/* A3  (ADC_D_IN) */
+			   <4 0 &gpiof 5 0>,	/* A4  (ADC_E_IN) */
+			   <5 0 &gpiof 10 0>,	/* A5  (ADC_F_IN) */
+			   <6 0 &gpiog 9 0>,	/* D0  (USART_A_RX) */
+			   <7 0 &gpiog 14 0>,	/* D1  (USART_A_TX) */
+			   <8 0 &gpiof 15 0>,	/* D2  (IO) */
+			   <9 0 &gpioe 13 0>,	/* D3  (TIMER_A_PWM3) */
+			   <10 0 &gpiof 14 0>,	/* D4  (IO) */
+			   <11 0 &gpioe 11 0>,	/* D5  (TIMER_A_PWM2) */
+			   <12 0 &gpioe 9 0>,	/* D6  (TIMER_A_PWM1) */
+			   <13 0 &gpiof 13 0>,	/* D7  (IO) */
+			   <14 0 &gpiof 12 0>,	/* D8  (IO) */
+			   <15 0 &gpiod 15 0>,	/* D9  (TIMER_B_PWM2) */
+			   <16 0 &gpiod 14 0>,	/* D10 (SPI_A_NSS | TIM_B_PWM3) */
+			   <17 0 &gpioa 7 0>,	/* D11 (SPI_A_MOSI | TIM_E_PWM1) */
+			   <18 0 &gpioa 6 0>,	/* D12 (SPI_A_MISO) */
+			   <19 0 &gpioa 5 0>,	/* D13 (SPI_A_SCK) */
+			   <20 0 &gpiob 9 0>,	/* D14 (I2C_A_SDA) */
+			   <21 0 &gpiob 8 0>,	/* D15 (I2C_A_SCL) */
+			   <22 0 &gpioc 6 0>,	/* D16 (I2S_A_MCK) */
+			   <23 0 &gpiob 15 0>,	/* D17 (I2S_A_SD) */
+			   <24 0 &gpiob 13 0>,	/* D18 (I2S_A_CK) */
+			   <25 0 &gpiob 12 0>,	/* D19 (I2S_A_WS) */
+			   <26 0 &gpioa 15 0>,	/* D20 (I2S_B_WS) */
+			   <27 0 &gpioc 7 0>,	/* D21 (I2S_B_MCK) */
+			   <28 0 &gpiob 5 0>,	/* D22 (I2S_B_SD | SPI_B_MOSI) */
+			   <29 0 &gpiob 3 0>,	/* D23 (I2S_B_CK | SPI_B_SCK) */
+			   <30 0 &gpioa 4 0>,	/* D24 (SPI_B_NSS) */
+			   <31 0 &gpiob 4 0>,	/* D25 (SPI_B_MISO) */
+			   <32 0 &gpiob 6 0>,	/* D26 (QSPI_CS) */
+			   <33 0 &gpiob 2 0>,	/* D27 (QSPI_CLK) */
+			   <34 0 &gpiod 13 0>,	/* D28 (QSPI_BK1_IO3) */
+			   <35 0 &gpiod 12 0>,	/* D29 (QSPI_BK1_IO1) */
+			   <36 0 &gpiod 11 0>,	/* D30 (QSPI_BK1_IO0) */
+			   <37 0 &gpioe 2 0>,	/* D31 (QSPI_BK1_IO2) */
+			   <38 0 &gpioa 0 0>,	/* D32 (TIMER_C_PWM1) */
+			   <39 0 &gpiob 0 0>,	/* D33 (TIMER_D_PWM1) */
+			   <40 0 &gpioe 0 0>,	/* D34 (TIMER_B_ETR) */
+			   <41 0 &gpiob 11 0>,	/* D35 (TIMER_C_PWM3) */
+			   <42 0 &gpiob 10 0>,	/* D36 (TIMER_C_PWM2) */
+			   <43 0 &gpioe 15 0>,	/* D37 (TIMER_A_BKIN1) */
+			   <44 0 &gpioe 14 0>,	/* D38 (IO) */
+			   <45 0 &gpioe 12 0>,	/* D39 (TIMER_A_PWM3N) */
+			   <46 0 &gpioe 10 0>,	/* D40 (TIMER_A_PWM2N) */
+			   <47 0 &gpioe 7 0>,	/* D41 (TIMER_A_ETR) */
+			   <48 0 &gpioe 8 0>,	/* D42 (TIMER_A_PWM1N) */
+			   <49 0 &gpioc 8 0>,	/* D43 (SDMMC_D0) */
+			   <50 0 &gpioc 9 0>,	/* D44 (SDMMC_D1 | I2S_A_CKIN) */
+			   <51 0 &gpioc 10 0>,	/* D45 (SDMMC_D2) */
+			   <52 0 &gpioc 11 0>,	/* D46 (SDMMC_D3) */
+			   <53 0 &gpioc 12 0>,	/* D47 (SDMMC_CK) */
+			   <54 0 &gpiod 2 0>,	/* D48 (SDMMC_CMD) */
+			   <55 0 &gpiog 2 0>,	/* D49 (IO) */
+			   <56 0 &gpiog 3 0>,	/* D50 (IO) */
+			   <57 0 &gpiod 7 0>,	/* D51 (USART_B_SCLK) */
+			   <58 0 &gpiod 6 0>,	/* D52 (USART_B_RX) */
+			   <59 0 &gpiod 5 0>,	/* D53 (USART_B_TX) */
+			   <60 0 &gpiod 4 0>,	/* D54 (USART_B_RTS) */
+			   <61 0 &gpiod 3 0>,	/* D55 (USART_B_CTS) */
+			   <62 0 &gpioe 2 0>,	/* D56 (SAI_A_MCLK | SPI_C_SCK) */
+			   <63 0 &gpioe 4 0>,	/* D57 (SAI_A_FS | SPI_C_NSS) */
+			   <64 0 &gpioe 5 0>,	/* D58 (SAI_A_SCK | SPI_C_MISO) */
+			   <65 0 &gpioe 6 0>,	/* D59 (SAI_A_SD | SPI_C_MOSI) */
+			   <66 0 &gpioe 3 0>,	/* D60 (SAI_B_SD) */
+			   <67 0 &gpiof 8 0>,	/* D61 (SAI_B_SCK | SPI_D_MISO) */
+			   <68 0 &gpiof 7 0>,	/* D62 (SAI_B_MCLK | SPI_D_SCK) */
+			   <69 0 &gpiof 9 0>,	/* D63 (SAI_B_FS | SPI_D_MOSI) */
+			   <70 0 &gpiog 1 0>,	/* D64 (IO) */
+			   <71 0 &gpiog 0 0>,	/* D65 (IO) */
+			   <72 0 &gpiod 1 0>,	/* D66 (CAN_A_TX) */
+			   <73 0 &gpiod 0 0>,	/* D67 (CAN_A_RX) */
+			   <74 0 &gpiof 0 0>,	/* D68 (I2C_B_SDA) */
+			   <75 0 &gpiof 1 0>,	/* D69 (I2C_B_SCL) */
+			   <76 0 &gpiof 2 0>,	/* D70 (I2C_B_SMBA) */
+			   <77 0 &gpioa 7 0>,	/* D71 (COMP2_INP | RMII_CRS_DV) */
+/* over SB137 (NC) */	   <78 0 &gpiob 2 0>,   /* D72 (COMP1_INP | BOOT1 ) */
+			   <79 0 &gpiob 1 0>,	/* A6  (ADC_G_IN | SPI_D_NSS) */
+			   <80 0 &gpioc 2 0>,	/* A7  (ADC_H_IN) */
+			   <81 0 &gpiof 4 0>;	/* A8  (ADC_I_IN) */
+	};
+};
+
+zio_usart_a: &usart6 {};
+
+&zio_usart_a {
+	status = "disabled";
+	label = "ZIO_USART_A";
+	pinctrl-0 = <&usart6_tx_pg14    /* D1  (USART_A_TX) */
+		     &usart6_rx_pg9>;	/* D0  (USART_A_RX) */
+};
+
+zio_usart_b: &usart2 {};
+
+&zio_usart_b {
+	status = "disabled";
+	label = "ZIO_USART_B";
+	pinctrl-0 = <&usart2_tx_pd5	/* D53 (USART_B_TX) */
+		     &usart2_rx_pd6	/* D52 (USART_B_RX) */
+		     &usart2_rts_pd4	/* D54 (USART_B_RTS) */
+		     &usart2_cts_pd3>;	/* D55 (USART_B_CTS) */
+};
+
+zio_i2c_a: &i2c1 {};
+
+&zio_i2c_a {
+	status = "disabled";
+	label = "ZIO_I2C_A";
+	pinctrl-0 = <&i2c1_scl_pb8	/* D15 (I2C_A_SCL) */
+		     &i2c1_sda_pb9>;	/* D14 (I2C_A_SDA) */
+};
+
+zio_i2c_b: &i2c2 {};
+
+&zio_i2c_b {
+	status = "disabled";
+	label = "ZIO_I2C_B";
+	pinctrl-0 = <&i2c2_scl_pf1	/* D69 (I2C_B_SCL) */
+		     &i2c2_sda_pf0>;	/* D68 (I2C_B_SDA) */
+};
+
+zio_spi_a: &spi1 {};
+
+&zio_spi_a {
+	status = "disabled";
+	label = "ZIO_SPI_A";
+	cs-gpios = <&zio 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+					/* D10 (SPI_A_NSS) */
+	pinctrl-0 = <&spi1_sck_pa5	/* D13 (SPI_A_SCK) */
+		     &spi1_miso_pa6	/* D12 (SPI_A_MISO) */
+		     &spi1_mosi_pa7>;	/* D11 (SPI_A_MOSI) */
+};
+
+zio_spi_b: &spi3 {};
+
+&zio_spi_b {
+	status = "disabled";
+	label = "ZIO_SPI_B";
+/*	cs-gpios = <&zio 30 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+					   D24 (SPI_B_NSS) */
+	pinctrl-0 = <&spi3_nss_pa4	/* D24 (SPI_B_NSS) */
+		     &spi3_sck_pb3	/* D23 (SPI_B_SCK) */
+		     &spi3_miso_pb4	/* D25 (SPI_B_MISO) */
+		     &spi3_mosi_pb5>;	/* D22 (SPI_B_MOSI) */
+};
+
+zio_spi_c: &spi4 {};
+
+&zio_spi_c {
+	status = "disabled";
+	pinctrl-0 = <&spi4_nss_pe4	/* D57 (SPI_C_NSS) */
+		     &spi4_sck_pe2	/* D56 (SPI_C_SCK) */
+		     &spi4_miso_pe5	/* D58 (SPI_C_MISO) */
+		     &spi4_mosi_pe6>;	/* D59 (SPI_C_MOSI) */
+};
+
+zio_spi_d: &spi5 {};
+
+&zio_spi_d {
+	status = "disabled";
+	/* PF6 as SPI5_NSS is not wired to any ZIO pin, use GPIO instead */
+	cs-gpios = <&zio 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+					/* A6  (SPI_D_NSS) */
+	pinctrl-0 = <&spi5_sck_pf7	/* D62 (SPI_D_SCK) */
+		     &spi5_miso_pf8	/* D61 (SPI_D_MISO) */
+		     &spi5_mosi_pf9>;	/* D63 (SPI_D_MOSI) */
+};
+
+zio_timers_a: &timers1 {};
+
+&zio_timers_a {
+	status = "disabled";
+	zio_pwm_a: pwm {
+		status = "disabled";
+		pinctrl-0 = <&tim1_ch1_pe9	/* D6  (TIMER_A_PWM1) */
+			     &tim1_ch2_pe11	/* D5  (TIMER_A_PWM2) */
+			     &tim1_ch3_pe13>;	/* D3  (TIMER_A_PWM3) */
+	};
+};
+
+zio_timers_b: &timers4 {};
+
+&zio_timers_b {
+	status = "disabled";
+	zio_pwm_b: pwm {
+		status = "disabled";
+		pinctrl-0 = <&tim4_ch4_pd15	/* D9  (TIMER_B_PWM2) */
+			     &tim4_ch3_pd14>;	/* D10 (SPI_A_NSS | TIM_B_PWM3) */
+	};
+};
+
+zio_timers_c: &timers2 {};
+
+&zio_timers_c {
+	status = "disabled";
+	zio_pwm_c: pwm {
+		status = "disabled";
+		pinctrl-0 = <&tim2_ch1_pa0	/* D32 (TIMER_C_PWM1) */
+			     &tim2_ch3_pb10	/* D36 (TIMER_C_PWM2) */
+			     &tim2_ch4_pb11>;	/* D35 (TIMER_C_PWM3) */
+	};
+};
+
+zio_timers_d: &timers3 {};
+
+&zio_timers_d {
+	status = "disabled";
+	zio_pwm_d: pwm {
+		status = "disabled";
+		pinctrl-0 = <&tim3_ch3_pb0>;	/* D33 (TIMER_D_PWM1) */
+/* 		pinctrl-0 = <&tim3_ch3_pc8>;	   D43 (SDMMC_D0) */
+	};
+};
+
+zio_timers_e: &timers14 {};
+
+&zio_timers_e {
+	status = "disabled";
+	zio_pwm_e: pwm {
+		status = "disabled";
+		pinctrl-0 = <&tim14_ch1_pa7>;	/* D11 (SPI_A_MOSI | TIM_E_PWM1) */
+	};
+};
+
+zio_timers_f: &timers8 {};
+
+&zio_timers_f {
+	status = "disabled";
+	zio_pwm_f: pwm {
+		status = "disabled";
+		label = "ZIO_PWM_F";
+		pinctrl-0 = <&tim8_ch4_pc9>;	/* D44 (SDMMC_D1 | I2S_A_CKIN) */
+	};
+};
+
+zio_timers_g: &timers5 {};
+
+&zio_timers_g {
+	status = "disabled";
+	zio_pwm_g: pwm {
+		status = "disabled";
+		label = "ZIO_PWM_G";
+		pinctrl-0 = <&tim5_ch4_pa3>;	/* A0  (ADC_A_IN) */
+	};
+};
+
+zio_adc_a: &adc1 {};
+
+&zio_adc_a {
+	status = "disabled";
+	pinctrl-0 = <&adc1_in3_pa3	/* A0  (ADC_A_IN) */
+		     &adc1_in10_pc0	/* A1  (ADC_B_IN) */
+		     &adc1_in13_pc3	/* A2  (ADC_C_IN) */
+					/* A3  (ADC_D_IN) */
+					/* A4  (ADC_E_IN) */
+					/* A5  (ADC_F_IN) */
+		     &adc1_in9_pb1	/* A6  (ADC_G_IN | SPI_D_NSS) */
+		     &adc1_in12_pc2>;	/* A7  (ADC_H_IN) */
+					/* A8  (ADC_I_IN) */
+};

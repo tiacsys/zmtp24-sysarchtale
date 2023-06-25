@@ -1,0 +1,5 @@
+// This file is intentionally empty
+
+// As the Peripherals V2 Shield only works with the Control Board
+// all device required device tree nodes are placed in a
+// board specific override for the Control board

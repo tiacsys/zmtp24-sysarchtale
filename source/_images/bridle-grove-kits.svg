@@ -5,7 +5,8 @@
    viewBox="0 0 327 456.00003"
    version="1.1"
    id="svg6220"
-   sodipodi:docname="eoss_prague(6)(1).svg"
+   sodipodi:docname="all-figures.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -13,15 +14,25 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview3243"
-     pagecolor="#ffffff"
+     pagecolor="#cecece"
      bordercolor="#000000"
      borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
-     showgrid="false" />
+     showgrid="false"
+     inkscape:zoom="1.4080504"
+     inkscape:cx="426.47621"
+     inkscape:cy="430.38232"
+     inkscape:window-width="1792"
+     inkscape:window-height="1047"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6220"
+     showguides="false" />
   <defs
      id="defs1162">
     <g
@@ -1506,22 +1517,27 @@
   </defs>
   <path
      fill-rule="nonzero"
-     fill="#ffffff"
+     fill="rgb(100%, 100%, 100%)"
      fill-opacity="1"
      d="M -1.5755142e-5,-3.1656729e-5 H 326.99998 V 455.99997 H -1.5755142e-5 Z m 0,0"
-     id="path5078" />
+     id="path5078"
+     inkscape:export-filename="../../../wrk/foss/talks/zds23-sysarchtale-ws/zds23-sysarchtale/source/_images/bridle-grove-kits.svg"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96"
+     style="fill:#ffffff;fill-opacity:1" />
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 132.74998,73.500038 h 75.00007 v 22.5 h -75.00007 z m 0,0"
-     id="path5080" />
+     id="path5080"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -1531,80 +1547,94 @@
        xlink:href="#glyph-0-53"
        x="853.73431"
        y="950.99994"
-       id="use5082" />
+       id="use5082"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="860.7348"
        y="950.99994"
-       id="use5084" />
+       id="use5084"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="863.73187"
        y="950.99994"
-       id="use5086" />
+       id="use5086"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="868.73724"
        y="950.99994"
-       id="use5088" />
+       id="use5088"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="873.23724"
        y="950.99994"
-       id="use5090" />
+       id="use5090"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="878.24261"
        y="950.99994"
-       id="use5092" />
+       id="use5092"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-27"
        x="880.7431"
        y="950.99994"
-       id="use5094" />
+       id="use5094"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-25"
        x="886.74603"
        y="950.99994"
-       id="use5096" />
+       id="use5096"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-28"
        x="891.7514"
        y="950.99994"
-       id="use5098" />
+       id="use5098"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="896.2514"
        y="950.99994"
-       id="use5100" />
+       id="use5100"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="901.25677"
        y="950.99994"
-       id="use5102" />
+       id="use5102"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="903.75726"
        y="950.99994"
-       id="use5104" />
+       id="use5104"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-14"
        x="908.25726"
        y="950.99994"
-       id="use5106" />
+       id="use5106"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 132.74998,330.37507 h 75.00007 v 22.5 h -75.00007 z m 0,0"
-     id="path5110" />
+     id="path5110"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -1614,80 +1644,94 @@
        xlink:href="#glyph-0-53"
        x="853.23041"
        y="1208.25"
-       id="use5112" />
+       id="use5112"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="860.2309"
        y="1208.25"
-       id="use5114" />
+       id="use5114"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="863.22797"
        y="1208.25"
-       id="use5116" />
+       id="use5116"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="868.23334"
        y="1208.25"
-       id="use5118" />
+       id="use5118"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="872.73334"
        y="1208.25"
-       id="use5120" />
+       id="use5120"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="877.73871"
        y="1208.25"
-       id="use5122" />
+       id="use5122"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-43"
        x="880.2392"
        y="1208.25"
-       id="use5124" />
+       id="use5124"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-54"
        x="886.24213"
        y="1208.25"
-       id="use5126" />
+       id="use5126"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-51"
        x="888.74261"
        y="1208.25"
-       id="use5128" />
+       id="use5128"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-33"
        x="894.74554"
        y="1208.25"
-       id="use5130" />
+       id="use5130"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="901.74603"
        y="1208.25"
-       id="use5132" />
+       id="use5132"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="904.24652"
        y="1208.25"
-       id="use5134" />
+       id="use5134"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-13"
        x="908.74652"
        y="1208.25"
-       id="use5136" />
+       id="use5136"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 15.000014,30.000038 h 59.99997 v 22.5 h -59.99997 z m 0,0"
-     id="path5140" />
+     id="path5140"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -1697,57 +1741,68 @@
        xlink:href="#glyph-0-41"
        x="732.72656"
        y="907.49994"
-       id="use5142" />
+       id="use5142"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-11"
        x="739.22601"
        y="907.49994"
-       id="use5144" />
+       id="use5144"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-24"
        x="744.23138"
        y="907.49994"
-       id="use5146" />
+       id="use5146"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="748.73138"
        y="907.49994"
-       id="use5148" />
+       id="use5148"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="750.7309"
        y="907.49994"
-       id="use5150" />
+       id="use5150"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="755.73627"
        y="907.49994"
-       id="use5152" />
+       id="use5152"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="760.74164"
        y="907.49994"
-       id="use5154" />
+       id="use5154"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-32"
        x="763.24213"
        y="907.49994"
-       id="use5156" />
+       id="use5156"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-15"
        x="768.73969"
        y="907.49994"
-       id="use5158" />
+       id="use5158"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-55"
        x="773.74506"
        y="907.49994"
-       id="use5160" />
+       id="use5160"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-15"
        x="778.75043"
        y="907.49994"
-       id="use5162" />
+       id="use5162"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#000000"
@@ -1758,57 +1813,68 @@
        xlink:href="#glyph-0-53"
        x="730.6875"
        y="878.24994"
-       id="use5166" />
+       id="use5166"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="737.68799"
        y="878.24994"
-       id="use5168" />
+       id="use5168"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="740.685"
        y="878.24994"
-       id="use5170" />
+       id="use5170"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="745.69037"
        y="878.24994"
-       id="use5172" />
+       id="use5172"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="750.19037"
        y="878.24994"
-       id="use5174" />
+       id="use5174"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="755.19574"
        y="878.24994"
-       id="use5176" />
+       id="use5176"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-22"
        x="757.69623"
        y="878.24994"
-       id="use5178" />
+       id="use5178"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="764.19574"
        y="878.24994"
-       id="use5180" />
+       id="use5180"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-23"
        x="766.19525"
        y="878.24994"
-       id="use5182" />
+       id="use5182"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="771.20062"
        y="878.24994"
-       id="use5184" />
+       id="use5184"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-48"
        x="773.70111"
        y="878.24994"
-       id="use5186" />
+       id="use5186"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#000000"
@@ -1819,95 +1885,112 @@
        xlink:href="#glyph-0-25"
        x="779.03607"
        y="878.24994"
-       id="use5190" />
+       id="use5190"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="784.04144"
        y="878.24994"
-       id="use5192" />
+       id="use5192"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="787.03851"
        y="878.24994"
-       id="use5194" />
+       id="use5194"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-25"
        x="789.03802"
        y="878.24994"
-       id="use5196" />
+       id="use5196"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-20"
        x="794.0434"
        y="878.24994"
-       id="use5198" />
+       id="use5198"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-21"
        x="799.04877"
        y="878.24994"
-       id="use5200" />
+       id="use5200"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-28"
        x="801.54926"
        y="878.24994"
-       id="use5202" />
+       id="use5202"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="806.04926"
        y="878.24994"
-       id="use5204" />
+       id="use5204"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-37"
        x="808.54974"
        y="878.24994"
-       id="use5206" />
+       id="use5206"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-27"
        x="811.54681"
        y="878.24994"
-       id="use5208" />
+       id="use5208"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="817.54974"
        y="878.24994"
-       id="use5210" />
+       id="use5210"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="820.54681"
        y="878.24994"
-       id="use5212" />
+       id="use5212"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-9"
        x="822.54633"
        y="878.24994"
-       id="use5214" />
+       id="use5214"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="827.5517"
        y="878.24994"
-       id="use5216" />
+       id="use5216"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="829.55121"
        y="878.24994"
-       id="use5218" />
+       id="use5218"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-38"
        x="834.55658"
        y="878.24994"
-       id="use5220" />
+       id="use5220"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 255.00005,184.87507 h 60.00003 v 22.5 h -60.00003 z m 0,0"
-     id="path5224" />
+     id="path5224"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -1917,80 +2000,94 @@
        xlink:href="#glyph-0-53"
        x="969.2226"
        y="1062.75"
-       id="use5226" />
+       id="use5226"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="976.22308"
        y="1062.75"
-       id="use5228" />
+       id="use5228"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="979.22015"
        y="1062.75"
-       id="use5230" />
+       id="use5230"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="984.22552"
        y="1062.75"
-       id="use5232" />
+       id="use5232"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="989.2309"
        y="1062.75"
-       id="use5234" />
+       id="use5234"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="993.7309"
        y="1062.75"
-       id="use5236" />
+       id="use5236"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="998.73627"
        y="1062.75"
-       id="use5238" />
+       id="use5238"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-27"
        x="1001.2368"
        y="1062.75"
-       id="use5240" />
+       id="use5240"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-11"
        x="1007.2397"
        y="1062.75"
-       id="use5242" />
+       id="use5242"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-21"
        x="1012.2451"
        y="1062.75"
-       id="use5244" />
+       id="use5244"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-21"
        x="1014.7455"
        y="1062.75"
-       id="use5246" />
+       id="use5246"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="1017.246"
        y="1062.75"
-       id="use5248" />
+       id="use5248"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-20"
        x="1022.2514"
        y="1062.75"
-       id="use5250" />
+       id="use5250"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 255.00005,240.00007 h 60.00003 v 22.5 h -60.00003 z m 0,0"
-     id="path5254" />
+     id="path5254"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -2000,65 +2097,76 @@
        xlink:href="#glyph-0-53"
        x="973.48822"
        y="1117.5"
-       id="use5256" />
+       id="use5256"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="980.48871"
        y="1117.5"
-       id="use5258" />
+       id="use5258"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="983.48578"
        y="1117.5"
-       id="use5260" />
+       id="use5260"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="988.49115"
        y="1117.5"
-       id="use5262" />
+       id="use5262"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="993.49652"
        y="1117.5"
-       id="use5264" />
+       id="use5264"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="997.99652"
        y="1117.5"
-       id="use5266" />
+       id="use5266"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="1003.0019"
        y="1117.5"
-       id="use5268" />
+       id="use5268"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-56"
        x="1005.5024"
        y="1117.5"
-       id="use5270" />
+       id="use5270"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-57"
        x="1010.5078"
        y="1117.5"
-       id="use5272" />
+       id="use5272"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-16"
        x="1016.5107"
        y="1117.5"
-       id="use5274" />
+       id="use5274"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 132.74998,150.37507 h 75.00007 v 22.5 h -75.00007 z m 0,0"
-     id="path5278" />
+     id="path5278"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -2068,90 +2176,106 @@
        xlink:href="#glyph-0-53"
        x="849.9726"
        y="1028.25"
-       id="use5280" />
+       id="use5280"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="856.97308"
        y="1028.25"
-       id="use5282" />
+       id="use5282"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="859.97015"
        y="1028.25"
-       id="use5284" />
+       id="use5284"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="864.97552"
        y="1028.25"
-       id="use5286" />
+       id="use5286"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="869.47552"
        y="1028.25"
-       id="use5288" />
+       id="use5288"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="874.4809"
        y="1028.25"
-       id="use5290" />
+       id="use5290"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-27"
        x="876.98138"
        y="1028.25"
-       id="use5292" />
+       id="use5292"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-25"
        x="882.98431"
        y="1028.25"
-       id="use5294" />
+       id="use5294"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-28"
        x="887.98969"
        y="1028.25"
-       id="use5296" />
+       id="use5296"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="892.48969"
        y="1028.25"
-       id="use5298" />
+       id="use5298"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="897.49506"
        y="1028.25"
-       id="use5300" />
+       id="use5300"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="899.99554"
        y="1028.25"
-       id="use5302" />
+       id="use5302"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-13"
        x="904.49554"
        y="1028.25"
-       id="use5304" />
+       id="use5304"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-58"
        x="909.50092"
        y="1028.25"
-       id="use5306" />
+       id="use5306"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-14"
        x="912.0014"
        y="1028.25"
-       id="use5308" />
+       id="use5308"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 132.74998,116.62504 h 75.00007 v 22.50003 h -75.00007 z m 0,0"
-     id="path5312" />
+     id="path5312"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -2161,90 +2285,106 @@
        xlink:href="#glyph-0-53"
        x="849.9726"
        y="994.49994"
-       id="use5314" />
+       id="use5314"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="856.97308"
        y="994.49994"
-       id="use5316" />
+       id="use5316"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="859.97015"
        y="994.49994"
-       id="use5318" />
+       id="use5318"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="864.97552"
        y="994.49994"
-       id="use5320" />
+       id="use5320"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="869.47552"
        y="994.49994"
-       id="use5322" />
+       id="use5322"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="874.4809"
        y="994.49994"
-       id="use5324" />
+       id="use5324"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-27"
        x="876.98138"
        y="994.49994"
-       id="use5326" />
+       id="use5326"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-25"
        x="882.98431"
        y="994.49994"
-       id="use5328" />
+       id="use5328"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-28"
        x="887.98969"
        y="994.49994"
-       id="use5330" />
+       id="use5330"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="892.48969"
        y="994.49994"
-       id="use5332" />
+       id="use5332"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="897.49506"
        y="994.49994"
-       id="use5334" />
+       id="use5334"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="899.99554"
        y="994.49994"
-       id="use5336" />
+       id="use5336"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-13"
        x="904.49554"
        y="994.49994"
-       id="use5338" />
+       id="use5338"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-58"
        x="909.50092"
        y="994.49994"
-       id="use5340" />
+       id="use5340"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-15"
        x="912.0014"
        y="994.49994"
-       id="use5342" />
+       id="use5342"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 132.74998,41.625038 h 75.00007 v 22.5 h -75.00007 z m 0,0"
-     id="path5346" />
+     id="path5346"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -2254,90 +2394,106 @@
        xlink:href="#glyph-0-53"
        x="849.9726"
        y="919.49994"
-       id="use5348" />
+       id="use5348"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="856.97308"
        y="919.49994"
-       id="use5350" />
+       id="use5350"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="859.97015"
        y="919.49994"
-       id="use5352" />
+       id="use5352"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="864.97552"
        y="919.49994"
-       id="use5354" />
+       id="use5354"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="869.47552"
        y="919.49994"
-       id="use5356" />
+       id="use5356"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="874.4809"
        y="919.49994"
-       id="use5358" />
+       id="use5358"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-27"
        x="876.98138"
        y="919.49994"
-       id="use5360" />
+       id="use5360"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-25"
        x="882.98431"
        y="919.49994"
-       id="use5362" />
+       id="use5362"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-28"
        x="887.98969"
        y="919.49994"
-       id="use5364" />
+       id="use5364"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="892.48969"
        y="919.49994"
-       id="use5366" />
+       id="use5366"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="897.49506"
        y="919.49994"
-       id="use5368" />
+       id="use5368"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="899.99554"
        y="919.49994"
-       id="use5370" />
+       id="use5370"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-14"
        x="904.49554"
        y="919.49994"
-       id="use5372" />
+       id="use5372"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-58"
        x="909.50092"
        y="919.49994"
-       id="use5374" />
+       id="use5374"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-13"
        x="912.0014"
        y="919.49994"
-       id="use5376" />
+       id="use5376"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 132.74998,381.00007 h 75.00007 v 22.5 h -75.00007 z m 0,0"
-     id="path5380" />
+     id="path5380"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -2347,82 +2503,98 @@
        xlink:href="#glyph-0-53"
        x="849.98431"
        y="1253.25"
-       id="use5382" />
+       id="use5382"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="856.9848"
        y="1253.25"
-       id="use5384" />
+       id="use5384"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="859.98187"
        y="1253.25"
-       id="use5386" />
+       id="use5386"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="864.98724"
        y="1253.25"
-       id="use5388" />
+       id="use5388"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="869.99261"
        y="1253.25"
-       id="use5390" />
+       id="use5390"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="874.49261"
        y="1253.25"
-       id="use5392" />
+       id="use5392"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="879.49799"
        y="1253.25"
-       id="use5394" />
+       id="use5394"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-27"
        x="881.99847"
        y="1253.25"
-       id="use5396" />
+       id="use5396"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-25"
        x="888.0014"
        y="1253.25"
-       id="use5398" />
+       id="use5398"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-28"
        x="893.00677"
        y="1253.25"
-       id="use5400" />
+       id="use5400"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="897.50677"
        y="1253.25"
-       id="use5402" />
+       id="use5402"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-24"
        x="899.50629"
        y="1253.25"
-       id="use5404" />
+       id="use5404"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="904.00629"
        y="1253.25"
-       id="use5406" />
+       id="use5406"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-59"
        x="906.50677"
        y="1253.25"
-       id="use5408" />
+       id="use5408"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="912.5097"
        y="1253.25"
-       id="use5410" />
+       id="use5410"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-21"
        x="914.50922"
        y="1253.25"
-       id="use5412" />
+       id="use5412"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#ffffff"
@@ -2433,90 +2605,106 @@
        xlink:href="#glyph-0-36"
        x="853.73431"
        y="1264.5"
-       id="use5416" />
+       id="use5416"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="856.2348"
        y="1264.5"
-       id="use5418" />
+       id="use5418"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="861.24017"
        y="1264.5"
-       id="use5420" />
+       id="use5420"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="864.23724"
        y="1264.5"
-       id="use5422" />
+       id="use5422"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-22"
        x="866.73773"
        y="1264.5"
-       id="use5424" />
+       id="use5424"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-26"
        x="873.23724"
        y="1264.5"
-       id="use5426" />
+       id="use5426"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="879.24017"
        y="1264.5"
-       id="use5428" />
+       id="use5428"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="881.23969"
        y="1264.5"
-       id="use5430" />
+       id="use5430"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-26"
        x="883.74017"
        y="1264.5"
-       id="use5432" />
+       id="use5432"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="889.7431"
        y="1264.5"
-       id="use5434" />
+       id="use5434"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-24"
        x="891.74261"
        y="1264.5"
-       id="use5436" />
+       id="use5436"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="896.24261"
        y="1264.5"
-       id="use5438" />
+       id="use5438"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="901.24799"
        y="1264.5"
-       id="use5440" />
+       id="use5440"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="903.74847"
        y="1264.5"
-       id="use5442" />
+       id="use5442"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-13"
        x="908.24847"
        y="1264.5"
-       id="use5444" />
+       id="use5444"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 15.000014,120.37504 h 59.99997 v 22.50003 h -59.99997 z m 0,0"
-     id="path5448" />
+     id="path5448"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -2526,70 +2714,82 @@
        xlink:href="#glyph-0-41"
        x="732.72656"
        y="998.24994"
-       id="use5450" />
+       id="use5450"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-11"
        x="739.22601"
        y="998.24994"
-       id="use5452" />
+       id="use5452"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-24"
        x="744.23138"
        y="998.24994"
-       id="use5454" />
+       id="use5454"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="748.73138"
        y="998.24994"
-       id="use5456" />
+       id="use5456"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="750.7309"
        y="998.24994"
-       id="use5458" />
+       id="use5458"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="755.73627"
        y="998.24994"
-       id="use5460" />
+       id="use5460"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="760.74164"
        y="998.24994"
-       id="use5462" />
+       id="use5462"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-32"
        x="763.24213"
        y="998.24994"
-       id="use5464" />
+       id="use5464"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-44"
        x="768.73969"
        y="998.24994"
-       id="use5466" />
+       id="use5466"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-45"
        x="773.74506"
        y="998.24994"
-       id="use5468" />
+       id="use5468"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-44"
        x="778.75043"
        y="998.24994"
-       id="use5470" />
+       id="use5470"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 15.000014,60.000038 h 59.99997 v 22.5 h -59.99997 z m 0,0"
-     id="path5474" />
+     id="path5474"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -2599,70 +2799,82 @@
        xlink:href="#glyph-0-41"
        x="732.72656"
        y="937.49994"
-       id="use5476" />
+       id="use5476"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-11"
        x="739.22601"
        y="937.49994"
-       id="use5478" />
+       id="use5478"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-24"
        x="744.23138"
        y="937.49994"
-       id="use5480" />
+       id="use5480"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="748.73138"
        y="937.49994"
-       id="use5482" />
+       id="use5482"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="750.7309"
        y="937.49994"
-       id="use5484" />
+       id="use5484"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="755.73627"
        y="937.49994"
-       id="use5486" />
+       id="use5486"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="760.74164"
        y="937.49994"
-       id="use5488" />
+       id="use5488"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-32"
        x="763.24213"
        y="937.49994"
-       id="use5490" />
+       id="use5490"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-46"
        x="768.73969"
        y="937.49994"
-       id="use5492" />
+       id="use5492"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-55"
        x="773.74506"
        y="937.49994"
-       id="use5494" />
+       id="use5494"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-13"
        x="778.75043"
        y="937.49994"
-       id="use5496" />
+       id="use5496"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 15.000014,90.000038 h 59.99997 v 22.500002 h -59.99997 z m 0,0"
-     id="path5500" />
+     id="path5500"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -2672,70 +2884,82 @@
        xlink:href="#glyph-0-41"
        x="732.72656"
        y="967.49994"
-       id="use5502" />
+       id="use5502"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-11"
        x="739.22601"
        y="967.49994"
-       id="use5504" />
+       id="use5504"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-24"
        x="744.23138"
        y="967.49994"
-       id="use5506" />
+       id="use5506"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="748.73138"
        y="967.49994"
-       id="use5508" />
+       id="use5508"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="750.7309"
        y="967.49994"
-       id="use5510" />
+       id="use5510"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="755.73627"
        y="967.49994"
-       id="use5512" />
+       id="use5512"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="760.74164"
        y="967.49994"
-       id="use5514" />
+       id="use5514"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-32"
        x="763.24213"
        y="967.49994"
-       id="use5516" />
+       id="use5516"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-46"
        x="768.73969"
        y="967.49994"
-       id="use5518" />
+       id="use5518"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-13"
        x="773.74506"
        y="967.49994"
-       id="use5520" />
+       id="use5520"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-15"
        x="778.75043"
        y="967.49994"
-       id="use5522" />
+       id="use5522"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 15.000014,150.37507 h 59.99997 v 22.5 h -59.99997 z m 0,0"
-     id="path5526" />
+     id="path5526"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -2745,27 +2969,32 @@
        xlink:href="#glyph-7-1"
        x="733.93359"
        y="1023.7499"
-       id="use5528" />
+       id="use5528"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-2"
        x="740.18115"
        y="1023.7499"
-       id="use5530" />
+       id="use5530"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-1"
        x="742.26489"
        y="1023.7499"
-       id="use5532" />
+       id="use5532"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-3"
        x="748.51245"
        y="1023.7499"
-       id="use5534" />
+       id="use5534"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-4"
        x="753.51489"
        y="1023.7499"
-       id="use5536" />
+       id="use5536"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#ffffff"
@@ -2776,32 +3005,38 @@
        xlink:href="#glyph-7-5"
        x="758.79565"
        y="1023.7499"
-       id="use5540" />
+       id="use5540"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-6"
        x="763.37695"
        y="1023.7499"
-       id="use5542" />
+       id="use5542"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-7"
        x="767.5481"
        y="1023.7499"
-       id="use5544" />
+       id="use5544"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-6"
        x="771.71924"
        y="1023.7499"
-       id="use5546" />
+       id="use5546"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-7"
        x="775.89038"
        y="1023.7499"
-       id="use5548" />
+       id="use5548"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-8"
        x="780.06152"
        y="1023.7499"
-       id="use5550" />
+       id="use5550"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#ffffff"
@@ -2812,30 +3047,34 @@
        xlink:href="#glyph-7-9"
        x="750.73828"
        y="1032.75"
-       id="use5554" />
+       id="use5554"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-10"
        x="755.74072"
        y="1032.75"
-       id="use5556" />
+       id="use5556"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-11"
        x="760.74316"
        y="1032.75"
-       id="use5558" />
+       id="use5558"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 15.000014,178.87507 h 59.99997 v 22.5 h -59.99997 z m 0,0"
-     id="path5562" />
+     id="path5562"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -2845,27 +3084,32 @@
        xlink:href="#glyph-7-1"
        x="733.93359"
        y="1052.25"
-       id="use5564" />
+       id="use5564"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-2"
        x="740.18115"
        y="1052.25"
-       id="use5566" />
+       id="use5566"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-1"
        x="742.26489"
        y="1052.25"
-       id="use5568" />
+       id="use5568"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-3"
        x="748.51245"
        y="1052.25"
-       id="use5570" />
+       id="use5570"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-4"
        x="753.51489"
        y="1052.25"
-       id="use5572" />
+       id="use5572"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#ffffff"
@@ -2876,32 +3120,38 @@
        xlink:href="#glyph-7-5"
        x="758.79565"
        y="1052.25"
-       id="use5576" />
+       id="use5576"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-6"
        x="763.37695"
        y="1052.25"
-       id="use5578" />
+       id="use5578"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-7"
        x="767.5481"
        y="1052.25"
-       id="use5580" />
+       id="use5580"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-12"
        x="771.71924"
        y="1052.25"
-       id="use5582" />
+       id="use5582"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-7"
        x="775.89038"
        y="1052.25"
-       id="use5584" />
+       id="use5584"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-8"
        x="780.06152"
        y="1052.25"
-       id="use5586" />
+       id="use5586"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#ffffff"
@@ -2912,30 +3162,34 @@
        xlink:href="#glyph-7-9"
        x="750.73828"
        y="1061.25"
-       id="use5590" />
+       id="use5590"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-10"
        x="755.74072"
        y="1061.25"
-       id="use5592" />
+       id="use5592"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-11"
        x="760.74316"
        y="1061.25"
-       id="use5594" />
+       id="use5594"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 18.285174,240.00007 h 60.00003 v 22.5 h -60.00003 z m 0,0"
-     id="path5598" />
+     id="path5598"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -2945,75 +3199,88 @@
        xlink:href="#glyph-7-13"
        x="739.57031"
        y="1117.5"
-       id="use5600" />
+       id="use5600"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-14"
        x="744.57269"
        y="1117.5"
-       id="use5602" />
+       id="use5602"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-15"
        x="747.07025"
        y="1117.5"
-       id="use5604" />
+       id="use5604"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-16"
        x="751.24139"
        y="1117.5"
-       id="use5606" />
+       id="use5606"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-17"
        x="755.41254"
        y="1117.5"
-       id="use5608" />
+       id="use5608"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-18"
        x="757.0788"
        y="1117.5"
-       id="use5610" />
+       id="use5610"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-19"
        x="761.24994"
        y="1117.5"
-       id="use5612" />
+       id="use5612"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-20"
        x="765.42108"
        y="1117.5"
-       id="use5614" />
+       id="use5614"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-21"
        x="767.50482"
        y="1117.5"
-       id="use5616" />
+       id="use5616"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-22"
        x="772.08612"
        y="1117.5"
-       id="use5618" />
+       id="use5618"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-14"
        x="776.25726"
        y="1117.5"
-       id="use5620" />
+       id="use5620"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-19"
        x="778.75482"
        y="1117.5"
-       id="use5622" />
+       id="use5622"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 18.285174,271.87507 h 60.00003 v 22.5 h -60.00003 z m 0,0"
-     id="path5626" />
+     id="path5626"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -3023,90 +3290,106 @@
        xlink:href="#glyph-7-23"
        x="733.08984"
        y="1149.75"
-       id="use5628" />
+       id="use5628"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-22"
        x="738.09229"
        y="1149.75"
-       id="use5630" />
+       id="use5630"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-22"
        x="742.26343"
        y="1149.75"
-       id="use5632" />
+       id="use5632"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-22"
        x="746.43457"
        y="1149.75"
-       id="use5634" />
+       id="use5634"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-15"
        x="750.60571"
        y="1149.75"
-       id="use5636" />
+       id="use5636"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-16"
        x="754.77686"
        y="1149.75"
-       id="use5638" />
+       id="use5638"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-17"
        x="758.948"
        y="1149.75"
-       id="use5640" />
+       id="use5640"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-18"
        x="760.61426"
        y="1149.75"
-       id="use5642" />
+       id="use5642"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-19"
        x="764.7854"
        y="1149.75"
-       id="use5644" />
+       id="use5644"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-20"
        x="768.95654"
        y="1149.75"
-       id="use5646" />
+       id="use5646"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-24"
        x="771.04028"
        y="1149.75"
-       id="use5648" />
+       id="use5648"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-19"
        x="775.21143"
        y="1149.75"
-       id="use5650" />
+       id="use5650"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-25"
        x="779.38257"
        y="1149.75"
-       id="use5652" />
+       id="use5652"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-16"
        x="781.46631"
        y="1149.75"
-       id="use5654" />
+       id="use5654"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-26"
        x="785.63745"
        y="1149.75"
-       id="use5656" />
+       id="use5656"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 18.285174,330.37507 h 60.00003 v 22.5 h -60.00003 z m 0,0"
-     id="path5660" />
+     id="path5660"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -3116,85 +3399,100 @@
        xlink:href="#glyph-7-23"
        x="733.31244"
        y="1208.25"
-       id="use5662" />
+       id="use5662"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-22"
        x="738.31494"
        y="1208.25"
-       id="use5664" />
+       id="use5664"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-22"
        x="742.48602"
        y="1208.25"
-       id="use5666" />
+       id="use5666"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-22"
        x="746.65717"
        y="1208.25"
-       id="use5668" />
+       id="use5668"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-15"
        x="750.82831"
        y="1208.25"
-       id="use5670" />
+       id="use5670"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-16"
        x="754.99945"
        y="1208.25"
-       id="use5672" />
+       id="use5672"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-17"
        x="759.17059"
        y="1208.25"
-       id="use5674" />
+       id="use5674"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-18"
        x="760.83685"
        y="1208.25"
-       id="use5676" />
+       id="use5676"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-19"
        x="765.008"
        y="1208.25"
-       id="use5678" />
+       id="use5678"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-20"
        x="769.17914"
        y="1208.25"
-       id="use5680" />
+       id="use5680"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-3"
        x="771.26288"
        y="1208.25"
-       id="use5682" />
+       id="use5682"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-2"
        x="776.26532"
        y="1208.25"
-       id="use5684" />
+       id="use5684"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-13"
        x="778.34906"
        y="1208.25"
-       id="use5686" />
+       id="use5686"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-27"
        x="783.3515"
        y="1208.25"
-       id="use5688" />
+       id="use5688"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 18.285174,381.00007 h 60.00003 v 22.5 h -60.00003 z m 0,0"
-     id="path5692" />
+     id="path5692"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -3204,61 +3502,72 @@
        xlink:href="#glyph-7-4"
        x="746.85931"
        y="1258.5"
-       id="use5694" />
+       id="use5694"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-28"
        x="752.27557"
        y="1258.5"
-       id="use5696" />
+       id="use5696"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-17"
        x="757.27802"
        y="1258.5"
-       id="use5698" />
+       id="use5698"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-20"
        x="758.94427"
        y="1258.5"
-       id="use5700" />
+       id="use5700"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-28"
        x="761.02802"
        y="1258.5"
-       id="use5702" />
+       id="use5702"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-17"
        x="766.03046"
        y="1258.5"
-       id="use5704" />
+       id="use5704"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-29"
        x="767.69672"
        y="1258.5"
-       id="use5706" />
+       id="use5706"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-7-19"
        x="771.44672"
        y="1258.5"
-       id="use5708" />
+       id="use5708"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#000000"
+     fill="rgb(0%, 0%, 0%)"
      fill-opacity="1"
      d="m 9.1523242,220.28127 2.2499998,0.016 -0.004,0.75 -2.2499998,-0.016 m 4.5038998,-0.7188 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.5039,-0.7187 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.5039,-0.7188 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.5039,-0.7187 2.25,0.012 -0.004,0.75 -2.25,-0.012 m 4.5039,-0.7227 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.5039,-0.7188 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.5039,-0.7187 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.5039,-0.7188 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.5039,-0.7187 2.25,0.016 -0.008,0.75 -2.24609,-0.016 m 4.5039,-0.7227 2.25,0.016 -0.008,0.75 -2.25,-0.016 m 4.50781,-0.7187 2.25,0.016 -0.008,0.75 -2.25,-0.016 m 4.50781,-0.7188 2.25,0.016 -0.008,0.75 -2.25,-0.016 m 4.50781,-0.7187 2.25,0.016 -0.008,0.75 -2.25,-0.016 m 4.50781,-0.7188 2.25,0.016 -0.008,0.75 -2.25,-0.016 m 4.50781,-0.7187 2.25,0.012 -0.008,0.75 -2.25,-0.012 m 4.50781,-0.7227 2.25,0.016 -0.008,0.75 -2.25,-0.016 m 4.50781,-0.7187 2.25,0.016 -0.008,0.75 -2.25,-0.016 m 4.50781,-0.7188 2.25,0.016 -0.008,0.75 -2.25,-0.016 m 4.50781,-0.7187 2.25,0.016 -0.008,0.75 -2.25,-0.016 m 4.50781,-0.7188 2.246096,0.016 -0.004,0.75 -2.249996,-0.016 m 4.503906,-0.7226 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7188 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7187 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7188 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7187 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7188 2.25,0.012 -0.004,0.75 -2.25,-0.012 m 4.50391,-0.7226 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7188 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7187 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7188 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7187 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7227 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7187 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7188 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7187 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7188 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7187 2.25,0.012 -0.004,0.75 -2.25,-0.012 m 4.50391,-0.7227 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7187 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7188 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7187 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7188 2.25,0.016 -0.004,0.75 -2.25,-0.016 m 4.50391,-0.7226 2.25,0.016 -0.004,0.75 -2.25,-0.016"
-     id="path5712" />
+     id="path5712"
+     style="fill:#000000;fill-opacity:1" />
   <path
      fill-rule="nonzero"
-     fill="#000000"
+     fill="rgb(0%, 0%, 0%)"
      fill-opacity="1"
      d="m 9.1484242,306.90627 h 2.2499998 v 0.75 H 9.1484242 m 4.4999998,-0.7422 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7422 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7422 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7421 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7422 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7422 h 2.249996 v 0.75 h -2.249996 m 4.499996,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7422 h 2.25 v 0.75 h -2.25 m 4.5,-0.746 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7422 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7422 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7422 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.746 h 2.25 v 0.75 h -2.25 m 4.5,-0.7422 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25 m 4.5,-0.7422 h 2.25 v 0.75 h -2.25 m 4.5,-0.7461 h 2.25 v 0.75 h -2.25"
-     id="path5714" />
+     id="path5714"
+     style="fill:#000000;fill-opacity:1" />
   <path
      fill-rule="nonzero"
-     fill="#000000"
+     fill="rgb(0%, 0%, 0%)"
      fill-opacity="1"
      d="m 9.1523242,362.24997 h 2.2499998 l -0.004,0.75 H 9.1483242 m 4.5038998,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7383 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7421 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 2.25,0.01 -0.004,0.75 -2.25,-0.01 m 4.5039,-0.7383 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7421 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7383 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7421 2.25,0.01 -0.004,0.75 -2.25,-0.01 m 4.5039,-0.7383 h 2.249996 l -0.004,0.75 h -2.249996 m 4.503896,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7383 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7421 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 2.25,0.01 -0.004,0.75 -2.25,-0.01 m 4.5039,-0.7383 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7421 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7422 h 2.25 l -0.004,0.75 h -2.25 m 4.5039,-0.7383 h 2.2461 v 0.75 h -2.25 m 4.5,-0.7422 h 2.25 v 0.75 h -2.25 m 4.5,-0.7422 h 2.25 v 0.75 h -2.25 m 4.5,-0.7422 h 2.25 v 0.75 h -2.25 m 4.5,-0.7422 h 2.25 v 0.75 h -2.25 m 4.5,-0.7382 h 2.25 v 0.75 h -2.25 m 4.5,-0.7422 h 2.25 v 0.75 h -2.25 m 4.5,-0.7422 h 2.25 v 0.75 h -2.25"
-     id="path5716" />
+     id="path5716"
+     style="fill:#000000;fill-opacity:1" />
   <g
      fill="#000000"
      fill-opacity="1"
@@ -3268,32 +3577,38 @@
        xlink:href="#glyph-0-27"
        x="746.98828"
        y="1305.75"
-       id="use5718" />
+       id="use5718"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="752.99121"
        y="1305.75"
-       id="use5720" />
+       id="use5720"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-25"
        x="757.99658"
        y="1305.75"
-       id="use5722" />
+       id="use5722"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="763.00195"
        y="1305.75"
-       id="use5724" />
+       id="use5724"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-9"
        x="765.99902"
        y="1305.75"
-       id="use5726" />
+       id="use5726"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-28"
        x="771.00439"
        y="1305.75"
-       id="use5728" />
+       id="use5728"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#000000"
@@ -3304,27 +3619,32 @@
        xlink:href="#glyph-0-53"
        x="871.24213"
        y="1302"
-       id="use5732" />
+       id="use5732"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="878.24261"
        y="1302"
-       id="use5734" />
+       id="use5734"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="881.23969"
        y="1302"
-       id="use5736" />
+       id="use5736"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="886.24506"
        y="1302"
-       id="use5738" />
+       id="use5738"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="890.74506"
        y="1302"
-       id="use5740" />
+       id="use5740"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#000000"
@@ -3335,37 +3655,44 @@
        xlink:href="#glyph-0-5"
        x="868.73431"
        y="1313.25"
-       id="use5744" />
+       id="use5744"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-6"
        x="874.73724"
        y="1313.25"
-       id="use5746" />
+       id="use5746"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="879.74261"
        y="1313.25"
-       id="use5748" />
+       id="use5748"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="881.74213"
        y="1313.25"
-       id="use5750" />
+       id="use5750"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="886.7475"
        y="1313.25"
-       id="use5752" />
+       id="use5752"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-9"
        x="888.74701"
        y="1313.25"
-       id="use5754" />
+       id="use5754"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-28"
        x="893.75238"
        y="1313.25"
-       id="use5756" />
+       id="use5756"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#000000"
@@ -3376,27 +3703,32 @@
        xlink:href="#glyph-0-53"
        x="985.99213"
        y="1302"
-       id="use5760" />
+       id="use5760"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="992.99261"
        y="1302"
-       id="use5762" />
+       id="use5762"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="995.98969"
        y="1302"
-       id="use5764" />
+       id="use5764"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="1000.9951"
        y="1302"
-       id="use5766" />
+       id="use5766"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="1005.4951"
        y="1302"
-       id="use5768" />
+       id="use5768"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#000000"
@@ -3407,36 +3739,43 @@
        xlink:href="#glyph-0-10"
        x="981.23431"
        y="1313.25"
-       id="use5772" />
+       id="use5772"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="988.73138"
        y="1313.25"
-       id="use5774" />
+       id="use5774"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-9"
        x="993.73676"
        y="1313.25"
-       id="use5776" />
+       id="use5776"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-11"
        x="998.74213"
        y="1313.25"
-       id="use5778" />
+       id="use5778"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="1003.7475"
        y="1313.25"
-       id="use5780" />
+       id="use5780"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="1005.747"
        y="1313.25"
-       id="use5782" />
+       id="use5782"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-28"
        x="1010.7524"
        y="1313.25"
-       id="use5784" />
+       id="use5784"
+       style="fill:#000000;fill-opacity:1" />
   </g>
 </svg>

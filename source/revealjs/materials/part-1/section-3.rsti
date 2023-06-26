@@ -10,29 +10,30 @@ Software Architecture
 .. container:: flex-container
 
    .. container:: pct40
-      
+
       .. image:: _images/sw-architecture.svg
          :width: 600
 
    .. container:: pct60
 
       * (mostly) straightforward mapping of already existing architecture to zephyr elements
-      
+
         * services and module core logic become subsystems
         * re-use existing design patterns like :bash:`iterable sections` to implement custom extension points
         * **KConfig** for feature toggles
-      
+
       * hardware abstraction via **device tree** took a couple of iterations, see next slides
 
 Mapping the architecture to source code
 ---------------------------------------
-      
+
 .. container:: flex-container
 
    .. container:: pc50
 
       .. revealjs-code-block:: text
 
+         # source tree structure
          subsys/
          ├── m_afe
          ├── m_heater
@@ -48,20 +49,54 @@ Mapping the architecture to source code
          ├── CMakeLists.txt
          ├── Kconfig
          └── Kconfig.template.subsystem
-   
+
+
+   .. container:: pct50
+
+      * common structure for all modules and services
+      * core logic and bindings in distinct compilation units
+
+CMake Integration
+-----------------
+
+.. container:: flex-container
+
+   .. container:: pct50
+
       .. literalinclude:: /samples/subsys/CMakeLists.txt
+         :caption: subsys/CMakeLists.txt
+
+      .. literalinclude:: /samples/subsys/m_heater/CMakeLists.txt
+         :caption: subsys/m_heater/CMakeLists.txt
+
+
+   .. container:: pct50
+
+      * Zephyr CMake extensions simplify greatly Kconfig integration for conditionally selecting what should be built
+
+
+Kconfig Templates
+-----------------
+
+.. container:: flex-container
 
    .. container:: pct50
 
       .. literalinclude:: /samples/subsys/m_heater/Kconfig
-      .. literalinclude:: /samples/subsys/Kconfig.template.subsystem 
+         :caption: m_heater/Kconfig
 
-Notes
------
+      .. literalinclude:: /samples/subsys/m_afe/Kconfig
+         :caption: m_afe/Kconfig
 
-* map hardware modules to subsystems
-* use Kconfig for feature toggles
-* module bindings extend core services (shell, script engine, data scope, mqtt-rpc)
+   .. container:: pct50
+
+      .. literalinclude:: /samples/subsys/Kconfig.template.subsystem
+         :caption: subsys/Kconfig.template.subsystem
+         :emphasize-lines: 12,16,20,25
+
+* templates help to provide consistent **CONFIG_** keys for each module
+* templates can be nested
+* module binding enablements depend on enabled services via Kconfig
 
 Device tree - Round 1
 =====================
@@ -73,28 +108,83 @@ Device tree - Round 1
 
       .. image:: _images/hw-sw-domains.svg
          :width: 900
-      
-      
+
+
       .. image:: _images/devicetree-1.svg
          :width: 900
+
+      .. revealjs-code-block:: text
+
+         boards/
+            └── devrig
+                └── devrig.dts
+
+      .. revealjs-code-block:: bash
+
+         west build -b devrig ...
 
    .. container:: pct40
 
       * trivial (and wrong) mapping
-      * still good enough to make a start 
+      * still good enough to make a start
       * bind subsystems only via :bash:`"aliases"`, :bash:`"zephyr,user"`, :bash:`"dt,chosen"`
 
 
-.. revealjs-code-block:: bash
 
-   west build -b devrig ...
+
+Device Tree for Development Rig
+-------------------------------
+
+.. container:: flex-container
+
+   .. container:: 60pct
+
+      .. literalinclude:: /samples/boards/devrig/devrig.dts
+         :caption: boards/devrig/devrig.dts
+         :lines:  1-8, 35-61
+
+   .. container:: 40pct
+
+      * Module core logic only depends on **zephyr,user** properties
+      * Binding between System Architecture, Schematic Design and Device Tree (Software)
+
+Direct coupling of Peripheral Board to Pin Out of Control Board
+---------------------------------------------------------------
+
+.. container:: flex-container
+
+   .. container:: 60pct
+
+      .. literalinclude:: /samples/boards/devrig/devrig.dts
+         :caption: boards/devrig/devrig.dts
+         :lines:  70-78, 143-151
+
+      .. literalinclude:: /samples/boards/devrig/devrig.dts
+         :lines:  168-180
+
+   .. container:: 40pct
+
+      * Devices on Peripheral Board directly coupled to nodes
+        of Control device tree all the way down to pin-outs of MCU
+
+      * Control Board and Peripheral Board no longer exist as distinct
+        entities within Software abstraction
+
+      * No way to appropriately model different board revisions separately
+
+Complete devrig.dts
+-------------------
+
+.. literalinclude:: /samples/boards/devrig/devrig.dts
+
+
 
 Reality Check
 =============
 
 |nbsp|
 
-System testing showed that motor was not strong enough, needed bigger motor (and driver). Also, a couple of 
+System testing showed that motor was not strong enough, needed bigger motor (and driver). Also, a couple of
 other findings ...
 
 The peripherals board revision 2 was coming ...
@@ -108,36 +198,65 @@ Device tree - Round 2
 
       .. image:: _images/hw-sw-domains.svg
          :width: 900
-      
-      
+
+
       .. image:: _images/devicetree-2.svg
          :width: 900
+
+      .. revealjs-code-block:: text
+
+         ├── boards
+         │   ├── control
+         │   │   ├── control.dts
+         ├── shields
+         │   ├── peripherals
+         │   │   ├── boards
+         │   │   │   ├── peripherals_v1
+         │   │   │   │   └── control.overlay
+         │   │   │   └── peripherals_v2
+         │   │   │       └── control.overlay
+         │   │   ├── peripherals_v1.overlay
+         │   │   └── peripherals_v2.overlay
+
+      .. revealjs-code-block:: bash
+
+         west build -b control ... -- -DSHIELDS="peripherals_v1"
+         west build -b control ... -- -DSHIELDS="peripherals_v2"
 
    .. container:: pct40
 
       * trivial approach leads to duplicates once hardware revisions enter the stage
       * **shields** provide a decent abstraction to map 1:1 actual hardware entities (boards) to software entities (board, shields)
       * in addition shields can have board specific overlays
-      
+
         * this is how we actually refactored :bash:`devrig` into :bash:`core` and :bash:`peripherals`
         * introducing new hardware revisions for peripherals board now boils down to adding new overlays
 
 
-.. revealjs-code-block:: bash
+Complete control.overlays
+--------------------------------------
 
-   west build -b core ... -- -DSHIELDS="peripherals_v1"
-   west build -b core ... -- -DSHIELDS="peripherals_v2"
+.. container:: flex-container
 
+   .. container:: 50pct
+
+      .. literalinclude:: /samples/shields/peripherals/boards/peripherals_v1/control.overlay
+         :language: deviceetree
+
+   .. container:: 50pct
+
+      .. literalinclude:: /samples/shields/peripherals/boards/peripherals_v2/control.overlay
+         :language: devicetree
 
 Reality Check
 =============
 
 |nbsp|
 
-We needed to build 200 additional rigs for lab testing but couldn't even build another 5 core boards due to
-supply shortage. 
+We needed to build **200** additional rigs for lab testing but couldn't even build another 5 core boards due to
+supply shortage.
 
-Well, we couldn't buy STM32F7 chips, but we could still buy *Nucleo-F767* boards :-)
+Well, although we couldn't buy STM32F7 chips, we could still buy *Nucleo-F767* boards :-)
 
 Now the question becomes: How can we model rigs with *Nucleo* rather than core boards?
 
@@ -150,10 +269,31 @@ Device tree - Round 3
 
       .. image:: _images/hw-sw-domains.svg
          :width: 900
-      
-      
+
+
       .. image:: _images/devicetree-3.svg
          :width: 900
+
+      .. revealjs-code-block:: text
+
+         ├── boards
+         │   ├── control
+         │   │   ├── control.dts
+         │   │   └── prph_if.dtsi
+         ├── dts
+         │   └── bindings
+         │       └── gpio
+         │           └── acme,prph_if.yaml
+         ├── shields
+         │   └── x_peripherals
+         │       ├── x_peripherals_v1.overlay
+         │       └── x_peripherals_v2.overlay
+
+
+      .. revealjs-code-block:: bash
+
+         west build -b core ... -- -DSHIELDS="peripherals_v1"
+         west build -b core ... -- -DSHIELDS="peripherals_v2"
 
    .. container:: pct40
 
@@ -162,10 +302,6 @@ Device tree - Round 3
       * followed what exists for *Arduino* connector in many boards
       * shields now depend on an abstraction, not underlying board details
 
-.. revealjs-code-block:: bash
-
-   west build -b core ... -- -DSHIELDS="peripherals_v1"
-   west build -b core ... -- -DSHIELDS="peripherals_v2"
 
 
 Device tree - Round 4
@@ -177,28 +313,40 @@ Device tree - Round 4
 
       .. image:: _images/hw-sw-domains.svg
          :width: 900
-      
-      
+
+
       .. image:: _images/devicetree-4.svg
          :width: 900
+
+      .. revealjs-code-block:: text
+
+         ├── shields
+         │   ├── x_nucleo_144
+         │   │   ├── boards
+         │   │   │   ├── nucleo_f767zi.overlay
+         │   │   └── x_nucleo_144.overlay
+         │   ├── x_nucleo_nexus
+         │   │   ├── boards
+         │   │   │   └── nucleo_f767zi.overlay
+         │   │   └── x_nucleo_nexus.overlay
+         │   └── x_peripherals
+
+
+      .. revealjs-code-block:: bash
+
+         west build -b nucleo_f767zi ... -- -DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v1"
+         west build -b nucleo_f767zi ... -- -DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v2"
 
    .. container:: pct40
 
       * needed another 'routing' board to map *Nucleo* connectors (st-morpho) to peripherals board connector
       * motivates new shield :bash:`x_nucleo_nexus`
-      
+
         * needs to realize peripherals connector interface :bash:`prph_IF` similar to core board
-        * implement bindings in terms of another abstraction for the st-morpho connector :bash:`morpho_IF`  
+        * implement bindings in terms of another abstraction for the st-morpho connector :bash:`morpho_IF`
         * create a virtual shield :bash:`x_nucleo_144` to "inject" :bash:`morpho_IF` into board device tree
 
 
-.. revealjs-code-block:: bash
-
-   west build -b core          ... -- -DSHIELDS="peripherals_v1"
-   west build -b core          ... -- -DSHIELDS="peripherals_v2"
-   
-   west build -b nucleo_f767zi ... -- -DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v1"
-   west build -b nucleo_f767zi ... -- -DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v2"
 
 
 Reality Check
@@ -206,9 +354,9 @@ Reality Check
 
 |nbsp|
 
-Turns out we can't get enough Nucleo-F767 either. 
+Turns out we can't get enough Nucleo-F767 either.
 
-But didn't you say, one Nucleo-144 is a good as any other? 
+But didn't you say, one Nucleo-144 is a good as any other?
 
 So, what about Nucleo-H743 and Nucleo-H745?
 
@@ -236,7 +384,7 @@ What did we achieve?
 .. revealjs-code-block:: bash
 
    west build -b core          ... -- -DSHIELDS="peripherals_v1"
-  
+
    west build -b nucleo_f767zi ... -- -DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v1"
 
    west build -b nucleo_h743zi ... -- -DSHIELDS="x_nucleo_144; x_nucleo_nexus; peripherals_v1"
@@ -245,52 +393,51 @@ What did we achieve?
 The moment of true love
 =======================
 
-.. revealjs-fragments:: 
+.. revealjs-fragments::
 
    .. container:: flex-container
-   
-      .. container:: 50pct 
-   
+
+      .. container:: 50pct
+
          .. image:: _images/full-rig.svg
             :width: 1000
-   
+
       .. container:: 50pct
-   
+
          * reality knocked at our door once more ...
-         * connection between application controller and realtime controller based on private Ethernet link 
-         * original application control impossible to make, too 
-           
+         * connection between application controller and realtime controller based on private Ethernet link
+         * original application control impossible to make, too
+
            * featured two distinct Ethernet interfaces
-     
+
          * Raspberry Pi 4 as substitute
-         
-           * features only one Ethernet link 
-   
+
+           * features only one Ethernet link
+
    .. container:: flex-container
-   
-      .. container:: 50pct 
-   
+
+      .. container:: 50pct
+
          .. revealjs-code-block:: kconfig
-         
+
             # overlay netusb.conf
             # Enable USB device stack
             CONFIG_USB_DEVICE_STACK=y
-            
+
             # Select USB network device class (CDC-ECM)
             CONFIG_USB_DEVICE_NETWORK_ECM=y
             CONFIG_NET_CONFIG_NEED_IPV4=n
-   
+
          .. revealjs-code-block:: bash
-   
+
             west build -b nucleo_f767zi -- -DSHIELDS="..." -DOVERLAY_CONF="netusb.conf"
-   
+
       .. container:: 50pct
-   
+
          * Zephyr (and Yocto Linux) had all on board to switch to Ethernet over USB with a few lines of additional configuration code
          * All upper layers (TCP - MQTT - MQTT-RPC - Application) worked right away
-   
-   Most embedded developers we have worked with wouldn't believe this is possible
 
+   Most embedded developers we have worked with wouldn't believe this is possible
 
 
 

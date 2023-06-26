@@ -1,13 +1,12 @@
 if SUBSYS_$(subsys)
-
     config ACME_SUBSYS_$(subsys)_PRIORITY_INDEX
         int "Priority index for startup"
         default 42
- 
+
     config ACME_SUBSYS_$(subsys)_THREAD_STACK_SIZE
         int "Stack size of subsystem thread"
         default 2048
- 
+
     config ACME_SUBSYS_$(subsys)_MQTT_RPC
         bool "Enable MQTT-RPC bindings for $(subsys-str) subsystem"
         depends on ACME_MQTT_RPC
@@ -15,15 +14,13 @@ if SUBSYS_$(subsys)
     config ACME_SUBSYS_$(subsys)_SHELL
         bool "Enable shell bindings for $(subsys-str) subsystem"
         depends on SHELL
-    
+
     config ACME_SUBSYS_$(subsys)_SCOPE
         bool "Enable data scope bindings for $(subsys-str) subsystem"
         depends on ACME_SCOPE
- 
+
     # add a log level option using zephyr's template
     module = ACME_SUBSYS_$(subsys)
     module-str = $(subsys-str) subsystem
     source "subsys/logging/Kconfig.template.log_config"
-
 endif
-

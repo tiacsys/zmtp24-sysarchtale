@@ -5,7 +5,8 @@
    viewBox="0 0 446.25 231.00001"
    version="1.1"
    id="svg6220"
-   sodipodi:docname="eoss_prague(6)(1).svg"
+   sodipodi:docname="all-figures.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -13,15 +14,24 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview3243"
-     pagecolor="#ffffff"
+     pagecolor="#cecece"
      bordercolor="#000000"
      borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
-     showgrid="false" />
+     showgrid="false"
+     inkscape:zoom="1.4080504"
+     inkscape:cx="426.47621"
+     inkscape:cy="430.38232"
+     inkscape:window-width="1792"
+     inkscape:window-height="1047"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6220" />
   <defs
      id="defs1162">
     <g
@@ -1517,260 +1527,6 @@
          d="m 1089,1548.75 c 11.4375,-8.1992 11.8242,-12.9805 11.8828,-14.4766 0.074,-2.0937 -0.2187,-7.5781 -5.7422,-8.0039 -0.6601,-0.055 -1.3125,0 -1.957,0.1602 -0.6406,0.1641 -1.2422,0.4258 -1.7969,0.7891 -0.5586,0.3593 -1.039,0.8007 -1.4492,1.3242 -0.4062,0.5234 -0.7227,1.0976 -0.9375,1.7226 -0.2187,-0.625 -0.5312,-1.1992 -0.9375,-1.7187 -0.4102,-0.5235 -0.8906,-0.9649 -1.4453,-1.3281 -0.5586,-0.3594 -1.1563,-0.625 -1.7969,-0.7852 -0.6445,-0.1641 -1.293,-0.2188 -1.957,-0.1641 -5.5195,0.4336 -5.8125,5.9102 -5.75,8.0039 0.055,1.4961 0.4375,6.2774 11.8867,14.4766"
          id="path745" />
     </clipPath>
-    <linearGradient
-       id="linear-pattern-0"
-       gradientUnits="userSpaceOnUse"
-       x1="9"
-       y1="15.144819"
-       x2="9"
-       y2="6.3313901e-06"
-       gradientTransform="matrix(1.485654,0,0,1.485654,1077.1074,1526.2499)">
-      <stop
-         offset="0"
-         stop-color="rgb(72.499084%, 10.955811%, 10.955811%)"
-         stop-opacity="1"
-         id="stop748" />
-      <stop
-         offset="0.015625"
-         stop-color="rgb(72.689819%, 10.984802%, 10.984802%)"
-         stop-opacity="1"
-         id="stop750" />
-      <stop
-         offset="0.03125"
-         stop-color="rgb(73.069763%, 11.044312%, 11.044312%)"
-         stop-opacity="1"
-         id="stop752" />
-      <stop
-         offset="0.046875"
-         stop-color="rgb(73.451233%, 11.102295%, 11.102295%)"
-         stop-opacity="1"
-         id="stop754" />
-      <stop
-         offset="0.0625"
-         stop-color="rgb(73.832703%, 11.161804%, 11.161804%)"
-         stop-opacity="1"
-         id="stop756" />
-      <stop
-         offset="0.078125"
-         stop-color="rgb(74.214172%, 11.221313%, 11.221313%)"
-         stop-opacity="1"
-         id="stop758" />
-      <stop
-         offset="0.09375"
-         stop-color="rgb(74.594116%, 11.279297%, 11.279297%)"
-         stop-opacity="1"
-         id="stop760" />
-      <stop
-         offset="0.109375"
-         stop-color="rgb(74.975586%, 11.338806%, 11.338806%)"
-         stop-opacity="1"
-         id="stop762" />
-      <stop
-         offset="0.125"
-         stop-color="rgb(75.357056%, 11.398315%, 11.398315%)"
-         stop-opacity="1"
-         id="stop764" />
-      <stop
-         offset="0.140625"
-         stop-color="rgb(75.738525%, 11.457825%, 11.457825%)"
-         stop-opacity="1"
-         id="stop766" />
-      <stop
-         offset="0.15625"
-         stop-color="rgb(76.118469%, 11.515808%, 11.515808%)"
-         stop-opacity="1"
-         id="stop768" />
-      <stop
-         offset="0.171875"
-         stop-color="rgb(76.499939%, 11.575317%, 11.575317%)"
-         stop-opacity="1"
-         id="stop770" />
-      <stop
-         offset="0.1875"
-         stop-color="rgb(76.881409%, 11.634827%, 11.634827%)"
-         stop-opacity="1"
-         id="stop772" />
-      <stop
-         offset="0.203125"
-         stop-color="rgb(77.262878%, 11.69281%, 11.69281%)"
-         stop-opacity="1"
-         id="stop774" />
-      <stop
-         offset="0.21875"
-         stop-color="rgb(77.642822%, 11.752319%, 11.752319%)"
-         stop-opacity="1"
-         id="stop776" />
-      <stop
-         offset="0.234375"
-         stop-color="rgb(78.024292%, 11.811829%, 11.811829%)"
-         stop-opacity="1"
-         id="stop778" />
-      <stop
-         offset="0.25"
-         stop-color="rgb(78.405762%, 11.871338%, 11.871338%)"
-         stop-opacity="1"
-         id="stop780" />
-      <stop
-         offset="0.265625"
-         stop-color="rgb(78.787231%, 11.929321%, 11.929321%)"
-         stop-opacity="1"
-         id="stop782" />
-      <stop
-         offset="0.28125"
-         stop-color="rgb(79.167175%, 11.988831%, 11.988831%)"
-         stop-opacity="1"
-         id="stop784" />
-      <stop
-         offset="0.296875"
-         stop-color="rgb(79.548645%, 12.04834%, 12.04834%)"
-         stop-opacity="1"
-         id="stop786" />
-      <stop
-         offset="0.3125"
-         stop-color="rgb(79.930115%, 12.106323%, 12.106323%)"
-         stop-opacity="1"
-         id="stop788" />
-      <stop
-         offset="0.328125"
-         stop-color="rgb(80.310059%, 12.165833%, 12.165833%)"
-         stop-opacity="1"
-         id="stop790" />
-      <stop
-         offset="0.34375"
-         stop-color="rgb(80.691528%, 12.225342%, 12.225342%)"
-         stop-opacity="1"
-         id="stop792" />
-      <stop
-         offset="0.359375"
-         stop-color="rgb(81.072998%, 12.284851%, 12.284851%)"
-         stop-opacity="1"
-         id="stop794" />
-      <stop
-         offset="0.375"
-         stop-color="rgb(81.454468%, 12.342834%, 12.342834%)"
-         stop-opacity="1"
-         id="stop796" />
-      <stop
-         offset="0.390625"
-         stop-color="rgb(81.834412%, 12.402344%, 12.402344%)"
-         stop-opacity="1"
-         id="stop798" />
-      <stop
-         offset="0.40625"
-         stop-color="rgb(82.215881%, 12.461853%, 12.461853%)"
-         stop-opacity="1"
-         id="stop800" />
-      <stop
-         offset="0.421875"
-         stop-color="rgb(82.597351%, 12.519836%, 12.519836%)"
-         stop-opacity="1"
-         id="stop802" />
-      <stop
-         offset="0.4375"
-         stop-color="rgb(82.978821%, 12.579346%, 12.579346%)"
-         stop-opacity="1"
-         id="stop804" />
-      <stop
-         offset="0.453125"
-         stop-color="rgb(83.358765%, 12.638855%, 12.638855%)"
-         stop-opacity="1"
-         id="stop806" />
-      <stop
-         offset="0.46875"
-         stop-color="rgb(83.740234%, 12.698364%, 12.698364%)"
-         stop-opacity="1"
-         id="stop808" />
-      <stop
-         offset="0.484375"
-         stop-color="rgb(84.121704%, 12.756348%, 12.756348%)"
-         stop-opacity="1"
-         id="stop810" />
-      <stop
-         offset="0.5"
-         stop-color="rgb(84.503174%, 12.815857%, 12.815857%)"
-         stop-opacity="1"
-         id="stop812" />
-      <stop
-         offset="0.515625"
-         stop-color="rgb(84.883118%, 12.875366%, 12.875366%)"
-         stop-opacity="1"
-         id="stop814" />
-      <stop
-         offset="0.53125"
-         stop-color="rgb(85.264587%, 12.93335%, 12.93335%)"
-         stop-opacity="1"
-         id="stop816" />
-      <stop
-         offset="0.546875"
-         stop-color="rgb(85.646057%, 12.992859%, 12.992859%)"
-         stop-opacity="1"
-         id="stop818" />
-      <stop
-         offset="0.5625"
-         stop-color="rgb(86.027527%, 13.052368%, 13.052368%)"
-         stop-opacity="1"
-         id="stop820" />
-      <stop
-         offset="0.578125"
-         stop-color="rgb(86.407471%, 13.110352%, 13.110352%)"
-         stop-opacity="1"
-         id="stop822" />
-      <stop
-         offset="0.59375"
-         stop-color="rgb(86.78894%, 13.169861%, 13.169861%)"
-         stop-opacity="1"
-         id="stop824" />
-      <stop
-         offset="0.609375"
-         stop-color="rgb(87.17041%, 13.22937%, 13.22937%)"
-         stop-opacity="1"
-         id="stop826" />
-      <stop
-         offset="0.625"
-         stop-color="rgb(87.550354%, 13.288879%, 13.288879%)"
-         stop-opacity="1"
-         id="stop828" />
-      <stop
-         offset="0.640625"
-         stop-color="rgb(87.931824%, 13.346863%, 13.346863%)"
-         stop-opacity="1"
-         id="stop830" />
-      <stop
-         offset="0.65625"
-         stop-color="rgb(88.313293%, 13.406372%, 13.406372%)"
-         stop-opacity="1"
-         id="stop832" />
-      <stop
-         offset="0.671875"
-         stop-color="rgb(88.694763%, 13.465881%, 13.465881%)"
-         stop-opacity="1"
-         id="stop834" />
-      <stop
-         offset="0.6875"
-         stop-color="rgb(89.074707%, 13.523865%, 13.523865%)"
-         stop-opacity="1"
-         id="stop836" />
-      <stop
-         offset="0.703125"
-         stop-color="rgb(89.456177%, 13.583374%, 13.583374%)"
-         stop-opacity="1"
-         id="stop838" />
-      <stop
-         offset="0.71875"
-         stop-color="rgb(89.837646%, 13.642883%, 13.642883%)"
-         stop-opacity="1"
-         id="stop840" />
-      <stop
-         offset="0.75"
-         stop-color="rgb(90.113831%, 13.685608%, 13.685608%)"
-         stop-opacity="1"
-         id="stop842" />
-      <stop
-         offset="1"
-         stop-color="rgb(90.19928%, 13.699341%, 13.699341%)"
-         stop-opacity="1"
-         id="stop844" />
-    </linearGradient>
     <clipPath
        id="clip-2">
       <path
@@ -1785,260 +1541,6 @@
          d="m 1100.8828,1534.2734 c 0.074,-2.0937 -0.2187,-7.5781 -5.7422,-8.0039 -0.6601,-0.055 -1.3125,0 -1.957,0.1602 -0.6406,0.1641 -1.2422,0.4258 -1.7969,0.7891 -0.5586,0.3593 -1.039,0.8007 -1.4492,1.3242 -0.4062,0.5234 -0.7227,1.0976 -0.9375,1.7226 -0.2187,-0.625 -0.5312,-1.1992 -0.9375,-1.7187 -0.4102,-0.5235 -0.8906,-0.9649 -1.4453,-1.3281 -0.5586,-0.3594 -1.1563,-0.625 -1.7969,-0.7852 -0.6445,-0.1641 -1.293,-0.2188 -1.957,-0.1641 -5.5195,0.4336 -5.8125,5.9102 -5.75,8.0039 0.055,1.4961 0.3398,6.2071 11.7773,14.4102"
          id="path850" />
     </clipPath>
-    <linearGradient
-       id="linear-pattern-1"
-       gradientUnits="userSpaceOnUse"
-       x1="9"
-       y1="15.099819"
-       x2="9"
-       y2="6.3313901e-06"
-       gradientTransform="matrix(1.485654,0,0,1.485654,1077.1074,1526.2499)">
-      <stop
-         offset="0"
-         stop-color="rgb(72.502136%, 10.955811%, 10.955811%)"
-         stop-opacity="1"
-         id="stop853" />
-      <stop
-         offset="0.015625"
-         stop-color="rgb(72.691345%, 10.984802%, 10.984802%)"
-         stop-opacity="1"
-         id="stop855" />
-      <stop
-         offset="0.03125"
-         stop-color="rgb(73.072815%, 11.044312%, 11.044312%)"
-         stop-opacity="1"
-         id="stop857" />
-      <stop
-         offset="0.046875"
-         stop-color="rgb(73.454285%, 11.103821%, 11.103821%)"
-         stop-opacity="1"
-         id="stop859" />
-      <stop
-         offset="0.0625"
-         stop-color="rgb(73.835754%, 11.161804%, 11.161804%)"
-         stop-opacity="1"
-         id="stop861" />
-      <stop
-         offset="0.078125"
-         stop-color="rgb(74.217224%, 11.221313%, 11.221313%)"
-         stop-opacity="1"
-         id="stop863" />
-      <stop
-         offset="0.09375"
-         stop-color="rgb(74.597168%, 11.280823%, 11.280823%)"
-         stop-opacity="1"
-         id="stop865" />
-      <stop
-         offset="0.109375"
-         stop-color="rgb(74.978638%, 11.338806%, 11.338806%)"
-         stop-opacity="1"
-         id="stop867" />
-      <stop
-         offset="0.125"
-         stop-color="rgb(75.360107%, 11.398315%, 11.398315%)"
-         stop-opacity="1"
-         id="stop869" />
-      <stop
-         offset="0.140625"
-         stop-color="rgb(75.741577%, 11.457825%, 11.457825%)"
-         stop-opacity="1"
-         id="stop871" />
-      <stop
-         offset="0.15625"
-         stop-color="rgb(76.121521%, 11.517334%, 11.517334%)"
-         stop-opacity="1"
-         id="stop873" />
-      <stop
-         offset="0.171875"
-         stop-color="rgb(76.502991%, 11.575317%, 11.575317%)"
-         stop-opacity="1"
-         id="stop875" />
-      <stop
-         offset="0.1875"
-         stop-color="rgb(76.88446%, 11.634827%, 11.634827%)"
-         stop-opacity="1"
-         id="stop877" />
-      <stop
-         offset="0.203125"
-         stop-color="rgb(77.26593%, 11.694336%, 11.694336%)"
-         stop-opacity="1"
-         id="stop879" />
-      <stop
-         offset="0.21875"
-         stop-color="rgb(77.6474%, 11.753845%, 11.753845%)"
-         stop-opacity="1"
-         id="stop881" />
-      <stop
-         offset="0.234375"
-         stop-color="rgb(78.027344%, 11.811829%, 11.811829%)"
-         stop-opacity="1"
-         id="stop883" />
-      <stop
-         offset="0.25"
-         stop-color="rgb(78.408813%, 11.871338%, 11.871338%)"
-         stop-opacity="1"
-         id="stop885" />
-      <stop
-         offset="0.265625"
-         stop-color="rgb(78.790283%, 11.930847%, 11.930847%)"
-         stop-opacity="1"
-         id="stop887" />
-      <stop
-         offset="0.28125"
-         stop-color="rgb(79.171753%, 11.988831%, 11.988831%)"
-         stop-opacity="1"
-         id="stop889" />
-      <stop
-         offset="0.296875"
-         stop-color="rgb(79.553223%, 12.04834%, 12.04834%)"
-         stop-opacity="1"
-         id="stop891" />
-      <stop
-         offset="0.3125"
-         stop-color="rgb(79.933167%, 12.107849%, 12.107849%)"
-         stop-opacity="1"
-         id="stop893" />
-      <stop
-         offset="0.328125"
-         stop-color="rgb(80.314636%, 12.167358%, 12.167358%)"
-         stop-opacity="1"
-         id="stop895" />
-      <stop
-         offset="0.34375"
-         stop-color="rgb(80.696106%, 12.225342%, 12.225342%)"
-         stop-opacity="1"
-         id="stop897" />
-      <stop
-         offset="0.359375"
-         stop-color="rgb(81.077576%, 12.284851%, 12.284851%)"
-         stop-opacity="1"
-         id="stop899" />
-      <stop
-         offset="0.375"
-         stop-color="rgb(81.45752%, 12.34436%, 12.34436%)"
-         stop-opacity="1"
-         id="stop901" />
-      <stop
-         offset="0.390625"
-         stop-color="rgb(81.838989%, 12.402344%, 12.402344%)"
-         stop-opacity="1"
-         id="stop903" />
-      <stop
-         offset="0.40625"
-         stop-color="rgb(82.220459%, 12.461853%, 12.461853%)"
-         stop-opacity="1"
-         id="stop905" />
-      <stop
-         offset="0.421875"
-         stop-color="rgb(82.601929%, 12.521362%, 12.521362%)"
-         stop-opacity="1"
-         id="stop907" />
-      <stop
-         offset="0.4375"
-         stop-color="rgb(82.983398%, 12.580872%, 12.580872%)"
-         stop-opacity="1"
-         id="stop909" />
-      <stop
-         offset="0.453125"
-         stop-color="rgb(83.363342%, 12.638855%, 12.638855%)"
-         stop-opacity="1"
-         id="stop911" />
-      <stop
-         offset="0.46875"
-         stop-color="rgb(83.744812%, 12.698364%, 12.698364%)"
-         stop-opacity="1"
-         id="stop913" />
-      <stop
-         offset="0.484375"
-         stop-color="rgb(84.126282%, 12.757874%, 12.757874%)"
-         stop-opacity="1"
-         id="stop915" />
-      <stop
-         offset="0.5"
-         stop-color="rgb(84.507751%, 12.815857%, 12.815857%)"
-         stop-opacity="1"
-         id="stop917" />
-      <stop
-         offset="0.515625"
-         stop-color="rgb(84.889221%, 12.875366%, 12.875366%)"
-         stop-opacity="1"
-         id="stop919" />
-      <stop
-         offset="0.53125"
-         stop-color="rgb(85.269165%, 12.934875%, 12.934875%)"
-         stop-opacity="1"
-         id="stop921" />
-      <stop
-         offset="0.546875"
-         stop-color="rgb(85.650635%, 12.994385%, 12.994385%)"
-         stop-opacity="1"
-         id="stop923" />
-      <stop
-         offset="0.5625"
-         stop-color="rgb(86.032104%, 13.052368%, 13.052368%)"
-         stop-opacity="1"
-         id="stop925" />
-      <stop
-         offset="0.578125"
-         stop-color="rgb(86.413574%, 13.111877%, 13.111877%)"
-         stop-opacity="1"
-         id="stop927" />
-      <stop
-         offset="0.59375"
-         stop-color="rgb(86.793518%, 13.171387%, 13.171387%)"
-         stop-opacity="1"
-         id="stop929" />
-      <stop
-         offset="0.609375"
-         stop-color="rgb(87.174988%, 13.22937%, 13.22937%)"
-         stop-opacity="1"
-         id="stop931" />
-      <stop
-         offset="0.625"
-         stop-color="rgb(87.556458%, 13.288879%, 13.288879%)"
-         stop-opacity="1"
-         id="stop933" />
-      <stop
-         offset="0.640625"
-         stop-color="rgb(87.937927%, 13.348389%, 13.348389%)"
-         stop-opacity="1"
-         id="stop935" />
-      <stop
-         offset="0.65625"
-         stop-color="rgb(88.319397%, 13.407898%, 13.407898%)"
-         stop-opacity="1"
-         id="stop937" />
-      <stop
-         offset="0.671875"
-         stop-color="rgb(88.699341%, 13.465881%, 13.465881%)"
-         stop-opacity="1"
-         id="stop939" />
-      <stop
-         offset="0.6875"
-         stop-color="rgb(89.080811%, 13.525391%, 13.525391%)"
-         stop-opacity="1"
-         id="stop941" />
-      <stop
-         offset="0.703125"
-         stop-color="rgb(89.46228%, 13.5849%, 13.5849%)"
-         stop-opacity="1"
-         id="stop943" />
-      <stop
-         offset="0.71875"
-         stop-color="rgb(89.84375%, 13.642883%, 13.642883%)"
-         stop-opacity="1"
-         id="stop945" />
-      <stop
-         offset="0.75"
-         stop-color="rgb(90.116882%, 13.685608%, 13.685608%)"
-         stop-opacity="1"
-         id="stop947" />
-      <stop
-         offset="1"
-         stop-color="rgb(90.19928%, 13.699341%, 13.699341%)"
-         stop-opacity="1"
-         id="stop949" />
-    </linearGradient>
     <clipPath
        id="clip-4">
       <path
@@ -2053,260 +1555,6 @@
          d="m 1101.0039,1560.75 c 6.1016,-4.3711 6.3086,-6.9219 6.3399,-7.7227 0.039,-1.1132 -0.1172,-4.039 -3.0625,-4.2656 -0.3555,-0.031 -0.7032,0 -1.043,0.086 -0.3438,0.086 -0.6641,0.2265 -0.961,0.4179 -0.2968,0.1914 -0.5546,0.4297 -0.7734,0.7071 -0.2187,0.2773 -0.3828,0.5859 -0.5,0.9179 -0.1172,-0.332 -0.2851,-0.6367 -0.5,-0.9179 -0.2187,-0.2774 -0.4766,-0.5118 -0.7734,-0.7071 -0.2969,-0.1914 -0.6133,-0.332 -0.9571,-0.4179 -0.3437,-0.086 -0.6914,-0.1172 -1.0429,-0.086 -2.9453,0.2305 -3.1016,3.1524 -3.0703,4.2656 0.031,0.8008 0.2343,3.3516 6.3437,7.7227"
          id="path955" />
     </clipPath>
-    <linearGradient
-       id="linear-pattern-2"
-       gradientUnits="userSpaceOnUse"
-       x1="9"
-       y1="15.144745"
-       x2="9"
-       y2="-9.5325697e-05"
-       gradientTransform="matrix(0.792695,0,0,0.792349,1094.6583,1548.75)">
-      <stop
-         offset="0"
-         stop-color="rgb(72.499084%, 10.955811%, 10.955811%)"
-         stop-opacity="1"
-         id="stop958" />
-      <stop
-         offset="0.015625"
-         stop-color="rgb(72.689819%, 10.984802%, 10.984802%)"
-         stop-opacity="1"
-         id="stop960" />
-      <stop
-         offset="0.03125"
-         stop-color="rgb(73.071289%, 11.044312%, 11.044312%)"
-         stop-opacity="1"
-         id="stop962" />
-      <stop
-         offset="0.046875"
-         stop-color="rgb(73.451233%, 11.102295%, 11.102295%)"
-         stop-opacity="1"
-         id="stop964" />
-      <stop
-         offset="0.0625"
-         stop-color="rgb(73.832703%, 11.161804%, 11.161804%)"
-         stop-opacity="1"
-         id="stop966" />
-      <stop
-         offset="0.078125"
-         stop-color="rgb(74.214172%, 11.221313%, 11.221313%)"
-         stop-opacity="1"
-         id="stop968" />
-      <stop
-         offset="0.09375"
-         stop-color="rgb(74.595642%, 11.279297%, 11.279297%)"
-         stop-opacity="1"
-         id="stop970" />
-      <stop
-         offset="0.109375"
-         stop-color="rgb(74.975586%, 11.338806%, 11.338806%)"
-         stop-opacity="1"
-         id="stop972" />
-      <stop
-         offset="0.125"
-         stop-color="rgb(75.357056%, 11.398315%, 11.398315%)"
-         stop-opacity="1"
-         id="stop974" />
-      <stop
-         offset="0.140625"
-         stop-color="rgb(75.738525%, 11.457825%, 11.457825%)"
-         stop-opacity="1"
-         id="stop976" />
-      <stop
-         offset="0.15625"
-         stop-color="rgb(76.118469%, 11.515808%, 11.515808%)"
-         stop-opacity="1"
-         id="stop978" />
-      <stop
-         offset="0.171875"
-         stop-color="rgb(76.499939%, 11.575317%, 11.575317%)"
-         stop-opacity="1"
-         id="stop980" />
-      <stop
-         offset="0.1875"
-         stop-color="rgb(76.881409%, 11.634827%, 11.634827%)"
-         stop-opacity="1"
-         id="stop982" />
-      <stop
-         offset="0.203125"
-         stop-color="rgb(77.262878%, 11.69281%, 11.69281%)"
-         stop-opacity="1"
-         id="stop984" />
-      <stop
-         offset="0.21875"
-         stop-color="rgb(77.642822%, 11.752319%, 11.752319%)"
-         stop-opacity="1"
-         id="stop986" />
-      <stop
-         offset="0.234375"
-         stop-color="rgb(78.024292%, 11.811829%, 11.811829%)"
-         stop-opacity="1"
-         id="stop988" />
-      <stop
-         offset="0.25"
-         stop-color="rgb(78.405762%, 11.871338%, 11.871338%)"
-         stop-opacity="1"
-         id="stop990" />
-      <stop
-         offset="0.265625"
-         stop-color="rgb(78.787231%, 11.929321%, 11.929321%)"
-         stop-opacity="1"
-         id="stop992" />
-      <stop
-         offset="0.28125"
-         stop-color="rgb(79.167175%, 11.988831%, 11.988831%)"
-         stop-opacity="1"
-         id="stop994" />
-      <stop
-         offset="0.296875"
-         stop-color="rgb(79.548645%, 12.04834%, 12.04834%)"
-         stop-opacity="1"
-         id="stop996" />
-      <stop
-         offset="0.3125"
-         stop-color="rgb(79.930115%, 12.106323%, 12.106323%)"
-         stop-opacity="1"
-         id="stop998" />
-      <stop
-         offset="0.328125"
-         stop-color="rgb(80.311584%, 12.165833%, 12.165833%)"
-         stop-opacity="1"
-         id="stop1000" />
-      <stop
-         offset="0.34375"
-         stop-color="rgb(80.691528%, 12.225342%, 12.225342%)"
-         stop-opacity="1"
-         id="stop1002" />
-      <stop
-         offset="0.359375"
-         stop-color="rgb(81.072998%, 12.284851%, 12.284851%)"
-         stop-opacity="1"
-         id="stop1004" />
-      <stop
-         offset="0.375"
-         stop-color="rgb(81.454468%, 12.342834%, 12.342834%)"
-         stop-opacity="1"
-         id="stop1006" />
-      <stop
-         offset="0.390625"
-         stop-color="rgb(81.835938%, 12.402344%, 12.402344%)"
-         stop-opacity="1"
-         id="stop1008" />
-      <stop
-         offset="0.40625"
-         stop-color="rgb(82.215881%, 12.461853%, 12.461853%)"
-         stop-opacity="1"
-         id="stop1010" />
-      <stop
-         offset="0.421875"
-         stop-color="rgb(82.597351%, 12.519836%, 12.519836%)"
-         stop-opacity="1"
-         id="stop1012" />
-      <stop
-         offset="0.4375"
-         stop-color="rgb(82.978821%, 12.579346%, 12.579346%)"
-         stop-opacity="1"
-         id="stop1014" />
-      <stop
-         offset="0.453125"
-         stop-color="rgb(83.358765%, 12.638855%, 12.638855%)"
-         stop-opacity="1"
-         id="stop1016" />
-      <stop
-         offset="0.46875"
-         stop-color="rgb(83.740234%, 12.698364%, 12.698364%)"
-         stop-opacity="1"
-         id="stop1018" />
-      <stop
-         offset="0.484375"
-         stop-color="rgb(84.121704%, 12.756348%, 12.756348%)"
-         stop-opacity="1"
-         id="stop1020" />
-      <stop
-         offset="0.5"
-         stop-color="rgb(84.503174%, 12.815857%, 12.815857%)"
-         stop-opacity="1"
-         id="stop1022" />
-      <stop
-         offset="0.515625"
-         stop-color="rgb(84.883118%, 12.875366%, 12.875366%)"
-         stop-opacity="1"
-         id="stop1024" />
-      <stop
-         offset="0.53125"
-         stop-color="rgb(85.264587%, 12.93335%, 12.93335%)"
-         stop-opacity="1"
-         id="stop1026" />
-      <stop
-         offset="0.546875"
-         stop-color="rgb(85.646057%, 12.992859%, 12.992859%)"
-         stop-opacity="1"
-         id="stop1028" />
-      <stop
-         offset="0.5625"
-         stop-color="rgb(86.027527%, 13.052368%, 13.052368%)"
-         stop-opacity="1"
-         id="stop1030" />
-      <stop
-         offset="0.578125"
-         stop-color="rgb(86.407471%, 13.110352%, 13.110352%)"
-         stop-opacity="1"
-         id="stop1032" />
-      <stop
-         offset="0.59375"
-         stop-color="rgb(86.78894%, 13.169861%, 13.169861%)"
-         stop-opacity="1"
-         id="stop1034" />
-      <stop
-         offset="0.609375"
-         stop-color="rgb(87.17041%, 13.22937%, 13.22937%)"
-         stop-opacity="1"
-         id="stop1036" />
-      <stop
-         offset="0.625"
-         stop-color="rgb(87.55188%, 13.288879%, 13.288879%)"
-         stop-opacity="1"
-         id="stop1038" />
-      <stop
-         offset="0.640625"
-         stop-color="rgb(87.931824%, 13.346863%, 13.346863%)"
-         stop-opacity="1"
-         id="stop1040" />
-      <stop
-         offset="0.65625"
-         stop-color="rgb(88.313293%, 13.406372%, 13.406372%)"
-         stop-opacity="1"
-         id="stop1042" />
-      <stop
-         offset="0.671875"
-         stop-color="rgb(88.694763%, 13.465881%, 13.465881%)"
-         stop-opacity="1"
-         id="stop1044" />
-      <stop
-         offset="0.6875"
-         stop-color="rgb(89.076233%, 13.523865%, 13.523865%)"
-         stop-opacity="1"
-         id="stop1046" />
-      <stop
-         offset="0.703125"
-         stop-color="rgb(89.456177%, 13.583374%, 13.583374%)"
-         stop-opacity="1"
-         id="stop1048" />
-      <stop
-         offset="0.71875"
-         stop-color="rgb(89.837646%, 13.642883%, 13.642883%)"
-         stop-opacity="1"
-         id="stop1050" />
-      <stop
-         offset="0.75"
-         stop-color="rgb(90.113831%, 13.685608%, 13.685608%)"
-         stop-opacity="1"
-         id="stop1052" />
-      <stop
-         offset="1"
-         stop-color="rgb(90.19928%, 13.699341%, 13.699341%)"
-         stop-opacity="1"
-         id="stop1054" />
-    </linearGradient>
     <clipPath
        id="clip-6">
       <path
@@ -2321,267 +1569,17 @@
          d="m 1107.3438,1553.0273 c 0.039,-1.1132 -0.1172,-4.039 -3.0625,-4.2656 -0.3555,-0.031 -0.7032,0 -1.043,0.086 -0.3438,0.086 -0.6641,0.2265 -0.961,0.4179 -0.2968,0.1914 -0.5546,0.4297 -0.7734,0.7071 -0.2187,0.2773 -0.3828,0.5859 -0.5,0.9179 -0.1172,-0.332 -0.2851,-0.6367 -0.5,-0.9179 -0.2187,-0.2774 -0.4766,-0.5118 -0.7734,-0.7071 -0.2969,-0.1914 -0.6133,-0.332 -0.9571,-0.4179 -0.3437,-0.086 -0.6914,-0.1172 -1.0429,-0.086 -2.9453,0.2305 -3.1016,3.1524 -3.0703,4.2656 0.031,0.8008 0.1796,3.3125 6.2851,7.6875"
          id="path1060" />
     </clipPath>
-    <linearGradient
-       id="linear-pattern-3"
-       gradientUnits="userSpaceOnUse"
-       x1="9"
-       y1="15.099806"
-       x2="9"
-       y2="-9.5325697e-05"
-       gradientTransform="matrix(0.792695,0,0,0.792349,1094.6583,1548.75)">
-      <stop
-         offset="0"
-         stop-color="rgb(72.502136%, 10.955811%, 10.955811%)"
-         stop-opacity="1"
-         id="stop1063" />
-      <stop
-         offset="0.015625"
-         stop-color="rgb(72.691345%, 10.984802%, 10.984802%)"
-         stop-opacity="1"
-         id="stop1065" />
-      <stop
-         offset="0.03125"
-         stop-color="rgb(73.072815%, 11.044312%, 11.044312%)"
-         stop-opacity="1"
-         id="stop1067" />
-      <stop
-         offset="0.046875"
-         stop-color="rgb(73.454285%, 11.103821%, 11.103821%)"
-         stop-opacity="1"
-         id="stop1069" />
-      <stop
-         offset="0.0625"
-         stop-color="rgb(73.835754%, 11.161804%, 11.161804%)"
-         stop-opacity="1"
-         id="stop1071" />
-      <stop
-         offset="0.078125"
-         stop-color="rgb(74.217224%, 11.221313%, 11.221313%)"
-         stop-opacity="1"
-         id="stop1073" />
-      <stop
-         offset="0.09375"
-         stop-color="rgb(74.597168%, 11.280823%, 11.280823%)"
-         stop-opacity="1"
-         id="stop1075" />
-      <stop
-         offset="0.109375"
-         stop-color="rgb(74.978638%, 11.338806%, 11.338806%)"
-         stop-opacity="1"
-         id="stop1077" />
-      <stop
-         offset="0.125"
-         stop-color="rgb(75.360107%, 11.398315%, 11.398315%)"
-         stop-opacity="1"
-         id="stop1079" />
-      <stop
-         offset="0.140625"
-         stop-color="rgb(75.741577%, 11.457825%, 11.457825%)"
-         stop-opacity="1"
-         id="stop1081" />
-      <stop
-         offset="0.15625"
-         stop-color="rgb(76.123047%, 11.517334%, 11.517334%)"
-         stop-opacity="1"
-         id="stop1083" />
-      <stop
-         offset="0.171875"
-         stop-color="rgb(76.502991%, 11.575317%, 11.575317%)"
-         stop-opacity="1"
-         id="stop1085" />
-      <stop
-         offset="0.1875"
-         stop-color="rgb(76.88446%, 11.634827%, 11.634827%)"
-         stop-opacity="1"
-         id="stop1087" />
-      <stop
-         offset="0.203125"
-         stop-color="rgb(77.26593%, 11.694336%, 11.694336%)"
-         stop-opacity="1"
-         id="stop1089" />
-      <stop
-         offset="0.21875"
-         stop-color="rgb(77.6474%, 11.753845%, 11.753845%)"
-         stop-opacity="1"
-         id="stop1091" />
-      <stop
-         offset="0.234375"
-         stop-color="rgb(78.027344%, 11.811829%, 11.811829%)"
-         stop-opacity="1"
-         id="stop1093" />
-      <stop
-         offset="0.25"
-         stop-color="rgb(78.408813%, 11.871338%, 11.871338%)"
-         stop-opacity="1"
-         id="stop1095" />
-      <stop
-         offset="0.265625"
-         stop-color="rgb(78.790283%, 11.930847%, 11.930847%)"
-         stop-opacity="1"
-         id="stop1097" />
-      <stop
-         offset="0.28125"
-         stop-color="rgb(79.171753%, 11.988831%, 11.988831%)"
-         stop-opacity="1"
-         id="stop1099" />
-      <stop
-         offset="0.296875"
-         stop-color="rgb(79.553223%, 12.04834%, 12.04834%)"
-         stop-opacity="1"
-         id="stop1101" />
-      <stop
-         offset="0.3125"
-         stop-color="rgb(79.933167%, 12.107849%, 12.107849%)"
-         stop-opacity="1"
-         id="stop1103" />
-      <stop
-         offset="0.328125"
-         stop-color="rgb(80.314636%, 12.167358%, 12.167358%)"
-         stop-opacity="1"
-         id="stop1105" />
-      <stop
-         offset="0.34375"
-         stop-color="rgb(80.696106%, 12.225342%, 12.225342%)"
-         stop-opacity="1"
-         id="stop1107" />
-      <stop
-         offset="0.359375"
-         stop-color="rgb(81.077576%, 12.284851%, 12.284851%)"
-         stop-opacity="1"
-         id="stop1109" />
-      <stop
-         offset="0.375"
-         stop-color="rgb(81.459045%, 12.34436%, 12.34436%)"
-         stop-opacity="1"
-         id="stop1111" />
-      <stop
-         offset="0.390625"
-         stop-color="rgb(81.838989%, 12.402344%, 12.402344%)"
-         stop-opacity="1"
-         id="stop1113" />
-      <stop
-         offset="0.40625"
-         stop-color="rgb(82.220459%, 12.461853%, 12.461853%)"
-         stop-opacity="1"
-         id="stop1115" />
-      <stop
-         offset="0.421875"
-         stop-color="rgb(82.601929%, 12.521362%, 12.521362%)"
-         stop-opacity="1"
-         id="stop1117" />
-      <stop
-         offset="0.4375"
-         stop-color="rgb(82.983398%, 12.580872%, 12.580872%)"
-         stop-opacity="1"
-         id="stop1119" />
-      <stop
-         offset="0.453125"
-         stop-color="rgb(83.363342%, 12.638855%, 12.638855%)"
-         stop-opacity="1"
-         id="stop1121" />
-      <stop
-         offset="0.46875"
-         stop-color="rgb(83.744812%, 12.698364%, 12.698364%)"
-         stop-opacity="1"
-         id="stop1123" />
-      <stop
-         offset="0.484375"
-         stop-color="rgb(84.126282%, 12.757874%, 12.757874%)"
-         stop-opacity="1"
-         id="stop1125" />
-      <stop
-         offset="0.5"
-         stop-color="rgb(84.507751%, 12.815857%, 12.815857%)"
-         stop-opacity="1"
-         id="stop1127" />
-      <stop
-         offset="0.515625"
-         stop-color="rgb(84.889221%, 12.875366%, 12.875366%)"
-         stop-opacity="1"
-         id="stop1129" />
-      <stop
-         offset="0.53125"
-         stop-color="rgb(85.269165%, 12.934875%, 12.934875%)"
-         stop-opacity="1"
-         id="stop1131" />
-      <stop
-         offset="0.546875"
-         stop-color="rgb(85.650635%, 12.994385%, 12.994385%)"
-         stop-opacity="1"
-         id="stop1133" />
-      <stop
-         offset="0.5625"
-         stop-color="rgb(86.032104%, 13.052368%, 13.052368%)"
-         stop-opacity="1"
-         id="stop1135" />
-      <stop
-         offset="0.578125"
-         stop-color="rgb(86.413574%, 13.111877%, 13.111877%)"
-         stop-opacity="1"
-         id="stop1137" />
-      <stop
-         offset="0.59375"
-         stop-color="rgb(86.795044%, 13.171387%, 13.171387%)"
-         stop-opacity="1"
-         id="stop1139" />
-      <stop
-         offset="0.609375"
-         stop-color="rgb(87.174988%, 13.22937%, 13.22937%)"
-         stop-opacity="1"
-         id="stop1141" />
-      <stop
-         offset="0.625"
-         stop-color="rgb(87.556458%, 13.288879%, 13.288879%)"
-         stop-opacity="1"
-         id="stop1143" />
-      <stop
-         offset="0.640625"
-         stop-color="rgb(87.937927%, 13.348389%, 13.348389%)"
-         stop-opacity="1"
-         id="stop1145" />
-      <stop
-         offset="0.65625"
-         stop-color="rgb(88.319397%, 13.407898%, 13.407898%)"
-         stop-opacity="1"
-         id="stop1147" />
-      <stop
-         offset="0.671875"
-         stop-color="rgb(88.700867%, 13.465881%, 13.465881%)"
-         stop-opacity="1"
-         id="stop1149" />
-      <stop
-         offset="0.6875"
-         stop-color="rgb(89.080811%, 13.525391%, 13.525391%)"
-         stop-opacity="1"
-         id="stop1151" />
-      <stop
-         offset="0.703125"
-         stop-color="rgb(89.46228%, 13.5849%, 13.5849%)"
-         stop-opacity="1"
-         id="stop1153" />
-      <stop
-         offset="0.71875"
-         stop-color="rgb(89.84375%, 13.642883%, 13.642883%)"
-         stop-opacity="1"
-         id="stop1155" />
-      <stop
-         offset="0.75"
-         stop-color="rgb(90.116882%, 13.685608%, 13.685608%)"
-         stop-opacity="1"
-         id="stop1157" />
-      <stop
-         offset="1"
-         stop-color="rgb(90.19928%, 13.699341%, 13.699341%)"
-         stop-opacity="1"
-         id="stop1159" />
-    </linearGradient>
   </defs>
   <path
      fill-rule="nonzero"
-     fill="#ffffff"
+     fill="rgb(100%, 100%, 100%)"
      fill-opacity="1"
      d="M -1.5755142e-5,-4.9471371e-5 H 446.24998 V 230.99995 H -1.5755142e-5 Z m 0,0"
-     id="path1164" />
+     id="path1164"
+     inkscape:export-filename="../../../wrk/foss/talks/zds23-sysarchtale-ws/zds23-sysarchtale/source/_images/full-rig.svg"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96"
+     style="fill:#ffffff;fill-opacity:1" />
   <path
      fill-rule="nonzero"
      fill="#ffffff"
@@ -2606,16 +1604,17 @@
      id="path5790" />
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 281.25005,39.000051 h 60.00003 v 22.5 h -60.00003 z m 0,0"
-     id="path5792" />
+     id="path5792"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -2625,42 +1624,50 @@
        xlink:href="#glyph-0-22"
        x="1006.7343"
        y="1397.25"
-       id="use5794" />
+       id="use5794"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="1013.2338"
        y="1397.25"
-       id="use5796" />
+       id="use5796"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-25"
        x="1018.2392"
        y="1397.25"
-       id="use5798" />
+       id="use5798"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="1023.2446"
        y="1397.25"
-       id="use5800" />
+       id="use5800"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-21"
        x="1025.2441"
        y="1397.25"
-       id="use5802" />
+       id="use5802"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="1027.7446"
        y="1397.25"
-       id="use5804" />
+       id="use5804"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-19"
        x="1029.7441"
        y="1397.25"
-       id="use5806" />
+       id="use5806"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="1037.2412"
        y="1397.25"
-       id="use5808" />
+       id="use5808"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#ffffff"
@@ -2671,50 +1678,58 @@
        xlink:href="#glyph-0-1"
        x="1009.9804"
        y="1408.5"
-       id="use5812" />
+       id="use5812"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="1016.4799"
        y="1408.5"
-       id="use5814" />
+       id="use5814"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-20"
        x="1021.4853"
        y="1408.5"
-       id="use5816" />
+       id="use5816"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-21"
        x="1026.4907"
        y="1408.5"
-       id="use5818" />
+       id="use5818"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="1028.9912"
        y="1408.5"
-       id="use5820" />
+       id="use5820"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="1031.9883"
        y="1408.5"
-       id="use5822" />
+       id="use5822"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="1036.9937"
        y="1408.5"
-       id="use5824" />
+       id="use5824"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 354.00008,39.000051 h 60 v 22.5 h -60 z m 0,0"
-     id="path5828" />
+     id="path5828"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -2724,72 +1739,86 @@
        xlink:href="#glyph-0-26"
        x="1068.4805"
        y="1402.5"
-       id="use5830" />
+       id="use5830"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="1074.4834"
        y="1402.5"
-       id="use5832" />
+       id="use5832"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="1079.4888"
        y="1402.5"
-       id="use5834" />
+       id="use5834"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="1082.4858"
        y="1402.5"
-       id="use5836" />
+       id="use5836"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-18"
        x="1084.4854"
        y="1402.5"
-       id="use5838" />
+       id="use5838"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-6"
        x="1089.4907"
        y="1402.5"
-       id="use5840" />
+       id="use5840"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="1094.4961"
        y="1402.5"
-       id="use5842" />
+       id="use5842"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="1099.5015"
        y="1402.5"
-       id="use5844" />
+       id="use5844"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-25"
        x="1102.4985"
        y="1402.5"
-       id="use5846" />
+       id="use5846"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="1107.5039"
        y="1402.5"
-       id="use5848" />
+       id="use5848"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-28"
        x="1109.5034"
        y="1402.5"
-       id="use5850" />
+       id="use5850"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="1114.0034"
        y="1402.5"
-       id="use5852" />
+       id="use5852"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="1116.5039"
        y="1402.5"
-       id="use5854" />
+       id="use5854"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-13"
        x="1121.0039"
        y="1402.5"
-       id="use5856" />
+       id="use5856"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#000000"
@@ -2800,145 +1829,172 @@
        xlink:href="#glyph-0-16"
        x="734.58984"
        y="1374.75"
-       id="use5860" />
+       id="use5860"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="741.08936"
        y="1374.75"
-       id="use5862" />
+       id="use5862"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="746.09473"
        y="1374.75"
-       id="use5864" />
+       id="use5864"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="750.59473"
        y="1374.75"
-       id="use5866" />
+       id="use5866"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="755.6001"
        y="1374.75"
-       id="use5868" />
+       id="use5868"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="757.59961"
        y="1374.75"
-       id="use5870" />
+       id="use5870"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-18"
        x="762.60498"
        y="1374.75"
-       id="use5872" />
+       id="use5872"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-19"
        x="767.61035"
        y="1374.75"
-       id="use5874" />
+       id="use5874"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="775.10742"
        y="1374.75"
-       id="use5876" />
+       id="use5876"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-20"
        x="780.11279"
        y="1374.75"
-       id="use5878" />
+       id="use5878"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-21"
        x="785.11816"
        y="1374.75"
-       id="use5880" />
+       id="use5880"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="787.61865"
        y="1374.75"
-       id="use5882" />
+       id="use5882"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-22"
        x="790.11914"
        y="1374.75"
-       id="use5884" />
+       id="use5884"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="796.61865"
        y="1374.75"
-       id="use5886" />
+       id="use5886"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-23"
        x="798.61816"
        y="1374.75"
-       id="use5888" />
+       id="use5888"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="803.62354"
        y="1374.75"
-       id="use5890" />
+       id="use5890"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-37"
        x="806.12402"
        y="1374.75"
-       id="use5892" />
+       id="use5892"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-57"
        x="809.12109"
        y="1374.75"
-       id="use5894" />
+       id="use5894"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-42"
        x="815.12402"
        y="1374.75"
-       id="use5896" />
+       id="use5896"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-21"
        x="819.62402"
        y="1374.75"
-       id="use5898" />
+       id="use5898"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="822.12445"
        y="1374.75"
-       id="use5900" />
+       id="use5900"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-20"
        x="827.12982"
        y="1374.75"
-       id="use5902" />
+       id="use5902"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-9"
        x="832.13519"
        y="1374.75"
-       id="use5904" />
+       id="use5904"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="837.14056"
        y="1374.75"
-       id="use5906" />
+       id="use5906"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-9"
        x="842.14594"
        y="1374.75"
-       id="use5908" />
+       id="use5908"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-38"
        x="847.15131"
        y="1374.75"
-       id="use5910" />
+       id="use5910"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 161.24998,32.250051 h 66.00007 v 36 h -66.00007 z m 0,0"
-     id="path5914" />
+     id="path5914"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -2948,57 +2004,68 @@
        xlink:href="#glyph-0-51"
        x="885.48041"
        y="1393.5"
-       id="use5916" />
+       id="use5916"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-18"
        x="891.48334"
        y="1393.5"
-       id="use5918" />
+       id="use5918"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-18"
        x="896.48871"
        y="1393.5"
-       id="use5920" />
+       id="use5920"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="901.49408"
        y="1393.5"
-       id="use5922" />
+       id="use5922"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="903.49359"
        y="1393.5"
-       id="use5924" />
+       id="use5924"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-24"
        x="905.4931"
        y="1393.5"
-       id="use5926" />
+       id="use5926"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-25"
        x="909.9931"
        y="1393.5"
-       id="use5928" />
+       id="use5928"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-21"
        x="914.99847"
        y="1393.5"
-       id="use5930" />
+       id="use5930"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="917.49896"
        y="1393.5"
-       id="use5932" />
+       id="use5932"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="919.49847"
        y="1393.5"
-       id="use5934" />
+       id="use5934"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-20"
        x="924.50385"
        y="1393.5"
-       id="use5936" />
+       id="use5936"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#ffffff"
@@ -3009,37 +2076,44 @@
        xlink:href="#glyph-0-1"
        x="892.99213"
        y="1404"
-       id="use5940" />
+       id="use5940"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="899.49164"
        y="1404"
-       id="use5942" />
+       id="use5942"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-20"
        x="904.49701"
        y="1404"
-       id="use5944" />
+       id="use5944"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-21"
        x="909.50238"
        y="1404"
-       id="use5946" />
+       id="use5946"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="912.00287"
        y="1404"
-       id="use5948" />
+       id="use5948"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="914.99994"
        y="1404"
-       id="use5950" />
+       id="use5950"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="920.00531"
        y="1404"
-       id="use5952" />
+       id="use5952"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#ffffff"
@@ -3050,34 +2124,40 @@
        xlink:href="#glyph-2-16"
        x="898.86322"
        y="1413"
-       id="use5956" />
+       id="use5956"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-2-37"
        x="900.36285"
        y="1413"
-       id="use5958" />
+       id="use5958"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-2-8"
        x="902.23822"
        y="1413"
-       id="use5960" />
+       id="use5960"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-2-38"
        x="907.86102"
        y="1413"
-       id="use5962" />
+       id="use5962"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-2-39"
        x="912.36322"
        y="1413"
-       id="use5964" />
+       id="use5964"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#505050"
+     fill="rgb(31.369019%, 31.369019%, 31.369019%)"
      fill-opacity="1"
      d="m 88.898424,61.394451 c 0.41797,0 0.71093,-0.164 0.6289,-0.2851 l -0.83203,-1.2149 c -0.10547,-0.1875 -0.2539,-0.2187 -0.5039,-0.2187 h -5.38282 c -0.26172,0 -0.39843,0.039 -0.52734,0.2265 l -0.76953,1.1993 c -0.15235,0.1875 0.29687,0.2929 0.62109,0.2929 z m 12.589836,-3.9375 v -17.7382 H 69.488264 v 17.7382 z m -35.488276,5.543 c -0.84766,-0.01 -1.61328,-0.2852 -1.93359,-0.7266 -0.31641,-0.4296 -0.1875,-0.8554 0.082,-1.1484 l 3.09765,-3.1133 v -18.3906 c 0,-0.9219 0.83985,-2.1211 2.22657,-2.1211 h 32.023426 c 1.08203,0 2.23828,0.8555 2.23828,2.2422 v 18.2695 l 3.125,3.1446 c 0.26172,0.2929 0.39063,0.6796 0.0742,1.1015 -0.41015,0.5313 -1.1914,0.7031 -1.91797,0.7422 z m 0,0"
-     id="path5968" />
+     id="path5968"
+     style="fill:#000000;fill-opacity:1" />
   <path
      fill="none"
      stroke-width="0.75"
@@ -3090,10 +2170,11 @@
      id="path5970" />
   <path
      fill-rule="nonzero"
-     fill="#ffffff"
+     fill="rgb(100%, 100%, 100%)"
      fill-opacity="1"
      d="m 247.12498,46.124951 h 16.5 v 9.75 h -16.5 z m 0,0"
-     id="path5972" />
+     id="path5972"
+     style="fill:#000000;fill-opacity:1" />
   <g
      fill="#000000"
      fill-opacity="1"
@@ -3103,17 +2184,20 @@
        xlink:href="#glyph-8-1"
        x="960.37494"
        y="1403.25"
-       id="use5974" />
+       id="use5974"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-8-2"
        x="965.87762"
        y="1403.25"
-       id="use5976" />
+       id="use5976"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-8-3"
        x="970.91705"
        y="1403.25"
-       id="use5978" />
+       id="use5978"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill="none"
@@ -3127,10 +2211,11 @@
      id="path5982" />
   <path
      fill-rule="nonzero"
-     fill="#ffffff"
+     fill="rgb(100%, 100%, 100%)"
      fill-opacity="1"
      d="m 127.12498,46.124951 h 16.5 v 9.75 h -16.5 z m 0,0"
-     id="path5984" />
+     id="path5984"
+     style="fill:#000000;fill-opacity:1" />
   <g
      fill="#000000"
      fill-opacity="1"
@@ -3140,17 +2225,20 @@
        xlink:href="#glyph-8-1"
        x="840.37494"
        y="1403.25"
-       id="use5986" />
+       id="use5986"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-8-2"
        x="845.87762"
        y="1403.25"
-       id="use5988" />
+       id="use5988"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-8-3"
        x="850.91705"
        y="1403.25"
-       id="use5990" />
+       id="use5990"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
@@ -3185,145 +2273,172 @@
        xlink:href="#glyph-0-16"
        x="734.58984"
        y="1494.7499"
-       id="use5998" />
+       id="use5998"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="741.08936"
        y="1494.7499"
-       id="use6000" />
+       id="use6000"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="746.09473"
        y="1494.7499"
-       id="use6002" />
+       id="use6002"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="750.59473"
        y="1494.7499"
-       id="use6004" />
+       id="use6004"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="755.6001"
        y="1494.7499"
-       id="use6006" />
+       id="use6006"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="757.59961"
        y="1494.7499"
-       id="use6008" />
+       id="use6008"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-18"
        x="762.60498"
        y="1494.7499"
-       id="use6010" />
+       id="use6010"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-19"
        x="767.61035"
        y="1494.7499"
-       id="use6012" />
+       id="use6012"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="775.10742"
        y="1494.7499"
-       id="use6014" />
+       id="use6014"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-20"
        x="780.11279"
        y="1494.7499"
-       id="use6016" />
+       id="use6016"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-21"
        x="785.11816"
        y="1494.7499"
-       id="use6018" />
+       id="use6018"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="787.61865"
        y="1494.7499"
-       id="use6020" />
+       id="use6020"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-22"
        x="790.11914"
        y="1494.7499"
-       id="use6022" />
+       id="use6022"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="796.61865"
        y="1494.7499"
-       id="use6024" />
+       id="use6024"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-23"
        x="798.61816"
        y="1494.7499"
-       id="use6026" />
+       id="use6026"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="803.62354"
        y="1494.7499"
-       id="use6028" />
+       id="use6028"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-37"
        x="806.12402"
        y="1494.7499"
-       id="use6030" />
+       id="use6030"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-57"
        x="809.12109"
        y="1494.7499"
-       id="use6032" />
+       id="use6032"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-42"
        x="815.12402"
        y="1494.7499"
-       id="use6034" />
+       id="use6034"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-21"
        x="819.62402"
        y="1494.7499"
-       id="use6036" />
+       id="use6036"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="822.12445"
        y="1494.7499"
-       id="use6038" />
+       id="use6038"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-20"
        x="827.12982"
        y="1494.7499"
-       id="use6040" />
+       id="use6040"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-9"
        x="832.13519"
        y="1494.7499"
-       id="use6042" />
+       id="use6042"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="837.14056"
        y="1494.7499"
-       id="use6044" />
+       id="use6044"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-9"
        x="842.14594"
        y="1494.7499"
-       id="use6046" />
+       id="use6046"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-38"
        x="847.15131"
        y="1494.7499"
-       id="use6048" />
+       id="use6048"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 161.24998,152.25005 h 66.00007 v 36 h -66.00007 z m 0,0"
-     id="path6052" />
+     id="path6052"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -3333,79 +2448,94 @@
        xlink:href="#glyph-0-22"
        x="877.73431"
        y="1522.4999"
-       id="use6054" />
+       id="use6054"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-25"
        x="884.23383"
        y="1522.4999"
-       id="use6056" />
+       id="use6056"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-28"
        x="889.2392"
        y="1522.4999"
-       id="use6058" />
+       id="use6058"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-18"
        x="893.7392"
        y="1522.4999"
-       id="use6060" />
+       id="use6060"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-52"
        x="898.74457"
        y="1522.4999"
-       id="use6062" />
+       id="use6062"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="903.74994"
        y="1522.4999"
-       id="use6064" />
+       id="use6064"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="908.75531"
        y="1522.4999"
-       id="use6066" />
+       id="use6066"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="911.75238"
        y="1522.4999"
-       id="use6068" />
+       id="use6068"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-60"
        x="914.74945"
        y="1522.4999"
-       id="use6070" />
+       id="use6070"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="919.24945"
        y="1522.4999"
-       id="use6072" />
+       id="use6072"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-26"
        x="921.74994"
        y="1522.4999"
-       id="use6074" />
+       id="use6074"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="927.75287"
        y="1522.4999"
-       id="use6076" />
+       id="use6076"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="929.75238"
        y="1522.4999"
-       id="use6078" />
+       id="use6078"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-46"
        x="932.25287"
        y="1522.4999"
-       id="use6080" />
+       id="use6080"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#505050"
+     fill="rgb(31.369019%, 31.369019%, 31.369019%)"
      fill-opacity="1"
      d="m 88.898424,181.39445 c 0.41797,0 0.71093,-0.164 0.6289,-0.2851 l -0.83203,-1.2149 c -0.10547,-0.1875 -0.2539,-0.2187 -0.5039,-0.2187 h -5.38282 c -0.26172,0 -0.39843,0.039 -0.52734,0.2265 l -0.76953,1.1993 c -0.15235,0.1875 0.29687,0.2929 0.62109,0.2929 z m 12.589836,-3.9375 v -17.7382 H 69.488264 v 17.7382 z m -35.488276,5.543 c -0.84766,-0.01 -1.61328,-0.2852 -1.93359,-0.7266 -0.31641,-0.4296 -0.1875,-0.8554 0.082,-1.1484 l 3.09765,-3.1133 v -18.3906 c 0,-0.9219 0.83985,-2.1211 2.22657,-2.1211 h 32.023426 c 1.08203,0 2.23828,0.8555 2.23828,2.2422 v 18.2695 l 3.125,3.1446 c 0.26172,0.2929 0.39063,0.6796 0.0742,1.1015 -0.41015,0.5313 -1.1914,0.7031 -1.91797,0.7422 z m 0,0"
-     id="path6084" />
+     id="path6084"
+     style="fill:#000000;fill-opacity:1" />
   <path
      fill="none"
      stroke-width="0.75"
@@ -3418,10 +2548,11 @@
      id="path6086" />
   <path
      fill-rule="nonzero"
-     fill="#ffffff"
+     fill="rgb(100%, 100%, 100%)"
      fill-opacity="1"
      d="m 246.37498,166.12495 h 17.25 v 9.75 h -17.25 z m 0,0"
-     id="path6088" />
+     id="path6088"
+     style="fill:#000000;fill-opacity:1" />
   <g
      fill="#000000"
      fill-opacity="1"
@@ -3431,17 +2562,20 @@
        xlink:href="#glyph-8-4"
        x="960.14056"
        y="1523.2499"
-       id="use6090" />
+       id="use6090"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-8-5"
        x="966.09845"
        y="1523.2499"
-       id="use6092" />
+       id="use6092"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-8-6"
        x="971.60114"
        y="1523.2499"
-       id="use6094" />
+       id="use6094"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill="none"
@@ -3455,10 +2589,11 @@
      id="path6098" />
   <path
      fill-rule="nonzero"
-     fill="#ffffff"
+     fill="rgb(100%, 100%, 100%)"
      fill-opacity="1"
      d="m 127.12498,166.12495 h 16.5 v 9.75 h -16.5 z m 0,0"
-     id="path6100" />
+     id="path6100"
+     style="fill:#000000;fill-opacity:1" />
   <g
      fill="#000000"
      fill-opacity="1"
@@ -3468,17 +2603,20 @@
        xlink:href="#glyph-8-1"
        x="840.37494"
        y="1523.2499"
-       id="use6102" />
+       id="use6102"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-8-2"
        x="845.87762"
        y="1523.2499"
-       id="use6104" />
+       id="use6104"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-8-3"
        x="850.91705"
        y="1523.2499"
-       id="use6106" />
+       id="use6106"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
@@ -3504,16 +2642,17 @@
      id="path6112" />
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 281.25005,160.50005 h 60.00003 v 22.5 h -60.00003 z m 0,0"
-     id="path6114" />
+     id="path6114"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -3523,32 +2662,38 @@
        xlink:href="#glyph-0-41"
        x="1010.4843"
        y="1518.7499"
-       id="use6116" />
+       id="use6116"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-11"
        x="1016.9838"
        y="1518.7499"
-       id="use6118" />
+       id="use6118"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-24"
        x="1021.9892"
        y="1518.7499"
-       id="use6120" />
+       id="use6120"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="1026.4893"
        y="1518.7499"
-       id="use6122" />
+       id="use6122"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="1028.4888"
        y="1518.7499"
-       id="use6124" />
+       id="use6124"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-2"
        x="1033.4941"
        y="1518.7499"
-       id="use6126" />
+       id="use6126"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      fill="#ffffff"
@@ -3559,42 +2704,50 @@
        xlink:href="#glyph-2-1"
        x="1012.1132"
        y="1529.9999"
-       id="use6130" />
+       id="use6130"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-2-11"
        x="1014.361"
        y="1529.9999"
-       id="use6132" />
+       id="use6132"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-2-28"
        x="1018.4842"
        y="1529.9999"
-       id="use6134" />
+       id="use6134"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-2-29"
        x="1022.2382"
        y="1529.9999"
-       id="use6136" />
+       id="use6136"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-2-28"
        x="1025.9923"
        y="1529.9999"
-       id="use6138" />
+       id="use6138"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-2-30"
        x="1029.7463"
        y="1529.9999"
-       id="use6140" />
+       id="use6140"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-2-16"
        x="1033.1213"
        y="1529.9999"
-       id="use6142" />
+       id="use6142"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-2-7"
        x="1034.621"
        y="1529.9999"
-       id="use6144" />
+       id="use6144"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill="none"
@@ -3608,16 +2761,17 @@
      id="path6148" />
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 281.25005,129.00005 h 60.00003 v 22.5 h -60.00003 z m 0,0"
-     id="path6150" />
+     id="path6150"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -3627,40 +2781,46 @@
        xlink:href="#glyph-0-41"
        x="1011.7382"
        y="1492.4999"
-       id="use6152" />
+       id="use6152"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="1018.2377"
        y="1492.4999"
-       id="use6154" />
+       id="use6154"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-42"
        x="1023.2431"
        y="1492.4999"
-       id="use6156" />
+       id="use6156"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-11"
        x="1027.7432"
        y="1492.4999"
-       id="use6158" />
+       id="use6158"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-28"
        x="1032.7485"
        y="1492.4999"
-       id="use6160" />
+       id="use6160"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <path
      fill-rule="nonzero"
-     fill="#6d8764"
+     fill="rgb(42.749023%, 52.938843%, 39.219666%)"
      fill-opacity="1"
-     stroke-width="0.75"
+     stroke-width="1"
      stroke-linecap="butt"
      stroke-linejoin="miter"
-     stroke="#3a5431"
+     stroke="rgb(22.749329%, 32.939148%, 19.219971%)"
      stroke-opacity="1"
      stroke-miterlimit="4"
      d="m 354.00008,129.00005 h 67.5 v 22.5 h -67.5 z m 0,0"
-     id="path6164" />
+     id="path6164"
+     style="fill:none;stroke:#2a7411;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
   <g
      fill="#ffffff"
      fill-opacity="1"
@@ -3670,72 +2830,86 @@
        xlink:href="#glyph-0-26"
        x="1071.7266"
        y="1492.4999"
-       id="use6166" />
+       id="use6166"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="1077.7295"
        y="1492.4999"
-       id="use6168" />
+       id="use6168"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="1082.7349"
        y="1492.4999"
-       id="use6170" />
+       id="use6170"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-7"
        x="1085.7319"
        y="1492.4999"
-       id="use6172" />
+       id="use6172"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-18"
        x="1087.7314"
        y="1492.4999"
-       id="use6174" />
+       id="use6174"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-6"
        x="1092.7368"
        y="1492.4999"
-       id="use6176" />
+       id="use6176"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-4"
        x="1097.7422"
        y="1492.4999"
-       id="use6178" />
+       id="use6178"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-3"
        x="1102.7476"
        y="1492.4999"
-       id="use6180" />
+       id="use6180"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-25"
        x="1105.7446"
        y="1492.4999"
-       id="use6182" />
+       id="use6182"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-8"
        x="1110.75"
        y="1492.4999"
-       id="use6184" />
+       id="use6184"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-28"
        x="1112.7495"
        y="1492.4999"
-       id="use6186" />
+       id="use6186"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-12"
        x="1117.2495"
        y="1492.4999"
-       id="use6188" />
+       id="use6188"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-17"
        x="1119.75"
        y="1492.4999"
-       id="use6190" />
+       id="use6190"
+       style="fill:#000000;fill-opacity:1" />
     <use
        xlink:href="#glyph-0-43"
        x="1124.25"
        y="1492.4999"
-       id="use6192" />
+       id="use6192"
+       style="fill:#000000;fill-opacity:1" />
   </g>
   <g
      clip-path="url(#clip-0)"
@@ -3749,7 +2923,7 @@
          fill="url(#linear-pattern-0)"
          d="m 1077.0508,1526.25 v 22.5 h 23.9062 v -22.5 z m 0,0"
          id="path6196"
-         style="fill:url(#linear-pattern-0)" />
+         style="fill:#000000;fill-opacity:1" />
     </g>
   </g>
   <g
@@ -3764,7 +2938,7 @@
          fill="url(#linear-pattern-1)"
          d="m 1077.0508,1526.25 v 22.4336 h 23.9062 V 1526.25 Z m 0,0"
          id="path6202"
-         style="fill:url(#linear-pattern-1)" />
+         style="fill:#000000;fill-opacity:1" />
     </g>
   </g>
   <g
@@ -3779,7 +2953,7 @@
          fill="url(#linear-pattern-2)"
          d="m 1094.6289,1548.75 v 12 h 12.7539 v -12 z m 0,0"
          id="path6208"
-         style="fill:url(#linear-pattern-2)" />
+         style="fill:#000000;fill-opacity:1" />
     </g>
   </g>
   <g
@@ -3794,7 +2968,7 @@
          fill="url(#linear-pattern-3)"
          d="m 1094.6289,1548.75 v 11.9648 h 12.7539 V 1548.75 Z m 0,0"
          id="path6214"
-         style="fill:url(#linear-pattern-3)" />
+         style="fill:#000000;fill-opacity:1" />
     </g>
   </g>
 </svg>

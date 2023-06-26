@@ -1,7 +1,7 @@
 .. Never add or change more than content, instead edit structure in files:
    ../part-X.rsti or ../../materials.rsti
 
-Exploring further what we learned - Bridle 
+Exploring further what we learned - Bridle
 ==========================================
 
 .. container:: flex-container
@@ -14,11 +14,11 @@ Exploring further what we learned - Bridle
    .. container:: 60pct
 
       * Design patterns re-implemented using publicly available boards as part of the `Bridle project <https://bridle.tiac-systems.net/doc/latest/bridle/index.html>`_
-      * `Grove system <https://wiki.seeedstudio.com/Grove_System/>`_ has tons of modules, relatively low-cost 
+      * `Grove system <https://wiki.seeedstudio.com/Grove_System/>`_ has tons of modules, relatively low-cost
       * Further development in the open, contributions welcome
-      * Engage with Zephyr community to upstream relevant pieces 
+      * Engage with Zephyr community to upstream relevant pieces
 
-Examples 
+Examples
 --------
 
 .. container:: flex-container
@@ -39,7 +39,7 @@ Examples
 
    # for left configuration
    west build -b nucleo_f767zi ...blinky -- -DSHIELD="seeed_grove_base_v2 grove_btn_d4 grove_led_d6 grove_pwm_led_d6 x_grove_testbed"
-   
+
    # for right configuration
    west build -b rpi_pico ...blinky      -- -DSHIELD="seeed_grove_rpipico_v1 grove_btn_d16 grove_led_d18 grove_pwm_led_d18 x_grove_testbed"
 
@@ -49,53 +49,52 @@ See `Bridle documentation <https://bridle.tiac-systems.net/doc/latest/bridle/boa
 Current constraints
 ===================
 
+
+Missing abstractions
+--------------------
+
 .. container:: flex-container
 
    .. container:: pct65
 
+      .. container::
 
-      .. container:: 
-         
-         .. revealjs-fragments:: 
-   
-            #. Only implicit definitions of board connectors 
-               
-               * connector interfaces solely exist by convention
-               * how to document connectors?
-               * would yaml bindings also work for connectors?
-         
-            #. No abstraction yet for **rigs**
+         #. Only implicit definitions of board connectors
 
-               * rigs exist only during :bash:`west build` invocation
-               * snippets (new in Zephyr 3.4) worth trying out 
+            * connector interfaces solely exist by convention
+            * how to document connectors?
+            * would yaml bindings also work for connectors?
 
-       
+         #. No abstraction yet for **rigs**
+
+            * rigs exist only during :bash:`west build` invocation
+            * snippets (new in Zephyr 3.4) worth trying out
+
+
    .. container:: pct35
 
       .. image:: _images/barrier-icon.svg
 
-.. revealjs-break:: 
+Deficiencies in Composability
+-----------------------------
 
 .. container:: flex-container
 
    .. container:: pct65
 
+      .. container::
 
-      .. container:: 
-         
-         .. revealjs-fragments:: 
-   
-            3. Multiple instances of same connector
-      
-               * technically possible, but Bridle's current solution introduces too much redundancies
-               * template mechanism to bind one module to a specific connector instance? 
+         3. Multiple instances of same connector
 
-            #. SPI buses break the abstraction
+            * technically possible, but Bridle's current solution introduces too much redundancies
+            * template mechanism to bind one module to a specific connector instance?
 
-               * SPI devices have :bash:`reg <IDX>` property to point to parent's :bash:`cs-gpios` 
-               * have to manually assure that indexes are not taken twice along the bus
-               * overlays should know about their device's CS phandle but not about devices from other overlays
-         
+         #. SPI buses *cs-gpios* not composable
+
+            * SPI devices have :bash:`reg <IDX>` property to point to parent's :bash:`cs-gpios`
+            * have to manually assure that indexes are not taken twice along the bus
+            * overlays should know about their device's CS phandle but not about devices from other overlays
+
    .. container:: pct35
 
       .. image:: _images/barrier-icon.svg

@@ -1,0 +1,8 @@
+menuconfig ACME_SUBSYS_AFE # option to toggle the entire subsystem on/off
+    bool "Analog Front End subsystem"
+    help
+        The AFE subsystem is responsible for measuring the probe signals.
+
+subsys = AFE
+subsys-str = afe
+rsource "../Kconfig.tmpl.m_subsystem"

@@ -1,177 +1,178 @@
 #include <dt-bindings/gpio/gpio_ad594x.h>
 
 / {
-    zephyr,user {
-        io-channels =   <0>,     //AFE channel 1 not connected to any ADC.
-        <0>,             //AFE channel 2 not connected to any ADC.
-        <0>,             //AFE channel 3 not connected to any ADC.
-        <&ad594x_1 2>,   //AFE channel 4.
-        <&ad594x_1 1>,   //AFE channel 5.
-        <&ad594x_1 0>,   //AFE channel 6.
-        <&ad594x_2 2>,   //AFE channel 7.
-        <&ad594x_2 1>,   //AFE channel 8.
-        <&ad594x_2 0>,   //AFE channel 9.
-        <&ad594x_3 2>,   //AFE channel 10.
-        <&ad594x_3 1>,   //AFE channel 11.
-        <&ad594x_3 0>,   //AFE channel 12.
-        <&ad594x_4 2>,   //AFE channel 13.
-        <&ad594x_4 1>,   //AFE channel 14.
-        <&ad594x_4 0>    //AFE channel 15.
-        ;
+		zephyr,user {
+				io-channels =   <0>,
+								<0>,             //AFE channel 2 not connected
+								<0>,             //AFE channel 3 not connected
+								<&ad594x_1 2>,   //AFE channel 4.
+								<&ad594x_1 1>,   //AFE channel 5.
+								<&ad594x_1 0>,   //AFE channel 6.
+								<&ad594x_2 2>,   //AFE channel 7.
+								<&ad594x_2 1>,   //AFE channel 8.
+								<&ad594x_2 0>,   //AFE channel 9.
+								<&ad594x_3 2>,   //AFE channel 10.
+								<&ad594x_3 1>,   //AFE channel 11.
+								<&ad594x_3 0>,   //AFE channel 12.
+								<&ad594x_4 2>,   //AFE channel 13.
+								<&ad594x_4 1>,   //AFE channel 14.
+								<&ad594x_4 0>    //AFE channel 15.
+								;
 
-        afe-detect-adc-channel = <11>;
-        afe-mode-muxer-gpios = <&pb_iox_25 8 GPIO_ACTIVE_HIGH>,
-                               <&pb_iox_25 9 GPIO_ACTIVE_HIGH>;
-        afe-detect-2v-ref-enable-gpios = <&ad594x_1_gpio 2 (GPIO_ACTIVE_HIGH|AD594X_MODE_EXT_SYNC)>,
-                                         <&ad594x_2_gpio 2 (GPIO_ACTIVE_HIGH|AD594X_MODE_EXT_SYNC)>,
-                                         <&ad594x_3_gpio 2 (GPIO_ACTIVE_HIGH|AD594X_MODE_EXT_SYNC)>,
-                                         <&ad594x_4_gpio 2 (GPIO_ACTIVE_HIGH|AD594X_MODE_EXT_SYNC)>;
+				afe-detect-adc-channel = <11>;
+				afe-mode-muxer-gpios = <&pb_iox_25 8 GPIO_ACTIVE_HIGH>,
+															 <&pb_iox_25 9 GPIO_ACTIVE_HIGH>;
+				afe-detect-2v-ref-enable-gpios =
+						<&ad594x_1_gpio 2 (GPIO_ACTIVE_HIGH|AD594X_MODE_EXT_SYNC)>,
+						<&ad594x_2_gpio 2 (GPIO_ACTIVE_HIGH|AD594X_MODE_EXT_SYNC)>,
+						<&ad594x_3_gpio 2 (GPIO_ACTIVE_HIGH|AD594X_MODE_EXT_SYNC)>,
+						<&ad594x_4_gpio 2 (GPIO_ACTIVE_HIGH|AD594X_MODE_EXT_SYNC)>;
 
-        motor-power-gpios = <&pb_iox_25 2 GPIO_ACTIVE_HIGH>;
-        motor-pos-gpios = <&gpioa 4 GPIO_ACTIVE_HIGH>,
-                          <&gpioa 5 GPIO_ACTIVE_HIGH>;
-        motor-ctl = &drv8435_5;
+				motor-power-gpios = <&pb_iox_25 2 GPIO_ACTIVE_HIGH>;
+				motor-pos-gpios = <&gpioa 4 GPIO_ACTIVE_HIGH>,
+													<&gpioa 5 GPIO_ACTIVE_HIGH>;
+				motor-ctl = &drv8435_5;
 
-        heater-thermistor-channel = <6>;
-        heater-cooling-gpios = <&pb_iox_25 5 GPIO_ACTIVE_HIGH>;
-        heater-warm-gpios = <&pb_iox_25 6 GPIO_ACTIVE_HIGH>;
-        heater-power-gpios = <&pb_iox_25 7 GPIO_ACTIVE_HIGH>;
-        heater-thermistor-adc = &adc1;
-        heater-pwm = &heater_pwm;
-    };
+				heater-thermistor-channel = <6>;
+				heater-cooling-gpios = <&pb_iox_25 5 GPIO_ACTIVE_HIGH>;
+				heater-warm-gpios = <&pb_iox_25 6 GPIO_ACTIVE_HIGH>;
+				heater-power-gpios = <&pb_iox_25 7 GPIO_ACTIVE_HIGH>;
+				heater-thermistor-adc = &adc1;
+				heater-pwm = &heater_pwm;
+		};
 
-    heater {
-        compatible = "pwm-leds";
-        heater_pwm: heater_pwm {
-            pwms = <&pwm1 1 0 PWM_POLARITY_NORMAL>;
-        };
-    };
+		heater {
+				compatible = "pwm-leds";
+				heater_pwm: heater_pwm {
+						pwms = <&pwm1 1 0 PWM_POLARITY_NORMAL>;
+				};
+		};
 
 };
 
 &timers8 {
-    status = "okay";
+		status = "okay";
 
-    pwm8: pwm {
-        status = "okay";
-        pinctrl-0 = <&tim8_ch4_pc9>;
-        st,prescaler = <215>; // Sets PWM frequency to 1 MHz
-    };
+		pwm8: pwm {
+				status = "okay";
+				pinctrl-0 = <&tim8_ch4_pc9>;
+				st,prescaler = <215>; // Sets PWM frequency to 1 MHz
+		};
 };
 
 &i2c4 {
-    status = "okay";
-    pinctrl-0 = <&i2c4_sda_pd13 &i2c4_scl_pd12>;
-    clock-frequency = <I2C_BITRATE_FAST>;
+		status = "okay";
+		pinctrl-0 = <&i2c4_sda_pd13 &i2c4_scl_pd12>;
+		clock-frequency = <I2C_BITRATE_FAST>;
 
-    pb_iox_25: pca9535@25 {
-        compatible = "nxp,pca95xx";
-        reg = <0x25>;
-        #gpio-cells = <2>;
-        gpio-controller;
+		pb_iox_25: pca9535@25 {
+				compatible = "nxp,pca95xx";
+				reg = <0x25>;
+				#gpio-cells = <2>;
+				gpio-controller;
 
-        status = "okay";
-    };
+				status = "okay";
+		};
 };
 
 &spi5 {
-    status = "okay";
-    pinctrl-0 = <&spi5_sck_pf7 &spi5_miso_pf8 &spi5_mosi_pf9>;
-    cs-gpios = <&gpioj 8 GPIO_ACTIVE_LOW>,
-               <&gpioj 9 GPIO_ACTIVE_LOW>,
-               <&gpioj 10 GPIO_ACTIVE_LOW>,
-               <&gpioj 11 GPIO_ACTIVE_LOW>,
-               <&gpioe 12 GPIO_ACTIVE_LOW>;
+		status = "okay";
+		pinctrl-0 = <&spi5_sck_pf7 &spi5_miso_pf8 &spi5_mosi_pf9>;
+		cs-gpios = <&gpioj 8 GPIO_ACTIVE_LOW>,
+							 <&gpioj 9 GPIO_ACTIVE_LOW>,
+							 <&gpioj 10 GPIO_ACTIVE_LOW>,
+							 <&gpioj 11 GPIO_ACTIVE_LOW>,
+							 <&gpioe 12 GPIO_ACTIVE_LOW>;
 
-    ad594x_1: ad594x_1@0 {
-        compatible = "adi,ad594x";
-        status = "okay";
-        reg = <0x0>;
-        spi-max-frequency = <8000000>; // 8 MHz
-        #io-channel-cells = <1>;
-        reset-gpios = <&pb_iox_25 10 GPIO_ACTIVE_LOW>;
+		ad594x_1: ad594x_1@0 {
+				compatible = "adi,ad594x";
+				status = "okay";
+				reg = <0x0>;
+				spi-max-frequency = <8000000>; // 8 MHz
+				#io-channel-cells = <1>;
+				reset-gpios = <&pb_iox_25 10 GPIO_ACTIVE_LOW>;
 
-        ad594x_1_gpio: gpio {
-            compatible = "adi,ad594x-gpio";
-            status = "okay";
-            gpio-controller;
-            #gpio-cells = <2>;
-        };
-    };
+				ad594x_1_gpio: gpio {
+						compatible = "adi,ad594x-gpio";
+						status = "okay";
+						gpio-controller;
+						#gpio-cells = <2>;
+				};
+		};
 
-    ad594x_2: ad594x_2@1 {
-        compatible = "adi,ad594x";
-        status = "okay";
-        reg = <0x1>;
-        spi-max-frequency = <8000000>; // 8 MHz
-        #io-channel-cells = <1>;
-        reset-gpios = <&pb_iox_25 10 GPIO_ACTIVE_LOW>;
+		ad594x_2: ad594x_2@1 {
+				compatible = "adi,ad594x";
+				status = "okay";
+				reg = <0x1>;
+				spi-max-frequency = <8000000>; // 8 MHz
+				#io-channel-cells = <1>;
+				reset-gpios = <&pb_iox_25 10 GPIO_ACTIVE_LOW>;
 
-        ad594x_2_gpio: gpio {
-            compatible = "adi,ad594x-gpio";
-            status = "okay";
-            gpio-controller;
-            #gpio-cells = <2>;
-        };
-    };
+				ad594x_2_gpio: gpio {
+						compatible = "adi,ad594x-gpio";
+						status = "okay";
+						gpio-controller;
+						#gpio-cells = <2>;
+				};
+		};
 
-    ad594x_3: ad594x_3@2 {
-        compatible = "adi,ad594x";
-        status = "okay";
-        reg = <0x2>;
-        spi-max-frequency = <8000000>; // 8 MHz
-        #io-channel-cells = <1>;
-        reset-gpios = <&pb_iox_25 10 GPIO_ACTIVE_LOW>;
+		ad594x_3: ad594x_3@2 {
+				compatible = "adi,ad594x";
+				status = "okay";
+				reg = <0x2>;
+				spi-max-frequency = <8000000>; // 8 MHz
+				#io-channel-cells = <1>;
+				reset-gpios = <&pb_iox_25 10 GPIO_ACTIVE_LOW>;
 
-        ad594x_3_gpio: gpio {
-            compatible = "adi,ad594x-gpio";
-            status = "okay";
-            gpio-controller;
-            #gpio-cells = <2>;
-        };
-    };
+				ad594x_3_gpio: gpio {
+						compatible = "adi,ad594x-gpio";
+						status = "okay";
+						gpio-controller;
+						#gpio-cells = <2>;
+				};
+		};
 
-    ad594x_4: ad594x_4@3 {
-        compatible = "adi,ad594x";
-        status = "okay";
-        reg = <0x3>;
-        spi-max-frequency = <8000000>; // 8 MHz
-        #io-channel-cells = <1>;
-        reset-gpios = <&pb_iox_25 10 GPIO_ACTIVE_LOW>;
+		ad594x_4: ad594x_4@3 {
+				compatible = "adi,ad594x";
+				status = "okay";
+				reg = <0x3>;
+				spi-max-frequency = <8000000>; // 8 MHz
+				#io-channel-cells = <1>;
+				reset-gpios = <&pb_iox_25 10 GPIO_ACTIVE_LOW>;
 
-        ad594x_4_gpio: gpio {
-            compatible = "adi,ad594x-gpio";
-            status = "okay";
-            gpio-controller;
-            #gpio-cells = <2>;
-        };
-    };
+				ad594x_4_gpio: gpio {
+						compatible = "adi,ad594x-gpio";
+						status = "okay";
+						gpio-controller;
+						#gpio-cells = <2>;
+				};
+		};
 
-    drv8434_5: ti8434@5 {
-        status = "okay";
-        compatible = "ti,drv8434s";
-        reg = <5>;
+		drv8434_5: ti8434@5 {
+				status = "okay";
+				compatible = "ti,drv8434s";
+				reg = <5>;
 
-        spi-max-frequency = <10000000>;
+				spi-max-frequency = <10000000>;
 
-        enable-gpios = <&pb_iox_25 13 GPIO_ACTIVE_HIGH>;    /* PB_MOT_nEN1 */
-        sleep-gpios = <&pb_iox_25 14 GPIO_ACTIVE_LOW>;    /* PB_MOT_nSLEEP1 */
-        fault-gpios = <&pb_iox_25 14 GPIO_ACTIVE_LOW>;    /* PB_MOT_nFAULT1 */
-        dir-gpios = <&gpiof 10 GPIO_ACTIVE_HIGH>;
+				enable-gpios = <&pb_iox_25 13 GPIO_ACTIVE_HIGH>;
+				sleep-gpios = <&pb_iox_25 14 GPIO_ACTIVE_LOW>;
+				fault-gpios = <&pb_iox_25 14 GPIO_ACTIVE_LOW>;
+				dir-gpios = <&gpiof 10 GPIO_ACTIVE_HIGH>;
 
-    };
+		};
 
-    &adc1 {
-        status = "okay";
-        pinctrl-0 = <&adc1_in6_pa6>;
-    };
+		&adc1 {
+				status = "okay";
+				pinctrl-0 = <&adc1_in6_pa6>;
+		};
 
-    &timers1 {
-        status = "okay";
+		&timers1 {
+				status = "okay";
 
-        pwm1: pwm {
-            status = "okay";
-            pinctrl-0 = <&tim1_ch1_pa8>;
-            st,prescaler = <9>; // Sets PWM frequency to 21.6 MHz
-        };
-    };
+				pwm1: pwm {
+						status = "okay";
+						pinctrl-0 = <&tim1_ch1_pa8>;
+						st,prescaler = <9>; // Sets PWM frequency to 21.6 MHz
+				};
+		};

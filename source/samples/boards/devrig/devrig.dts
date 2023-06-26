@@ -32,49 +32,51 @@
         led1 = &led_2;
     };
 
-    io-channels =   <0>,     //AFE channel 1 not connected to any ADC.
-    <0>,             //AFE channel 2 not connected to any ADC.
-    <0>,             //AFE channel 3 not connected to any ADC.
-    <&ad594x_1 2>,   //AFE channel 4.
-    <&ad594x_1 1>,   //AFE channel 5.
-    <&ad594x_1 0>,   //AFE channel 6.
-    <&ad594x_2 2>,   //AFE channel 7.
-    <&ad594x_2 1>,   //AFE channel 8.
-    <&ad594x_2 0>,   //AFE channel 9.
-    ;
+    zephyr,user {
 
-    afe-detect-adc-channel = <11>;
-    afe-mode-muxer-gpios = <&pb_iox_25 8 GPIO_ACTIVE_HIGH>,
-                           <&pb_iox_25 9 GPIO_ACTIVE_HIGH>;
+        io-channels =   <0>,
+                        <0>,             //AFE channel 2 not connected
+                        <0>,             //AFE channel 3 not connected
+                        <&ad594x_1 2>,   //AFE channel 4.
+                        <&ad594x_1 1>,   //AFE channel 5.
+                        <&ad594x_1 0>,   //AFE channel 6.
+                        <&ad594x_2 2>,   //AFE channel 7.
+                        <&ad594x_2 1>,   //AFE channel 8.
+                        <&ad594x_2 0>,   //AFE channel 9.
+                        ;
 
-    motor-power-gpios = <&pb_iox_25 2 GPIO_ACTIVE_HIGH>;
-    motor-pos-gpios = <&gpioa 4 GPIO_ACTIVE_HIGH>,
-                      <&gpioa 5 GPIO_ACTIVE_HIGH>;
-    motor-ctl = &drv8846_1;
+        afe-detect-adc-channel = <11>;
+        afe-mode-muxer-gpios = <&pb_iox_25 8 GPIO_ACTIVE_HIGH>,
+                               <&pb_iox_25 9 GPIO_ACTIVE_HIGH>;
 
-    heater-thermistor-channel = <6>;
-    heater-warm-gpios = <&pb_iox_25 6 GPIO_ACTIVE_HIGH>;
-    heater-power-gpios = <&pb_iox_25 7 GPIO_ACTIVE_HIGH>;
-    heater-thermistor-adc = &adc1;
-    heater-pwm = &heater_pwm;
+        motor-power-gpios = <&pb_iox_25 2 GPIO_ACTIVE_HIGH>;
+        motor-pos-gpios = <&gpioa 4 GPIO_ACTIVE_HIGH>,
+                          <&gpioa 5 GPIO_ACTIVE_HIGH>;
+        motor-ctl = &drv8846_1;
 
-    heater {
-        compatible = "pwm-leds";
-        heater_pwm: heater_pwm {
-            pwms = <&pwm1 1 0 PWM_POLARITY_NORMAL>;
-        };
+        heater-thermistor-channel = <6>;
+        heater-warm-gpios = <&pb_iox_25 6 GPIO_ACTIVE_HIGH>;
+        heater-power-gpios = <&pb_iox_25 7 GPIO_ACTIVE_HIGH>;
+        heater-thermistor-adc = &adc1;
+        heater-pwm = &heater_pwm;
+
+        heater {
+            compatible = "pwm-leds";
+            heater_pwm: heater_pwm {
+                    pwms = <&pwm1 1 0 PWM_POLARITY_NORMAL>;
+                };
+            };
+
+        drv8846_1 {
+            compatible = "ti,drv8846";
+            status = "okay";
+            enbl-gpios = <&pb_iox_25 1 GPIO_ACTIVE_LOW>;
+            sleep-gpios = <&pb_iox_25 0 GPIO_ACTIVE_LOW>;
+            dir-gpios = <&gpiof 10 GPIO_ACTIVE_HIGH>;
+
+            pwms = <&pwm8 4 0 PWM_POLARITY_NORMAL>;
+           };
     };
-
-    drv8846_1 {
-        compatible = "ti,drv8846";
-        status = "okay";
-        enbl-gpios = <&pb_iox_25 1 GPIO_ACTIVE_LOW>;
-        sleep-gpios = <&pb_iox_25 0 GPIO_ACTIVE_LOW>;
-        dir-gpios = <&gpiof 10 GPIO_ACTIVE_HIGH>;
-
-        pwms = <&pwm8 4 0 PWM_POLARITY_NORMAL>; // PC9 TIM3_CH4 TIM8_CH4
-    };
-
 };
 
 &clk_hse {

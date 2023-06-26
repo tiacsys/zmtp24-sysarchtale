@@ -38,7 +38,7 @@ x_prph_if_pp_i2c: &i2c4 {};
 };
 
 x_prph_if_pp_spi: &spi5 {};
-&x_prph_if_afe_spi {
+&x_prph_if_pp_spi {
 	pinctrl-0 = <&spi5_sck_pf7    /* K1 (AFE_SPI_CLK) */
 	&spi5_miso_pf8    /* L3 (AFE_SPI_MISO) */
 	&spi5_mosi_pf9    /* L2 (AFE_SPI_MOSI) */

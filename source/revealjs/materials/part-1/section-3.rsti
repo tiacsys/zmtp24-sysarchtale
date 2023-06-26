@@ -32,8 +32,8 @@ Mapping the architecture to source code
    .. container:: pc50
 
       .. revealjs-code-block:: text
+         :caption: Source tree structure
 
-         # source tree structure
          subsys/
          ├── m_afe
          ├── m_heater
@@ -64,9 +64,11 @@ CMake Integration
    .. container:: pct50
 
       .. literalinclude:: /samples/subsys/CMakeLists.txt
+         :language: cmake
          :caption: subsys/CMakeLists.txt
 
       .. literalinclude:: /samples/subsys/m_heater/CMakeLists.txt
+         :language: cmake
          :caption: subsys/m_heater/CMakeLists.txt
 
 
@@ -280,10 +282,6 @@ Device tree - Round 3
          │   ├── control
          │   │   ├── control.dts
          │   │   └── prph_if.dtsi
-         ├── dts
-         │   └── bindings
-         │       └── gpio
-         │           └── acme,prph_if.yaml
          ├── shields
          │   └── x_peripherals
          │       ├── x_peripherals_v1.overlay
@@ -302,7 +300,53 @@ Device tree - Round 3
       * followed what exists for *Arduino* connector in many boards
       * shields now depend on an abstraction, not underlying board details
 
+Realization of Connector Interface via .dtsi file
+-------------------------------------------------
 
+.. container:: flex-container
+
+   .. container:: pct50
+
+      .. literalinclude:: /samples/boards/control/prph_if.dtsi
+         :caption: boards/control/prph_if.dtsi
+         :lines: 1-11
+
+      .. literalinclude:: /samples/boards/control/prph_if.dtsi
+         :lines: 34-46
+
+      .. literalinclude:: /samples/boards/control/prph_if.dtsi
+         :lines: 48-56
+
+   .. container:: pct50
+
+      * Introduce new namespace :bash:`x_prph_if_``
+      * Add Nexus node for GPIO
+      * For I2C and SPI buses add labels to existing nodes
+      * Same for Timers and PWMs
+
+Peripheral board only dependent on Connector Interface
+------------------------------------------------------
+
+.. container:: flex-container
+
+   .. container:: pct50
+
+      .. literalinclude:: /samples/shields/x_peripherals/x_peripherals_v1.overlay
+         :caption: shields/x_peripherals/x_peripherals_v1.overlay
+         :lines: 33-42
+
+      .. literalinclude:: /samples/shields/x_peripherals/x_peripherals_v1.overlay
+         :lines: 59-66
+
+      .. literalinclude:: /samples/shields/x_peripherals/x_peripherals_v1.overlay
+         :lines: 106-112
+
+   .. container:: pct50
+
+      * binding of connector interface to nodes via labels
+      * no direct references to control board
+      * peripherals board device tree now re-usable with any
+        construct that provides :bash:`x_prph_if`
 
 Device tree - Round 4
 =====================
@@ -347,7 +391,52 @@ Device tree - Round 4
         * create a virtual shield :bash:`x_nucleo_144` to "inject" :bash:`morpho_IF` into board device tree
 
 
+Nexus Shield Device Tree
+------------------------
 
+.. container:: flex-container
+
+   .. container:: pct50
+
+      .. literalinclude:: /samples/shields/x_nucleo_nexus/x_nucleo_nexus.overlay
+         :caption: shields/x_nucleo_nexus/x_nucleo_nexus.overlay
+         :lines: 1-12
+
+      .. literalinclude:: /samples/shields/x_nucleo_nexus/x_nucleo_nexus.overlay
+         :lines: 35-41
+
+
+   .. container:: pct50
+
+         * Interface for Peripheral Board now realized by dedicated shield
+         * Shield compatible with all Nucleo-144 boards implementing
+           ST-Morpho connector interface
+
+Nucleo-144 Virtual Shield
+-------------------------
+
+
+.. container:: flex-container
+
+   .. container:: pct50
+
+      .. literalinclude:: /samples/shields/x_nucleo_144/x_nucleo_144.overlay
+         :caption: shields/x_nucleo_144/x_nucleo_144.overlay
+
+      .. literalinclude:: /samples/shields/x_nucleo_144/boards/nucleo_f767zi.overlay
+         :caption: shields/x_nucleo_144/boards/nucleo_f767zi.overlay
+         :lines: 232-244
+
+      .. literalinclude:: /samples/shields/x_nucleo_144/boards/nucleo_h743zi.overlay
+         :caption: shields/x_nucleo_144/boards/nucleo_h743zi.overlay
+         :lines: 242-254
+
+   .. container:: pct50
+
+      * add *virtual* shield to extend Nucleo Board device tree to
+        implement ST-Morpho Interface that Nexus Shield depends on
+      * could also be implemented as ":bash:`st_morpho_if.dtsi`" inside
+        upstream board folder
 
 Reality Check
 =============

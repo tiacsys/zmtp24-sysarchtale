@@ -90,19 +90,15 @@
 };
 
 zio_usart_a: &usart6 {};
-
 &zio_usart_a {
 	status = "disabled";
-	label = "ZIO_USART_A";
 	pinctrl-0 = <&usart6_tx_pg14    /* D1  (USART_A_TX) */
 		     &usart6_rx_pg9>;	/* D0  (USART_A_RX) */
 };
 
 zio_usart_b: &usart2 {};
-
 &zio_usart_b {
 	status = "disabled";
-	label = "ZIO_USART_B";
 	pinctrl-0 = <&usart2_tx_pd5	/* D53 (USART_B_TX) */
 		     &usart2_rx_pd6	/* D52 (USART_B_RX) */
 		     &usart2_rts_pd4	/* D54 (USART_B_RTS) */
@@ -110,28 +106,22 @@ zio_usart_b: &usart2 {};
 };
 
 zio_i2c_a: &i2c1 {};
-
 &zio_i2c_a {
 	status = "disabled";
-	label = "ZIO_I2C_A";
 	pinctrl-0 = <&i2c1_scl_pb8	/* D15 (I2C_A_SCL) */
 		     &i2c1_sda_pb9>;	/* D14 (I2C_A_SDA) */
 };
 
 zio_i2c_b: &i2c2 {};
-
 &zio_i2c_b {
 	status = "disabled";
-	label = "ZIO_I2C_B";
 	pinctrl-0 = <&i2c2_scl_pf1	/* D69 (I2C_B_SCL) */
 		     &i2c2_sda_pf0>;	/* D68 (I2C_B_SDA) */
 };
 
 zio_spi_a: &spi1 {};
-
 &zio_spi_a {
 	status = "disabled";
-	label = "ZIO_SPI_A";
 	cs-gpios = <&zio 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 					/* D10 (SPI_A_NSS) */
 	pinctrl-0 = <&spi1_sck_pa5	/* D13 (SPI_A_SCK) */
@@ -140,10 +130,8 @@ zio_spi_a: &spi1 {};
 };
 
 zio_spi_b: &spi3 {};
-
 &zio_spi_b {
 	status = "disabled";
-	label = "ZIO_SPI_B";
 /*	cs-gpios = <&zio 30 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 					   D24 (SPI_B_NSS) */
 	pinctrl-0 = <&spi3_nss_pa4	/* D24 (SPI_B_NSS) */
@@ -153,7 +141,6 @@ zio_spi_b: &spi3 {};
 };
 
 zio_spi_c: &spi4 {};
-
 &zio_spi_c {
 	status = "disabled";
 	pinctrl-0 = <&spi4_nss_pe4	/* D57 (SPI_C_NSS) */
@@ -163,7 +150,6 @@ zio_spi_c: &spi4 {};
 };
 
 zio_spi_d: &spi5 {};
-
 &zio_spi_d {
 	status = "disabled";
 	/* PF6 as SPI5_NSS is not wired to any ZIO pin, use GPIO instead */
@@ -175,7 +161,6 @@ zio_spi_d: &spi5 {};
 };
 
 zio_timers_a: &timers1 {};
-
 &zio_timers_a {
 	status = "disabled";
 	zio_pwm_a: pwm {
@@ -187,7 +172,6 @@ zio_timers_a: &timers1 {};
 };
 
 zio_timers_b: &timers4 {};
-
 &zio_timers_b {
 	status = "disabled";
 	zio_pwm_b: pwm {
@@ -198,7 +182,6 @@ zio_timers_b: &timers4 {};
 };
 
 zio_timers_c: &timers2 {};
-
 &zio_timers_c {
 	status = "disabled";
 	zio_pwm_c: pwm {
@@ -210,7 +193,6 @@ zio_timers_c: &timers2 {};
 };
 
 zio_timers_d: &timers3 {};
-
 &zio_timers_d {
 	status = "disabled";
 	zio_pwm_d: pwm {
@@ -221,7 +203,6 @@ zio_timers_d: &timers3 {};
 };
 
 zio_timers_e: &timers14 {};
-
 &zio_timers_e {
 	status = "disabled";
 	zio_pwm_e: pwm {
@@ -231,29 +212,24 @@ zio_timers_e: &timers14 {};
 };
 
 zio_timers_f: &timers8 {};
-
 &zio_timers_f {
 	status = "disabled";
 	zio_pwm_f: pwm {
 		status = "disabled";
-		label = "ZIO_PWM_F";
 		pinctrl-0 = <&tim8_ch4_pc9>;	/* D44 (SDMMC_D1 | I2S_A_CKIN) */
 	};
 };
 
 zio_timers_g: &timers5 {};
-
 &zio_timers_g {
 	status = "disabled";
 	zio_pwm_g: pwm {
 		status = "disabled";
-		label = "ZIO_PWM_G";
 		pinctrl-0 = <&tim5_ch4_pa3>;	/* A0  (ADC_A_IN) */
 	};
 };
 
 zio_adc_a: &adc1 {};
-
 &zio_adc_a {
 	status = "disabled";
 	pinctrl-0 = <&adc1_in3_pa3	/* A0  (ADC_A_IN) */

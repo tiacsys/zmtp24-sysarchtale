@@ -24,13 +24,13 @@
      inkscape:document-units="pt"
      showgrid="false"
      inkscape:zoom="1.4080504"
-     inkscape:cx="426.47621"
-     inkscape:cy="430.38232"
-     inkscape:window-width="1792"
-     inkscape:window-height="1047"
-     inkscape:window-x="0"
+     inkscape:cx="430.38232"
+     inkscape:cy="1471.1831"
+     inkscape:window-width="1303"
+     inkscape:window-height="1027"
+     inkscape:window-x="22"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg6220"
      showguides="false" />
   <defs
@@ -1524,7 +1524,10 @@
      stroke-opacity="1"
      stroke-miterlimit="10"
      d="m 180.37501,120.37506 h 15 -7.5 10.22265"
-     id="path2894" />
+     id="path2894"
+     inkscape:export-filename="../source/_images/devicetree-4.svg"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
   <path
      fill-rule="nonzero"
      fill="#000000"
@@ -2306,96 +2309,6 @@
        x="396.38083"
        y="1182"
        id="use3134"
-       style="fill:#000000;fill-opacity:1" />
-  </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g3166"
-     transform="translate(-0.75000002,-1155.75)">
-    <use
-       xlink:href="#glyph-4-14"
-       x="339.80859"
-       y="1192.5"
-       id="use3138"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-2"
-       x="345.20947"
-       y="1192.5"
-       id="use3140"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-4"
-       x="350.61035"
-       y="1192.5"
-       id="use3142"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-5"
-       x="356.01123"
-       y="1192.5"
-       id="use3144"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-14"
-       x="361.41211"
-       y="1192.5"
-       id="use3146"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-15"
-       x="366.81299"
-       y="1192.5"
-       id="use3148"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-2"
-       x="372.21387"
-       y="1192.5"
-       id="use3150"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-4"
-       x="377.61475"
-       y="1192.5"
-       id="use3152"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-16"
-       x="383.01562"
-       y="1192.5"
-       id="use3154"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-13"
-       x="388.4165"
-       y="1192.5"
-       id="use3156"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-9"
-       x="393.81738"
-       y="1192.5"
-       id="use3158"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-17"
-       x="399.21826"
-       y="1192.5"
-       id="use3160"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-3"
-       x="404.61914"
-       y="1192.5"
-       id="use3162"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-20"
-       x="410.02002"
-       y="1192.5"
-       id="use3164"
        style="fill:#000000;fill-opacity:1" />
   </g>
   <path
@@ -3245,96 +3158,6 @@
        id="use3716"
        style="fill:#000000;fill-opacity:1" />
   </g>
-  <g
-     fill="#000000"
-     fill-opacity="1"
-     id="g3748"
-     transform="translate(-0.75000002,-1155.75)">
-    <use
-       xlink:href="#glyph-4-14"
-       x="225.80859"
-       y="1192.5"
-       id="use3720"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-2"
-       x="231.20947"
-       y="1192.5"
-       id="use3722"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-4"
-       x="236.61035"
-       y="1192.5"
-       id="use3724"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-5"
-       x="242.01123"
-       y="1192.5"
-       id="use3726"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-14"
-       x="247.41211"
-       y="1192.5"
-       id="use3728"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-15"
-       x="252.81299"
-       y="1192.5"
-       id="use3730"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-2"
-       x="258.21387"
-       y="1192.5"
-       id="use3732"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-4"
-       x="263.61475"
-       y="1192.5"
-       id="use3734"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-16"
-       x="269.01562"
-       y="1192.5"
-       id="use3736"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-13"
-       x="274.4165"
-       y="1192.5"
-       id="use3738"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-9"
-       x="279.81738"
-       y="1192.5"
-       id="use3740"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-17"
-       x="285.21826"
-       y="1192.5"
-       id="use3742"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-3"
-       x="290.61914"
-       y="1192.5"
-       id="use3744"
-       style="fill:#000000;fill-opacity:1" />
-    <use
-       xlink:href="#glyph-4-18"
-       x="296.02002"
-       y="1192.5"
-       id="use3746"
-       style="fill:#000000;fill-opacity:1" />
-  </g>
   <path
      fill="none"
      stroke-width="0.75"
@@ -3527,4 +3350,26 @@
        id="use4150"
        style="fill:#000000;fill-opacity:1" />
   </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:2"
+     x="261.56418"
+     y="38.726643"
+     id="text110563"><tspan
+       sodipodi:role="line"
+       id="tspan110561"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:2"
+       x="261.56418"
+       y="38.726643">x_peripherals_v1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:2"
+     x="378.7662"
+     y="38.717487"
+     id="text110567"><tspan
+       sodipodi:role="line"
+       id="tspan110565"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'Courier 10 Pitch';-inkscape-font-specification:'Courier 10 Pitch, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:2"
+       x="378.7662"
+       y="38.717487">x_peripherals_v2</tspan></text>
 </svg>

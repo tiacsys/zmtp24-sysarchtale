@@ -33,17 +33,14 @@
 };
 
 x_prph_if_pp_i2c: &zio_i2c_b {};
-&x_prph_if_pp_i2c {};
-
 x_prph_if_pp_spi: &zio_spi_c {};
-&x_prph_if_pp_spi {};
-
 x_prph_if_motor_timers: &zio_timers_f {};
-x_prph_if_motor_timers {};
 x_prph_if_motor_pwm: &zio_pwm_f;
-
 x_prph_if_heater_adc: &zio_adc_a {};
-&x_prph_if_heater_adc {};
-
 x_prph_if_heater_timers: &zio_timers_a {};
 x_prph_if_heater_pwm: &zio_pwm_a;
+
+&x_prph_if_pp_i2c {};
+&x_prph_if_pp_spi {};
+&x_prph_if_motor_timers {};
+&x_prph_if_heater_adc {};

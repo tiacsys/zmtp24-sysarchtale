@@ -59,7 +59,7 @@ motor_pwm: &x_prph_if_motor_pwm {};
 	&afe_spi {
 		status = "okay";
 		cs-gpios = <&x_gpios_prph_if 16 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,    /* AFE_SPI_nCS1 */
-		<&x_gpios_prph_if 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,    /* AFE_SPI_nCS2 */
+							 <&x_gpios_prph_if 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,    /* AFE_SPI_nCS2 */
 
 		ad594x_1: ad594x_1@1 {
 			compatible = "adi,ad594x";

@@ -12,17 +12,17 @@ Outlook
    .. container:: pct65
 
       .. revealjs-fragments::
-      
+
          * Can we automatically derive overlays from schematics?
-         
+
            * Schematics needs annotations, just what exactly?
            * `KiCad's <https://www.kicad.org/>`_ file format is open source and schematics can already be parsed using `kiutils <https://kiutils.readthedocs.io/en/latest/>`_
-         
+
          * `SysMLv2 <https://github.com/Systems-Modeling/SysML-v2-Release>`_ is coming
-         
+
            * Key features: textual DSL to describe models and standardized model query API
            * Create tools to semantically check schematics and devicetree against common system model constraints
-  
+
    .. container:: pct35
 
       .. image:: _images/telescope-icon.svg
@@ -37,14 +37,14 @@ Conclusion
    .. container:: pct65
 
       * Zephyr's choice of Kconfig and Device Tree allow powerful abstractions for application features and hardware
-      * Separation of Concerns and Open/Closed principle very well realized 
-        
+      * Separation of Concerns and Open/Closed principle very well realized
+
         * much better product architectures possible
-      
+
       * Some abstractions still implicit, some technical restrictions apply
-      
-      * Checkout the `Bridle Project <https://bridle.tiac-systems.net/doc/latest/bridle/index.html>`_ to dig deeper 
-      
+
+      * Checkout the `Bridle Project <https://bridle.tiac-systems.net/doc/latest/bridle/index.html>`_ to dig deeper
+
       |nbsp|
 
       * Don't miss our second talk "A Bridle for Your Kite" on Thursday at 16:50-17:30

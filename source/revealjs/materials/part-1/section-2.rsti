@@ -4,7 +4,7 @@
 Agile HW & Model Based Systems Engineering
 ==========================================
 
-.. container:: flex-container 
+.. container:: flex-container
 
    .. container:: pct95
 
@@ -21,29 +21,29 @@ One Schematic many forms
 
 
    .. container:: pct33
-   
-      .. revealjs-fragments:: 
+
+      .. revealjs-fragments::
 
          .. container::
-         
+
             * Align hardware and software development velocities
             * Increase re-use and retain flexibility of HW design
-         
-         .. container:: 
-         
+
+         .. container::
+
             *Key observations*
-   
+
             * relevant interface between HW & SW is the **schematic**
             * one schematic can be realized in many different ways
             * less complex designs are faster to make
 
    .. container:: pct33
-   
+
       .. image:: _images/schemlets.svg
          :width: 400
-   
+
    .. container:: pct33
-   
+
       .. image:: _images/devrig-1.svg
          :width: 400
 
@@ -54,12 +54,12 @@ A medical device in the making
 
 
    .. container:: pct50
-   
+
       .. image:: https://www.tiac-systems.net/_images/devrig-real.jpg
          :width: 600
-   
+
    .. container:: pct50
-   
+
       .. image:: https://www.tiac-systems.net/_images/formfactor-real.jpg
          :width: 600
 
@@ -70,8 +70,8 @@ Intermediate HW integration
 
    .. image:: _images/devrig-3.svg
       :width: 1000
-   
-.. container:: 
+
+.. container::
 
    * left and right at system level equivalent
    * right simpler to setup and operate by system users

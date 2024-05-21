@@ -51,8 +51,8 @@
 .. |dm_authors| replace:: |author|
 
 .. |snlz| replace:: Stephan Linz
-.. |snlz_role| replace:: Senior EOSS Engineer
-.. |snlz_email| replace:: stephan.linz@navimatix.de
+.. |snlz_role| replace:: Senior EOSS Engineer, Bridle Project Maintainer
+.. |snlz_email| replace:: stephan.linz@tiac-systems.net
 .. |snlz_contact| replace:: |snlz| <|snlz_email|>
 .. echo -n "stephan.linz@navimatix.de" | md5sum
 .. https://www.gravatar.com/avatar/f411da43e07e01f1ae227e4e7c1dbb23?s=460
@@ -64,7 +64,7 @@
 
 .. |tskr| replace:: Tobias Kästner
 .. |tskr_role| replace:: Staff Engineer
-.. |tskr_email| replace:: tobias.kaestner@ul.com
+.. |tskr_email| replace:: tobias.kaestner@tiac-systems.net
 .. |tskr_contact| replace:: |tskr| <|tskr_email|>
 .. echo -n "tobias.kaestner.jena@googlemail.com" | md5sum
 .. https://www.gravatar.com/avatar/00a8791590e1d6b4463959190d0bf574?s=460

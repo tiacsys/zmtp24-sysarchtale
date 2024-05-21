@@ -12,7 +12,7 @@ manifest:
       url-base: https://github.com/tiacsys
   projects:
     - name: sphinx_static
-      path: zds23-sysarchtale/source/_static
+      path: zmtp24-sysarchtale/source/_static
       remote: tiacsys
       repo-path: sphinx_static
       revision: iotmplabs

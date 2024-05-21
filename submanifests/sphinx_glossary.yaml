@@ -12,7 +12,7 @@ manifest:
       url-base: https://github.com/tiacsys
   projects:
     - name: sphinx_glossary
-      path: zds23-sysarchtale/source/_glossary
+      path: zmtp24-sysarchtale/source/_glossary
       remote: tiacsys
       repo-path: sphinx_glossary
       revision: iotmplabs

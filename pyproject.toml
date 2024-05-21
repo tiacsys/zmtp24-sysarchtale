@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "zds23-sysarchtale"
+name = "zmtp24-sysarchtale"
 version = "0.0.0"
 description = "ZDS Sphinx/RevealJS Template."
 authors = ["TiaC Systems"]

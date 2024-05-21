@@ -11,6 +11,6 @@ manifest:
     - name: tiacsys
       url-base: https://github.com/tiacsys
   self:
-    path: zds23-sysarchtale
+    path: zmtp24-sysarchtale
     west-commands: scripts/west-commands.yml
     import: submanifests

@@ -178,7 +178,7 @@ Complete devrig.dts
 -------------------
 
 .. literalinclude:: /samples/boards/devrig/devrig.dts
-
+   :caption: devrig.dts
 
 
 Reality Check
@@ -223,6 +223,7 @@ Device tree - Round 2
       .. revealjs-code-block:: bash
 
          west build -b control ... -- -DSHIELDS="peripherals_v1"
+         #since PR72720 also west build -b control --shield peripherals_v1
          west build -b control ... -- -DSHIELDS="peripherals_v2"
 
    .. container:: pct40
@@ -235,19 +236,30 @@ Device tree - Round 2
         * introducing new hardware revisions for peripherals board now boils down to adding new overlays
 
 
-Complete control.overlays
+Peripheral Shield overlays
 --------------------------------------
 
 .. container:: flex-container
 
-   .. container:: 50pct
+   .. container:: 45pct
 
-      .. literalinclude:: /samples/shields/peripherals/boards/peripherals_v1/control.overlay
+      .. literalinclude:: /samples/shields/peripherals/peripherals_v1.overlay
+         :caption: shields/peripherals/peripherals_v1.overlay
          :language: deviceetree
 
-   .. container:: 50pct
+
+      .. literalinclude:: /samples/shields/peripherals/boards/peripherals_v1/control.overlay
+         :caption: shields/peripherals/boards/peripherals_v1/control.overlay
+         :language: deviceetree
+
+   .. container:: 45pct
+
+      .. literalinclude:: /samples/shields/peripherals/peripherals_v2.overlay
+         :caption: shields/peripherals/peripherals_v2.overlay
+         :language: deviceetree
 
       .. literalinclude:: /samples/shields/peripherals/boards/peripherals_v2/control.overlay
+         :caption: shields/peripherals/boards/peripherals_v2/control.overlay
          :language: devicetree
 
 Reality Check
@@ -411,6 +423,35 @@ Nexus Shield Device Tree
          * Interface for Peripheral Board now realized by dedicated shield
          * Shield compatible with all Nucleo-144 boards implementing
            ST-Morpho connector interface
+
+
+Nexus Shield :code:`prph_if` vs Core :code:`prph_if`
+----------------------------------------------------
+
+.. container:: flex-container
+
+   .. container:: pct50
+
+      .. literalinclude:: /samples/shields/x_nucleo_nexus/x_nucleo_nexus.overlay
+         :caption: shields/x_nucleo_nexus/x_nucleo_nexus.overlay
+         :lines: 1-12
+
+      .. literalinclude:: /samples/shields/x_nucleo_nexus/x_nucleo_nexus.overlay
+         :lines: 35-41
+
+
+   .. container:: pct50
+
+      .. literalinclude:: /samples/boards/control/prph_if.dtsi
+         :caption: boards/control/prph_if.dtsi
+         :lines: 1-11
+
+      .. literalinclude:: /samples/boards/control/prph_if.dtsi
+         :lines: 34-46
+
+      .. literalinclude:: /samples/boards/control/prph_if.dtsi
+         :lines: 48-56
+
 
 Nucleo-144 Virtual Shield
 -------------------------
